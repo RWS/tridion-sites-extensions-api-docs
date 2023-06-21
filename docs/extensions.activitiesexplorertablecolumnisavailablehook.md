@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export type ActivitiesExplorerTableColumnIsAvailableHook = TableColumnIsAvailableHook;
+export type ActivitiesExplorerTableColumnIsAvailableHook = TableColumnHook;
 ```
 
-**References:** [TableColumnIsAvailableHook](./extensions.tablecolumnisavailablehook.md)
+**References:** [TableColumnHook](./extensions.tablecolumnhook.md)

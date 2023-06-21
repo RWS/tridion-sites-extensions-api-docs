@@ -9,11 +9,11 @@ Constructs a new instance of the `VersionedItem` class
 **Signature:**
 
 ```typescript
-constructor({ backendModel, dynamicVersionInfo, fullVersionInfo, isDynamic, isNew, ...rloArgs }: VersionedItemConstructorArgs);
+constructor({ backendModel, dynamicVersionInfo, fullVersionInfo, isDynamic, ...rloArgs }: VersionedItemConstructorArgs);
 ```
 
 ## Parameters
 
-| Parameter                                                                           | Type                                                                     | Description |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----------- |
-| { backendModel, dynamicVersionInfo, fullVersionInfo, isDynamic, isNew, ...rloArgs } | [VersionedItemConstructorArgs](./models.versioneditemconstructorargs.md) |             |
+| Parameter                                                                    | Type                                                                     | Description |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----------- |
+| { backendModel, dynamicVersionInfo, fullVersionInfo, isDynamic, ...rloArgs } | [VersionedItemConstructorArgs](./models.versioneditemconstructorargs.md) |             |

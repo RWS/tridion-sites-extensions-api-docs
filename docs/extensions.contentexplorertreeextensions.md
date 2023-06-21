@@ -14,5 +14,4 @@ export interface ContentExplorerTreeExtensions
 
 | Property                                                                 | Modifiers | Type                                                                                                        | Description |
 | ------------------------------------------------------------------------ | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
-| [actions](./extensions.contentexplorertreeextensions.actions.md)         |           | ReadonlyArray&lt;[ActionExtension](./extensions.actionextension.md)<!-- -->&gt;                             |             |
 | [contextMenu](./extensions.contentexplorertreeextensions.contextmenu.md) |           | ReadonlyArray&lt;[ActionsConfigurationExtension](./extensions.actionsconfigurationextension.md)<!-- -->&gt; |             |

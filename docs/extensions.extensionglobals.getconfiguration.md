@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-getConfiguration: () => Record<string, any> | undefined;
+getConfiguration: <T extends Record<string, any>>() => T | undefined;
 ```

@@ -16,6 +16,6 @@ export declare class Taxonomies extends OrganizationalItem
 
 ## Constructors
 
-| Constructor                                                          | Modifiers | Description                                                    |
-| -------------------------------------------------------------------- | --------- | -------------------------------------------------------------- |
-| [(constructor)(publicationId)](./models.taxonomies._constructor_.md) |           | Constructs a new instance of the <code>Taxonomies</code> class |
+| Constructor                                                                                        | Modifiers | Description                                                    |
+| -------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------- |
+| [(constructor)({ backendModel, ...organizationalItemArgs })](./models.taxonomies._constructor_.md) |           | Constructs a new instance of the <code>Taxonomies</code> class |

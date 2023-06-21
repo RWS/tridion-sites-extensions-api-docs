@@ -8,7 +8,8 @@
 
 ```typescript
 contentExplorerActionIds: readonly[
-    ('openEditor',
+    ('open',
+    'openEditor',
     'openEditorInNewTab',
     'addSelectedItemsToBundle',
     'addToBundle',

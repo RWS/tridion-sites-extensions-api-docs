@@ -7,13 +7,13 @@
 **Signature:**
 
 ```typescript
-export interface ContentExplorerItemNodeData extends ContentExplorerNodeData
+export interface ContentExplorerItemNodeData<TItem extends IdentifiableObject = IdentifiableObject> extends ContentExplorerNodeData
 ```
 
 **Extends:** [ContentExplorerNodeData](./extensions.contentexplorernodedata.md)
 
 ## Properties
 
-| Property                                                 | Modifiers | Type                                                 | Description                            |
-| -------------------------------------------------------- | --------- | ---------------------------------------------------- | -------------------------------------- |
-| [item](./extensions.contentexploreritemnodedata.item.md) |           | [IdentifiableObject](./models.identifiableobject.md) | Tridion item associated with the node. |
+| Property                                                 | Modifiers | Type  | Description                            |
+| -------------------------------------------------------- | --------- | ----- | -------------------------------------- |
+| [item](./extensions.contentexploreritemnodedata.item.md) |           | TItem | Tridion item associated with the node. |

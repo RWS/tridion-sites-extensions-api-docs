@@ -9,11 +9,11 @@ Constructs a new instance of the `Taxonomies` class
 **Signature:**
 
 ```typescript
-constructor(publicationId: TcmUri);
+constructor({ backendModel, ...organizationalItemArgs }: TaxonomiesConstructorArgs);
 ```
 
 ## Parameters
 
-| Parameter     | Type                         | Description |
-| ------------- | ---------------------------- | ----------- |
-| publicationId | [TcmUri](./models.tcmuri.md) |             |
+| Parameter                                   | Type                                                               | Description |
+| ------------------------------------------- | ------------------------------------------------------------------ | ----------- |
+| { backendModel, ...organizationalItemArgs } | [TaxonomiesConstructorArgs](./models.taxonomiesconstructorargs.md) |             |

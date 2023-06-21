@@ -14,7 +14,6 @@ export declare class ContentExplorerTableExtensionsBuilder
 
 | Property                                                                         | Modifiers | Type                                                                                                                    | Description |
 | -------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [addAction](./extensions.contentexplorertableextensionsbuilder.addaction.md)     |           | (action: [ActionExtension](./extensions.actionextension.md)<!-- -->) =&gt; this                                         |             |
 | [addColumn](./extensions.contentexplorertableextensionsbuilder.addcolumn.md)     |           | (column: [ContentExplorerTableColumnExtension](./extensions.contentexplorertablecolumnextension.md)<!-- -->) =&gt; this |             |
 | [build](./extensions.contentexplorertableextensionsbuilder.build.md)             |           | () =&gt; [ContentExplorerTableExtensions](./extensions.contentexplorertableextensions.md)                               |             |
 | [contextMenu](./extensions.contentexplorertableextensionsbuilder.contextmenu.md) |           | [ActionsConfigurationExtensionsBuilder](./extensions.actionsconfigurationextensionsbuilder.md)                          |             |

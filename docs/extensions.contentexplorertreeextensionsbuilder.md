@@ -14,6 +14,5 @@ export declare class ContentExplorerTreeExtensionsBuilder
 
 | Property                                                                        | Modifiers | Type                                                                                           | Description |
 | ------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- | ----------- |
-| [addAction](./extensions.contentexplorertreeextensionsbuilder.addaction.md)     |           | (action: [ActionExtension](./extensions.actionextension.md)<!-- -->) =&gt; this                |             |
 | [build](./extensions.contentexplorertreeextensionsbuilder.build.md)             |           | () =&gt; [ContentExplorerTreeExtensions](./extensions.contentexplorertreeextensions.md)        |             |
 | [contextMenu](./extensions.contentexplorertreeextensionsbuilder.contextmenu.md) |           | [ActionsConfigurationExtensionsBuilder](./extensions.actionsconfigurationextensionsbuilder.md) |             |

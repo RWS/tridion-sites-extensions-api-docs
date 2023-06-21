@@ -7,7 +7,9 @@
 **Signature:**
 
 ```typescript
-export type ContentExplorerItemNode = ReadonlyHierarchyNode<ContentExplorerItemNodeData>;
+export type ContentExplorerItemNode<TItem extends IdentifiableObject = IdentifiableObject> = ReadonlyHierarchyNode<
+    ContentExplorerItemNodeData<TItem>
+>;
 ```
 
-**References:** [ContentExplorerItemNodeData](./extensions.contentexploreritemnodedata.md)
+**References:** [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ContentExplorerItemNodeData](./extensions.contentexploreritemnodedata.md)

@@ -7,13 +7,20 @@
 **Signature:**
 
 ```typescript
-export declare class ActionsConfigurationExtensionsBuilder extends ListBuilder<ActionGroup>
+export declare class ActionsConfigurationExtensionsBuilder
 ```
 
-**Extends:** ListBuilder&lt;[ActionGroup](./extensions.actiongroup.md)
+## Properties
 
-## Constructors
-
-| Constructor                                                                            | Modifiers | Description                                                                               |
-| -------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
-| [(constructor)()](./extensions.actionsconfigurationextensionsbuilder._constructor_.md) |           | Constructs a new instance of the <code>ActionsConfigurationExtensionsBuilder</code> class |
+| Property                                                                               | Modifiers | Type                                                                                                                         | Description                                                                                                       |
+| -------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [addAction](./extensions.actionsconfigurationextensionsbuilder.addaction.md)           |           | (groupId: string, actionId: string, beforeActionId?: string) =&gt; void                                                      | Adds action to a specified group. New action can be added in a specified order using <code>beforeActionId</code>. |
+| [addGroup](./extensions.actionsconfigurationextensionsbuilder.addgroup.md)             |           | (group: [ActionGroup](./extensions.actiongroup.md)<!-- -->, beforeGroupId?: string) =&gt; void                               | Adds a new group to the group list.                                                                               |
+| [build](./extensions.actionsconfigurationextensionsbuilder.build.md)                   |           | () =&gt; ReadonlyArray&lt;ListBuilderConfigurationExtension&lt;[ActionGroup](./extensions.actiongroup.md)<!-- -->&gt;&gt;    |                                                                                                                   |
+| [customizeGroup](./extensions.actionsconfigurationextensionsbuilder.customizegroup.md) |           | (groupConfiguration: ListBuilderConfigurationExtension&lt;[ActionGroup](./extensions.actiongroup.md)<!-- -->&gt;) =&gt; void | Customizes the group configuration in the group list.                                                             |
+| [moveAction](./extensions.actionsconfigurationextensionsbuilder.moveaction.md)         |           | (actionId: string, beforeActionId: string \| undefined) =&gt; void                                                           | Moves an action withing other actions in the same (or other) group(s).                                            |
+| [moveGroup](./extensions.actionsconfigurationextensionsbuilder.movegroup.md)           |           | (groupId: string, beforeGroupId: string \| undefined) =&gt; void                                                             | Moves a group within the group list.                                                                              |
+| [removeAction](./extensions.actionsconfigurationextensionsbuilder.removeaction.md)     |           | (actionId: string) =&gt; void                                                                                                | Removes action from the group(s).                                                                                 |
+| [removeGroup](./extensions.actionsconfigurationextensionsbuilder.removegroup.md)       |           | (groupId: string) =&gt; void                                                                                                 | Removes a group from the group list.                                                                              |
+| [replaceAction](./extensions.actionsconfigurationextensionsbuilder.replaceaction.md)   |           | (actionId: string, newActionId: string) =&gt; void                                                                           | Replaces an action with a new action id in the group(s).                                                          |
+| [replaceGroup](./extensions.actionsconfigurationextensionsbuilder.replacegroup.md)     |           | (groupId: string, group: [ActionGroup](./extensions.actiongroup.md)<!-- -->) =&gt; void                                      | Replaces a group in the group list.                                                                               |

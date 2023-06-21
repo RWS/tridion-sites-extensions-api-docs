@@ -9,11 +9,11 @@ Constructs a new instance of the `BusinessProcessTypes` class
 **Signature:**
 
 ```typescript
-constructor(publicationId: TcmUri);
+constructor({ backendModel, ...organizationalItemArgs }: BusinessProcessTypesConstructorArgs);
 ```
 
 ## Parameters
 
-| Parameter     | Type                         | Description |
-| ------------- | ---------------------------- | ----------- |
-| publicationId | [TcmUri](./models.tcmuri.md) |             |
+| Parameter                                   | Type                                                                                   | Description |
+| ------------------------------------------- | -------------------------------------------------------------------------------------- | ----------- |
+| { backendModel, ...organizationalItemArgs } | [BusinessProcessTypesConstructorArgs](./models.businessprocesstypesconstructorargs.md) |             |

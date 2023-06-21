@@ -16,6 +16,6 @@ export declare class BusinessProcessTypes extends OrganizationalItem
 
 ## Constructors
 
-| Constructor                                                                    | Modifiers | Description                                                              |
-| ------------------------------------------------------------------------------ | --------- | ------------------------------------------------------------------------ |
-| [(constructor)(publicationId)](./models.businessprocesstypes._constructor_.md) |           | Constructs a new instance of the <code>BusinessProcessTypes</code> class |
+| Constructor                                                                                                  | Modifiers | Description                                                              |
+| ------------------------------------------------------------------------------------------------------------ | --------- | ------------------------------------------------------------------------ |
+| [(constructor)({ backendModel, ...organizationalItemArgs })](./models.businessprocesstypes._constructor_.md) |           | Constructs a new instance of the <code>BusinessProcessTypes</code> class |

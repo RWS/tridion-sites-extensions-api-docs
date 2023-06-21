@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-isItemNode: (node: ContentExplorerNode) => node is ContentExplorerItemNode;
+isItemNode: (node: ContentExplorerNode | undefined) => node is ContentExplorerItemNode;
 ```

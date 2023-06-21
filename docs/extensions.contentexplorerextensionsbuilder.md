@@ -12,8 +12,9 @@ export declare class ContentExplorerExtensionsBuilder
 
 ## Properties
 
-| Property                                                        | Modifiers | Type                                                                                           | Description |
-| --------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- | ----------- |
-| [build](./extensions.contentexplorerextensionsbuilder.build.md) |           | () =&gt; [ContentExplorerExtensions](./extensions.contentexplorerextensions.md)                |             |
-| [table](./extensions.contentexplorerextensionsbuilder.table.md) |           | [ContentExplorerTableExtensionsBuilder](./extensions.contentexplorertableextensionsbuilder.md) |             |
-| [tree](./extensions.contentexplorerextensionsbuilder.tree.md)   |           | [ContentExplorerTreeExtensionsBuilder](./extensions.contentexplorertreeextensionsbuilder.md)   |             |
+| Property                                                                | Modifiers | Type                                                                                           | Description |
+| ----------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- | ----------- |
+| [addAction](./extensions.contentexplorerextensionsbuilder.addaction.md) |           | (action: [ActionExtension](./extensions.actionextension.md)<!-- -->) =&gt; this                |             |
+| [build](./extensions.contentexplorerextensionsbuilder.build.md)         |           | () =&gt; [ContentExplorerExtensions](./extensions.contentexplorerextensions.md)                |             |
+| [table](./extensions.contentexplorerextensionsbuilder.table.md)         |           | [ContentExplorerTableExtensionsBuilder](./extensions.contentexplorertableextensionsbuilder.md) |             |
+| [tree](./extensions.contentexplorerextensionsbuilder.tree.md)           |           | [ContentExplorerTreeExtensionsBuilder](./extensions.contentexplorertreeextensionsbuilder.md)   |             |

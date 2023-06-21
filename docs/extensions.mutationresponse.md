@@ -12,7 +12,7 @@ export interface MutationResponse
 
 ## Properties
 
-| Property                                                  | Modifiers | Type                                                 | Description |
-| --------------------------------------------------------- | --------- | ---------------------------------------------------- | ----------- |
-| [addedItems](./extensions.mutationresponse.addeditems.md) |           | [Link](./models.link.md)<!-- -->\[\]                 |             |
-| [bundle](./extensions.mutationresponse.bundle.md)         |           | [IdentifiableObject](./models.identifiableobject.md) |             |
+| Property                                                  | Modifiers | Type                                 | Description |
+| --------------------------------------------------------- | --------- | ------------------------------------ | ----------- |
+| [addedItems](./extensions.mutationresponse.addeditems.md) |           | [Link](./models.link.md)<!-- -->\[\] |             |
+| [bundle](./extensions.mutationresponse.bundle.md)         |           | [Bundle](./models.bundle.md)         |             |

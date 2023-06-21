@@ -20,4 +20,3 @@ export interface VersionedItemConstructorArgs extends RepositoryLocalObjectConst
 | [dynamicVersionInfo](./models.versioneditemconstructorargs.dynamicversioninfo.md) |           | [DynamicVersionInfo](./models.dynamicversioninfo.md) \| undefined |             |
 | [fullVersionInfo](./models.versioneditemconstructorargs.fullversioninfo.md)       |           | [FullVersionInfo](./models.fullversioninfo.md) \| undefined       |             |
 | [isDynamic](./models.versioneditemconstructorargs.isdynamic.md)                   |           | boolean                                                           |             |
-| [isNew](./models.versioneditemconstructorargs.isnew.md)                           |           | boolean                                                           |             |

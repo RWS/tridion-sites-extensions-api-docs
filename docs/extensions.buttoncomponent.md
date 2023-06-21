@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export type ButtonComponent = FunctionComponent<ButtonProps>;
+export type ButtonComponent = ForwardRefExoticComponent<ButtonProps>;
 ```
 
 **References:** [ButtonProps](./extensions.buttonprops.md)

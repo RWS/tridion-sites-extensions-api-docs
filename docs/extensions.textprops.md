@@ -7,11 +7,23 @@
 **Signature:**
 
 ```typescript
-export interface TextProps
+export interface TextProps extends ColorProps, TooltipProps
 ```
+
+**Extends:** [ColorProps](./extensions.colorprops.md)<!-- -->, [TooltipProps](./extensions.tooltipprops.md)
 
 ## Properties
 
-| Property                                        | Modifiers | Type      | Description  |
-| ----------------------------------------------- | --------- | --------- | ------------ |
-| [children?](./extensions.textprops.children.md) |           | ReactNode | _(Optional)_ |
+| Property                                                  | Modifiers | Type                                           | Description  |
+| --------------------------------------------------------- | --------- | ---------------------------------------------- | ------------ |
+| [alignment?](./extensions.textprops.alignment.md)         |           | [TextAlignment](./extensions.textalignment.md) | _(Optional)_ |
+| [breakWord?](./extensions.textprops.breakword.md)         |           | boolean                                        | _(Optional)_ |
+| [children?](./extensions.textprops.children.md)           |           | ReactNode                                      | _(Optional)_ |
+| [compact?](./extensions.textprops.compact.md)             |           | boolean                                        | _(Optional)_ |
+| [direction?](./extensions.textprops.direction.md)         |           | [TextDirection](./extensions.textdirection.md) | _(Optional)_ |
+| [multiLine?](./extensions.textprops.multiline.md)         |           | boolean                                        | _(Optional)_ |
+| [notSelectable?](./extensions.textprops.notselectable.md) |           | boolean                                        | _(Optional)_ |
+| [tag?](./extensions.textprops.tag.md)                     |           | [TextTag](./extensions.texttag.md)             | _(Optional)_ |
+| [type?](./extensions.textprops.type.md)                   |           | [TextType](./extensions.texttype.md)           | _(Optional)_ |
+| [underline?](./extensions.textprops.underline.md)         |           | boolean                                        | _(Optional)_ |
+| [uppercase?](./extensions.textprops.uppercase.md)         |           | boolean                                        | _(Optional)_ |

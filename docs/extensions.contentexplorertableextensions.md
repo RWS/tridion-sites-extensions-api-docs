@@ -14,7 +14,6 @@ export interface ContentExplorerTableExtensions
 
 | Property                                                                  | Modifiers | Type                                                                                                                    | Description |
 | ------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [actions](./extensions.contentexplorertableextensions.actions.md)         |           | ReadonlyArray&lt;[ActionExtension](./extensions.actionextension.md)<!-- -->&gt;                                         |             |
 | [columns](./extensions.contentexplorertableextensions.columns.md)         |           | ReadonlyArray&lt;[ContentExplorerTableColumnExtension](./extensions.contentexplorertablecolumnextension.md)<!-- -->&gt; |             |
 | [contextMenu](./extensions.contentexplorertableextensions.contextmenu.md) |           | ReadonlyArray&lt;[ActionsConfigurationExtension](./extensions.actionsconfigurationextension.md)<!-- -->&gt;             |             |
 | [toolbar](./extensions.contentexplorertableextensions.toolbar.md)         |           | ReadonlyArray&lt;[ActionsConfigurationExtension](./extensions.actionsconfigurationextension.md)<!-- -->&gt;             |             |

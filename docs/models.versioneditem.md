@@ -16,18 +16,18 @@ export declare abstract class VersionedItem extends RepositoryLocalObject
 
 ## Constructors
 
-| Constructor                                                                                                                                   | Modifiers | Description                                                       |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------- |
-| [(constructor)({ backendModel, dynamicVersionInfo, fullVersionInfo, isDynamic, isNew, ...rloArgs })](./models.versioneditem._constructor_.md) |           | Constructs a new instance of the <code>VersionedItem</code> class |
+| Constructor                                                                                                                            | Modifiers | Description                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------- |
+| [(constructor)({ backendModel, dynamicVersionInfo, fullVersionInfo, isDynamic, ...rloArgs })](./models.versioneditem._constructor_.md) |           | Constructs a new instance of the <code>VersionedItem</code> class |
 
 ## Properties
 
-| Property                                                           | Modifiers | Type                                                                | Description |
-| ------------------------------------------------------------------ | --------- | ------------------------------------------------------------------- | ----------- |
-| [\_backendModel](./models.versioneditem._backendmodel.md)          |           | [BackendVersionedItem](./open-api-client.versioneditem.md)          |             |
-| [dynamicVersionInfo](./models.versioneditem.dynamicversioninfo.md) |           | [DynamicVersionInfo](./models.dynamicversioninfo.md) \| undefined   |             |
-| [getInternalModel](./models.versioneditem.getinternalmodel.md)     |           | () =&gt; [BackendVersionedItem](./open-api-client.versioneditem.md) |             |
-| [isCurrentVersion](./models.versioneditem.iscurrentversion.md)     |           | boolean                                                             |             |
-| [isDynamic](./models.versioneditem.isdynamic.md)                   |           | boolean                                                             |             |
-| [isNew](./models.versioneditem.isnew.md)                           |           | boolean                                                             |             |
-| [versionInfo](./models.versioneditem.versioninfo.md)               |           | [FullVersionInfo](./models.fullversioninfo.md) \| undefined         |             |
+| Property                                                                   | Modifiers | Type                                                                | Description |
+| -------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------- | ----------- |
+| [\_backendModel](./models.versioneditem._backendmodel.md)                  |           | [BackendVersionedItem](./open-api-client.versioneditem.md)          |             |
+| [dynamicVersionInfo](./models.versioneditem.dynamicversioninfo.md)         |           | [DynamicVersionInfo](./models.dynamicversioninfo.md) \| undefined   |             |
+| [getInternalModel](./models.versioneditem.getinternalmodel.md)             |           | () =&gt; [BackendVersionedItem](./open-api-client.versioneditem.md) |             |
+| [isAwaitingFirstCheckIn](./models.versioneditem.isawaitingfirstcheckin.md) |           | boolean                                                             |             |
+| [isCurrentVersion](./models.versioneditem.iscurrentversion.md)             |           | boolean                                                             |             |
+| [isDynamic](./models.versioneditem.isdynamic.md)                           |           | boolean                                                             |             |
+| [versionInfo](./models.versioneditem.versioninfo.md)                       |           | [FullVersionInfo](./models.fullversioninfo.md) \| undefined         |             |

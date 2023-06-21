@@ -14,7 +14,6 @@ export declare class ActivitiesExplorerTableExtensionsBuilder
 
 | Property                                                                            | Modifiers | Type                                                                                                                          | Description |
 | ----------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [addAction](./extensions.activitiesexplorertableextensionsbuilder.addaction.md)     |           | (action: [ActionExtension](./extensions.actionextension.md)<!-- -->) =&gt; this                                               |             |
 | [addColumn](./extensions.activitiesexplorertableextensionsbuilder.addcolumn.md)     |           | (column: [ActivitiesExplorerTableColumnExtension](./extensions.activitiesexplorertablecolumnextension.md)<!-- -->) =&gt; this |             |
 | [build](./extensions.activitiesexplorertableextensionsbuilder.build.md)             |           | () =&gt; [ActivitiesExplorerTableExtensions](./extensions.activitiesexplorertableextensions.md)                               |             |
 | [contextMenu](./extensions.activitiesexplorertableextensionsbuilder.contextmenu.md) |           | [ActionsConfigurationExtensionsBuilder](./extensions.actionsconfigurationextensionsbuilder.md)                                |             |

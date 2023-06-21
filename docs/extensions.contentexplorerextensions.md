@@ -12,7 +12,8 @@ export interface ContentExplorerExtensions
 
 ## Properties
 
-| Property                                                 | Modifiers | Type                                                                             | Description |
-| -------------------------------------------------------- | --------- | -------------------------------------------------------------------------------- | ----------- |
-| [table](./extensions.contentexplorerextensions.table.md) |           | [ContentExplorerTableExtensions](./extensions.contentexplorertableextensions.md) |             |
-| [tree](./extensions.contentexplorerextensions.tree.md)   |           | [ContentExplorerTreeExtensions](./extensions.contentexplorertreeextensions.md)   |             |
+| Property                                                     | Modifiers | Type                                                                             | Description |
+| ------------------------------------------------------------ | --------- | -------------------------------------------------------------------------------- | ----------- |
+| [actions](./extensions.contentexplorerextensions.actions.md) |           | ReadonlyArray&lt;[ActionExtension](./extensions.actionextension.md)<!-- -->&gt;  |             |
+| [table](./extensions.contentexplorerextensions.table.md)     |           | [ContentExplorerTableExtensions](./extensions.contentexplorertableextensions.md) |             |
+| [tree](./extensions.contentexplorerextensions.tree.md)       |           | [ContentExplorerTreeExtensions](./extensions.contentexplorertreeextensions.md)   |             |

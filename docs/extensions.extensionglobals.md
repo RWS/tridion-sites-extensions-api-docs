@@ -12,7 +12,7 @@ export interface ExtensionGlobals
 
 ## Properties
 
-| Property                                                              | Modifiers | Type                                                            | Description |
-| --------------------------------------------------------------------- | --------- | --------------------------------------------------------------- | ----------- |
-| [getConfiguration](./extensions.extensionglobals.getconfiguration.md) |           | () =&gt; Record&lt;string, any&gt; \| undefined                 |             |
-| [t](./extensions.extensionglobals.t.md)                               |           | (key: string, options?: Record&lt;string, any&gt;) =&gt; string |             |
+| Property                                                              | Modifiers | Type                                                               | Description |
+| --------------------------------------------------------------------- | --------- | ------------------------------------------------------------------ | ----------- |
+| [getConfiguration](./extensions.extensionglobals.getconfiguration.md) |           | &lt;T extends Record&lt;string, any&gt;&gt;() =&gt; T \| undefined |             |
+| [t](./extensions.extensionglobals.t.md)                               |           | (key: string, options?: Record&lt;string, any&gt;) =&gt; string    |             |

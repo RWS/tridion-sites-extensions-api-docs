@@ -14,7 +14,6 @@ export interface ActivitiesExplorerTableExtensions
 
 | Property                                                                     | Modifiers | Type                                                                                                                          | Description |
 | ---------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [actions](./extensions.activitiesexplorertableextensions.actions.md)         |           | ReadonlyArray&lt;[ActionExtension](./extensions.actionextension.md)<!-- -->&gt;                                               |             |
 | [columns](./extensions.activitiesexplorertableextensions.columns.md)         |           | ReadonlyArray&lt;[ActivitiesExplorerTableColumnExtension](./extensions.activitiesexplorertablecolumnextension.md)<!-- -->&gt; |             |
 | [contextMenu](./extensions.activitiesexplorertableextensions.contextmenu.md) |           | ReadonlyArray&lt;[ActionsConfigurationExtension](./extensions.actionsconfigurationextension.md)<!-- -->&gt;                   |             |
 | [toolbar](./extensions.activitiesexplorertableextensions.toolbar.md)         |           | ReadonlyArray&lt;[ActionsConfigurationExtension](./extensions.actionsconfigurationextension.md)<!-- -->&gt;                   |             |

@@ -9,5 +9,5 @@ Tridion item associated with the node.
 **Signature:**
 
 ```typescript
-readonly item: IdentifiableObject;
+readonly item: TItem;
 ```

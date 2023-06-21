@@ -12,8 +12,7 @@ export interface ContentExplorerNodeData
 
 ## Properties
 
-| Property                                                     | Modifiers | Type    | Description                                                                                            |
-| ------------------------------------------------------------ | --------- | ------- | ------------------------------------------------------------------------------------------------------ |
-| [isLoaded](./extensions.contentexplorernodedata.isloaded.md) |           | boolean | Whether the node is loaded. Node is considered to be loaded if its children were loaded at least once. |
-| [nodeId](./extensions.contentexplorernodedata.nodeid.md)     |           | string  | Unique ID of the node.                                                                                 |
-| [title](./extensions.contentexplorernodedata.title.md)       |           | string  | Title of the node.                                                                                     |
+| Property                                                 | Modifiers | Type   | Description            |
+| -------------------------------------------------------- | --------- | ------ | ---------------------- |
+| [nodeId](./extensions.contentexplorernodedata.nodeid.md) |           | string | Unique ID of the node. |
+| [title](./extensions.contentexplorernodedata.title.md)   |           | string | Title of the node.     |

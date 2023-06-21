@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-bundle: IdentifiableObject;
+bundle: Bundle;
 ```

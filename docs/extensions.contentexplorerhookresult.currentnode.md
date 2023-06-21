@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-currentNode: ContentExplorerNode;
+currentNode: ContentExplorerNode | undefined;
 ```

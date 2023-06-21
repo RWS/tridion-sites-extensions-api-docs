@@ -10,6 +10,7 @@
 contentExplorerActionId: {
     export: "export";
     refresh: "refresh";
+    open: "open";
     openEditor: "openEditor";
     openEditorInNewTab: "openEditorInNewTab";
     addSelectedItemsToBundle: "addSelectedItemsToBundle";

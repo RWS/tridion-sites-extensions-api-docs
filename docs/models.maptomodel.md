@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-mapToModel: <T>(backendItem: any) => T;
+mapToModel: <T>(backendItem: Record<string, any>) => T;
 ```

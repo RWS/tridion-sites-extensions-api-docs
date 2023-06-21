@@ -7,8 +7,10 @@
 **Signature:**
 
 ```typescript
-export interface ButtonProps
+export interface ButtonProps extends RefAttributes<HTMLElement>
 ```
+
+**Extends:** RefAttributes&lt;HTMLElement
 
 ## Properties
 

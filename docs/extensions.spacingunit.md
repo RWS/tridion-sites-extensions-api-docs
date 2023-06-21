@@ -7,5 +7,7 @@
 **Signature:**
 
 ```typescript
-export type SpacingUnit = 'zero' | 'nano' | 'xs' | 'sm' | 'md' | 'lg';
+export type SpacingUnit = keyof Spacing;
 ```
+
+**References:** [Spacing](./extensions.spacing.md)

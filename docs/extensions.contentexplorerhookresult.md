@@ -12,9 +12,9 @@ export interface ContentExplorerHookResult
 
 ## Properties
 
-| Property                                                                   | Modifiers | Type                                                                                                         | Description |
-| -------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------ | ----------- |
-| [currentNode](./extensions.contentexplorerhookresult.currentnode.md)       |           | [ContentExplorerNode](./extensions.contentexplorernode.md)                                                   |             |
-| [hierarchy](./extensions.contentexplorerhookresult.hierarchy.md)           |           | [ContentExplorerHierarchy](./extensions.contentexplorerhierarchy.md)                                         |             |
-| [loadingNodeIds](./extensions.contentexplorerhookresult.loadingnodeids.md) |           | ReadonlySet&lt;string&gt;                                                                                    |             |
-| [navigateTo](./extensions.contentexplorerhookresult.navigateto.md)         |           | (props: [NavigateToContentExplorerProps](./extensions.navigatetocontentexplorerprops.md)<!-- -->) =&gt; void |             |
+| Property                                                                                 | Modifiers | Type                                                                                                       | Description |
+| ---------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------- | ----------- |
+| [currentNode](./extensions.contentexplorerhookresult.currentnode.md)                     |           | [ContentExplorerNode](./extensions.contentexplorernode.md) \| undefined                                    |             |
+| [hierarchy](./extensions.contentexplorerhookresult.hierarchy.md)                         |           | [ContentExplorerHierarchy](./extensions.contentexplorerhierarchy.md)                                       |             |
+| [hierarchyLoadingState](./extensions.contentexplorerhookresult.hierarchyloadingstate.md) |           | [ContentExplorerHierarchyLoadingState](./extensions.contentexplorerhierarchyloadingstate.md)               |             |
+| [setTarget](./extensions.contentexplorerhookresult.settarget.md)                         |           | (props: [SetTargetContentExplorerProps](./extensions.settargetcontentexplorerprops.md)<!-- -->) =&gt; void |             |

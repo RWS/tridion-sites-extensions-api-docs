@@ -8,8 +8,8 @@
 
 ```typescript
 export type CreateTranslationJobMutationHook = (
-    options: UseMutationOptions<TranslationJob, ApiError, CreateTranslationJobRequest>,
-) => UseMutationResult<TranslationJob, ApiError, CreateTranslationJobRequest>;
+    options: MutationOptions<TranslationJob, ApiError, CreateTranslationJobRequest>,
+) => MutationResult<TranslationJob, ApiError, CreateTranslationJobRequest>;
 ```
 
-**References:** [TranslationJob](./models.translationjob.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [CreateTranslationJobRequest](./extensions.createtranslationjobrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [TranslationJob](./models.translationjob.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [CreateTranslationJobRequest](./extensions.createtranslationjobrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

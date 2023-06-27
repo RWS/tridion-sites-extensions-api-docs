@@ -10,7 +10,7 @@
 export type DefaultTranslationJobQueryHook = (
     props: DefaultTranslationJobQueryProps | undefined,
     options?: QueryOptions<TranslationJob | undefined, ApiError>,
-) => UseQueryResult<TranslationJob | undefined, ApiError>;
+) => QueryResult<TranslationJob | undefined, ApiError>;
 ```
 
-**References:** [DefaultTranslationJobQueryProps](./extensions.defaulttranslationjobqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [TranslationJob](./models.translationjob.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [DefaultTranslationJobQueryProps](./extensions.defaulttranslationjobqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [TranslationJob](./models.translationjob.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

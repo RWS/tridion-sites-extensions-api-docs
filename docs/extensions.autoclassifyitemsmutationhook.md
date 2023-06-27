@@ -9,7 +9,7 @@
 ```typescript
 export type AutoClassifyItemsMutationHook = (
     options?: BatchMutationOptions<AutoClassifyItemsRequest>,
-) => UseMutationResult<Batch, ApiError, AutoClassifyItemsRequest>;
+) => MutationResult<Batch, ApiError, AutoClassifyItemsRequest>;
 ```
 
-**References:** [AutoClassifyItemsRequest](./extensions.autoclassifyitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [AutoClassifyItemsRequest](./extensions.autoclassifyitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

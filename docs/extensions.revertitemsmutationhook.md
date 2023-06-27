@@ -9,7 +9,7 @@
 ```typescript
 export type RevertItemsMutationHook = (
     options?: BatchMutationOptions<RevertItemsRequest>,
-) => UseMutationResult<Batch, ApiError, RevertItemsRequest>;
+) => MutationResult<Batch, ApiError, RevertItemsRequest>;
 ```
 
-**References:** [RevertItemsRequest](./extensions.revertitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [RevertItemsRequest](./extensions.revertitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

@@ -10,7 +10,7 @@
 export type ItemsInProgressQueryHook = (
     props?: ItemsInProgressQueryProps,
     options?: QueryOptions<ReadonlyArray<VersionedItem> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<VersionedItem> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<VersionedItem> | undefined, ApiError>;
 ```
 
-**References:** [ItemsInProgressQueryProps](./extensions.itemsinprogressqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [VersionedItem](./models.versioneditem.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ItemsInProgressQueryProps](./extensions.itemsinprogressqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [VersionedItem](./models.versioneditem.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

@@ -9,7 +9,7 @@
 ```typescript
 export type PublicationsQueryHook = (
     options?: QueryOptions<ReadonlyArray<Publication> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<Publication> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<Publication> | undefined, ApiError>;
 ```
 
-**References:** [QueryOptions](./extensions.queryoptions.md)<!-- -->, [Publication](./models.publication.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [QueryOptions](./extensions.queryoptions.md)<!-- -->, [Publication](./models.publication.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

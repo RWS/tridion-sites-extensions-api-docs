@@ -8,8 +8,8 @@
 
 ```typescript
 export type FinishEditingItemMutationHook = (
-    options?: UseMutationOptions<RepositoryLocalObject, ApiError, FinishEditingItemRequest>,
-) => UseMutationResult<RepositoryLocalObject, ApiError, FinishEditingItemRequest>;
+    options?: MutationOptions<RepositoryLocalObject, ApiError, FinishEditingItemRequest>,
+) => MutationResult<RepositoryLocalObject, ApiError, FinishEditingItemRequest>;
 ```
 
-**References:** [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [FinishEditingItemRequest](./extensions.finisheditingitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [FinishEditingItemRequest](./extensions.finisheditingitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

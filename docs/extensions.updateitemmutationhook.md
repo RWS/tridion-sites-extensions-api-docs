@@ -8,8 +8,8 @@
 
 ```typescript
 export type UpdateItemMutationHook = (
-    options?: UseMutationOptions<IdentifiableObject, ApiError, UpdateItemRequest>,
-) => UseMutationResult<IdentifiableObject, ApiError, UpdateItemRequest>;
+    options?: MutationOptions<IdentifiableObject, ApiError, UpdateItemRequest>,
+) => MutationResult<IdentifiableObject, ApiError, UpdateItemRequest>;
 ```
 
-**References:** [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [UpdateItemRequest](./extensions.updateitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [UpdateItemRequest](./extensions.updateitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

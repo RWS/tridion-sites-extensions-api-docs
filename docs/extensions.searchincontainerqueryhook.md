@@ -10,7 +10,7 @@
 export type SearchInContainerQueryHook = (
     props: SearchInContainerQueryProps | undefined,
     options?: QueryOptions<ReadonlyArray<IdentifiableObject> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<IdentifiableObject> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<IdentifiableObject> | undefined, ApiError>;
 ```
 
-**References:** [SearchInContainerQueryProps](./extensions.searchincontainerqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [SearchInContainerQueryProps](./extensions.searchincontainerqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

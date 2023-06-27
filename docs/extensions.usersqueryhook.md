@@ -10,7 +10,7 @@
 export type UsersQueryHook = (
     props?: UsersQueryProps,
     options?: QueryOptions<ReadonlyArray<User> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<User> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<User> | undefined, ApiError>;
 ```
 
-**References:** [UsersQueryProps](./extensions.usersqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [User](./models.user.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [UsersQueryProps](./extensions.usersqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [User](./models.user.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

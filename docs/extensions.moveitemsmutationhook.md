@@ -9,7 +9,7 @@
 ```typescript
 export type MoveItemsMutationHook = (
     options?: BatchMutationOptions<MoveItemsRequest>,
-) => UseMutationResult<Batch, ApiError, MoveItemsRequest>;
+) => MutationResult<Batch, ApiError, MoveItemsRequest>;
 ```
 
-**References:** [MoveItemsRequest](./extensions.moveitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [MoveItemsRequest](./extensions.moveitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

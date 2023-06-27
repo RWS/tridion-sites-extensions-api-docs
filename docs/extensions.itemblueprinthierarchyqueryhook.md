@@ -10,7 +10,7 @@
 export type ItemBlueprintHierarchyQueryHook = (
     props: ItemBlueprintHierarchyQueryProps | undefined,
     options?: QueryOptions<ItemBlueprintHierarchy | undefined, ApiError>,
-) => UseQueryResult<ItemBlueprintHierarchy | undefined, ApiError>;
+) => QueryResult<ItemBlueprintHierarchy | undefined, ApiError>;
 ```
 
-**References:** [ItemBlueprintHierarchyQueryProps](./extensions.itemblueprinthierarchyqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ItemBlueprintHierarchy](./models.itemblueprinthierarchy.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ItemBlueprintHierarchyQueryProps](./extensions.itemblueprinthierarchyqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ItemBlueprintHierarchy](./models.itemblueprinthierarchy.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

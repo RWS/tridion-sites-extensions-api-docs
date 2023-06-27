@@ -9,7 +9,7 @@
 ```typescript
 export type FinishEditingItemsMutationHook = (
     options?: BatchMutationOptions<FinishItemsRequest>,
-) => UseMutationResult<Batch, ApiError, FinishItemsRequest>;
+) => MutationResult<Batch, ApiError, FinishItemsRequest>;
 ```
 
-**References:** [FinishItemsRequest](./extensions.finishitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [FinishItemsRequest](./extensions.finishitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

@@ -8,8 +8,8 @@
 
 ```typescript
 export type RemoveFromBundleMutationHook = (
-    options?: UseMutationOptions<Bundle, ApiError, RemoveFromBundleRequest>,
-) => UseMutationResult<Bundle, ApiError, RemoveFromBundleRequest>;
+    options?: MutationOptions<Bundle, ApiError, RemoveFromBundleRequest>,
+) => MutationResult<Bundle, ApiError, RemoveFromBundleRequest>;
 ```
 
-**References:** [Bundle](./models.bundle.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RemoveFromBundleRequest](./extensions.removefrombundlerequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [Bundle](./models.bundle.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RemoveFromBundleRequest](./extensions.removefrombundlerequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

@@ -10,7 +10,7 @@
 export type ItemPublishedToQueryHook = (
     props: ItemPublishedToQueryProps | undefined,
     options?: QueryOptions<ReadonlyArray<PublishInfo> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<PublishInfo> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<PublishInfo> | undefined, ApiError>;
 ```
 
-**References:** [ItemPublishedToQueryProps](./extensions.itempublishedtoqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [PublishInfo](./models.publishinfo.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ItemPublishedToQueryProps](./extensions.itempublishedtoqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [PublishInfo](./models.publishinfo.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

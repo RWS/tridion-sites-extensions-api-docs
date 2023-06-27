@@ -8,8 +8,8 @@
 
 ```typescript
 export type LocalizeItemMutationHook = (
-    options?: UseMutationOptions<RepositoryLocalObject, ApiError, LocalizeItemRequest>,
-) => UseMutationResult<RepositoryLocalObject, ApiError, LocalizeItemRequest>;
+    options?: MutationOptions<RepositoryLocalObject, ApiError, LocalizeItemRequest>,
+) => MutationResult<RepositoryLocalObject, ApiError, LocalizeItemRequest>;
 ```
 
-**References:** [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [LocalizeItemRequest](./extensions.localizeitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [LocalizeItemRequest](./extensions.localizeitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

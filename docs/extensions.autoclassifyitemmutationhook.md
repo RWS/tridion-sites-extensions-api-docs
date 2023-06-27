@@ -8,8 +8,8 @@
 
 ```typescript
 export type AutoClassifyItemMutationHook = (
-    options?: UseMutationOptions<ClassificationInfo, ApiError, AutoClassifyItemRequest>,
-) => UseMutationResult<ClassificationInfo, ApiError, AutoClassifyItemRequest>;
+    options?: MutationOptions<ClassificationInfo, ApiError, AutoClassifyItemRequest>,
+) => MutationResult<ClassificationInfo, ApiError, AutoClassifyItemRequest>;
 ```
 
-**References:** [ClassificationInfo](./models.classificationinfo.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [AutoClassifyItemRequest](./extensions.autoclassifyitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [ClassificationInfo](./models.classificationinfo.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [AutoClassifyItemRequest](./extensions.autoclassifyitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

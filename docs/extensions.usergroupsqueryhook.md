@@ -10,7 +10,7 @@
 export type UserGroupsQueryHook = (
     props?: UserGroupsQueryProps,
     options?: QueryOptions<ReadonlyArray<UserGroup> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<UserGroup> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<UserGroup> | undefined, ApiError>;
 ```
 
-**References:** [UserGroupsQueryProps](./extensions.usergroupsqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [UserGroup](./models.usergroup.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [UserGroupsQueryProps](./extensions.usergroupsqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [UserGroup](./models.usergroup.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

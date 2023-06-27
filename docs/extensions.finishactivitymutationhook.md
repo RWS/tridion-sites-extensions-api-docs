@@ -8,8 +8,8 @@
 
 ```typescript
 export type FinishActivityMutationHook = (
-    options?: UseMutationOptions<FinishActivityResult, ApiError, FinishActivityRequest>,
-) => UseMutationResult<FinishActivityResult, ApiError, FinishActivityRequest>;
+    options?: MutationOptions<FinishActivityResult, ApiError, FinishActivityRequest>,
+) => MutationResult<FinishActivityResult, ApiError, FinishActivityRequest>;
 ```
 
-**References:** [FinishActivityResult](./models.finishactivityresult.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [FinishActivityRequest](./extensions.finishactivityrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [FinishActivityResult](./models.finishactivityresult.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [FinishActivityRequest](./extensions.finishactivityrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

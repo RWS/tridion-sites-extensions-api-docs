@@ -9,7 +9,7 @@
 ```typescript
 export type DeleteItemsMutationHook = (
     options?: BatchMutationOptions<DeleteItemsRequest>,
-) => UseMutationResult<Batch, ApiError, DeleteItemsRequest>;
+) => MutationResult<Batch, ApiError, DeleteItemsRequest>;
 ```
 
-**References:** [DeleteItemsRequest](./extensions.deleteitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [DeleteItemsRequest](./extensions.deleteitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

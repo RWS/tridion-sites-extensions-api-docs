@@ -10,7 +10,7 @@
 export type ItemClassifiedItemsQueryHook = (
     props: ItemClassifiedItemsQueryProps | undefined,
     options?: QueryOptions<ReadonlyArray<RepositoryLocalObject> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<RepositoryLocalObject> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<RepositoryLocalObject> | undefined, ApiError>;
 ```
 
-**References:** [ItemClassifiedItemsQueryProps](./extensions.itemclassifieditemsqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ItemClassifiedItemsQueryProps](./extensions.itemclassifieditemsqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

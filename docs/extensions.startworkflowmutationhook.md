@@ -8,8 +8,8 @@
 
 ```typescript
 export type StartWorkflowMutationHook = (
-    options?: UseMutationOptions<ProcessInstance, ApiError, StartWorkflowRequest>,
-) => UseMutationResult<ProcessInstance, ApiError, StartWorkflowRequest>;
+    options?: MutationOptions<ProcessInstance, ApiError, StartWorkflowRequest>,
+) => MutationResult<ProcessInstance, ApiError, StartWorkflowRequest>;
 ```
 
-**References:** [ProcessInstance](./models.processinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [StartWorkflowRequest](./extensions.startworkflowrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [ProcessInstance](./models.processinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [StartWorkflowRequest](./extensions.startworkflowrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

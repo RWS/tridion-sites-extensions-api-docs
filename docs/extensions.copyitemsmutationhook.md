@@ -9,7 +9,7 @@
 ```typescript
 export type CopyItemsMutationHook = (
     options?: BatchMutationOptions<CopyItemsRequest>,
-) => UseMutationResult<Batch, ApiError, CopyItemsRequest>;
+) => MutationResult<Batch, ApiError, CopyItemsRequest>;
 ```
 
-**References:** [CopyItemsRequest](./extensions.copyitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [CopyItemsRequest](./extensions.copyitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

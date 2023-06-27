@@ -10,7 +10,7 @@
 export type ItemsToPublishQueryHook = (
     props: PublishItemsRequest | undefined,
     options?: QueryOptions<ResolvedItem[] | undefined, ApiError>,
-) => UseQueryResult<ResolvedItem[] | undefined, ApiError>;
+) => QueryResult<ResolvedItem[] | undefined, ApiError>;
 ```
 
-**References:** [PublishItemsRequest](./extensions.publishitemsrequest.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ResolvedItem](./models.resolveditem.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [PublishItemsRequest](./extensions.publishitemsrequest.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ResolvedItem](./models.resolveditem.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

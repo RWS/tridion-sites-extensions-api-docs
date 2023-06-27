@@ -9,7 +9,7 @@
 ```typescript
 export type LocalizeItemsMutationHook = (
     options?: BatchMutationOptions<LocalizeItemsRequest>,
-) => UseMutationResult<Batch, ApiError, LocalizeItemsRequest>;
+) => MutationResult<Batch, ApiError, LocalizeItemsRequest>;
 ```
 
-**References:** [LocalizeItemsRequest](./extensions.localizeitemsrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [LocalizeItemsRequest](./extensions.localizeitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

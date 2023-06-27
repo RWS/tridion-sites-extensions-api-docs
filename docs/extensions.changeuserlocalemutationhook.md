@@ -8,8 +8,8 @@
 
 ```typescript
 export type ChangeUserLocaleMutationHook = (
-    options?: UseMutationOptions<User, ApiError, ChangeUserLocaleRequest>,
-) => UseMutationResult<User, ApiError, ChangeUserLocaleRequest>;
+    options?: MutationOptions<User, ApiError, ChangeUserLocaleRequest>,
+) => MutationResult<User, ApiError, ChangeUserLocaleRequest>;
 ```
 
-**References:** [User](./models.user.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [ChangeUserLocaleRequest](./extensions.changeuserlocalerequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [User](./models.user.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [ChangeUserLocaleRequest](./extensions.changeuserlocalerequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

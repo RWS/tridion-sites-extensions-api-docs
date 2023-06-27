@@ -10,7 +10,7 @@
 export type ItemHistoryQueryHook = (
     props: ItemHistoryQueryProps | undefined,
     options?: QueryOptions<ReadonlyArray<VersionedItem> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<VersionedItem> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<VersionedItem> | undefined, ApiError>;
 ```
 
-**References:** [ItemHistoryQueryProps](./extensions.itemhistoryqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [VersionedItem](./models.versioneditem.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ItemHistoryQueryProps](./extensions.itemhistoryqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [VersionedItem](./models.versioneditem.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

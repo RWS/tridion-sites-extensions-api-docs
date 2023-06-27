@@ -4,6 +4,12 @@
 
 ## open-api-client package
 
+This package allows extensions developers to easily interact with Tridion Sites API. It provides a convenient interface for making HTTP requests and working with the API.
+
+## Remarks
+
+Due to reliance on various functionality provided at runtime by Tridion Sites, this package is not suitable for standalone usage and can only be utilized as a part of an extension.
+
 ## Classes
 
 | Class                                                                         | Description |

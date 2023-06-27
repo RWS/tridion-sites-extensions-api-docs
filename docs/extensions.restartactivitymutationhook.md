@@ -8,8 +8,8 @@
 
 ```typescript
 export type RestartActivityMutationHook = (
-    options?: UseMutationOptions<ActivityInstance, ApiError, RestartActivityRequest>,
-) => UseMutationResult<ActivityInstance, ApiError, RestartActivityRequest>;
+    options?: MutationOptions<ActivityInstance, ApiError, RestartActivityRequest>,
+) => MutationResult<ActivityInstance, ApiError, RestartActivityRequest>;
 ```
 
-**References:** [ActivityInstance](./models.activityinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RestartActivityRequest](./extensions.restartactivityrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [ActivityInstance](./models.activityinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RestartActivityRequest](./extensions.restartactivityrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

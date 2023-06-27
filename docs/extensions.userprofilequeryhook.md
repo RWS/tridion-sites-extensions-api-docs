@@ -9,7 +9,7 @@
 ```typescript
 export type UserProfileQueryHook = (
     options?: QueryOptions<UserProfile | undefined, ApiError>,
-) => UseQueryResult<UserProfile | undefined, ApiError>;
+) => QueryResult<UserProfile | undefined, ApiError>;
 ```
 
-**References:** [QueryOptions](./extensions.queryoptions.md)<!-- -->, [UserProfile](./models.userprofile.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [QueryOptions](./extensions.queryoptions.md)<!-- -->, [UserProfile](./models.userprofile.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

@@ -8,8 +8,8 @@
 
 ```typescript
 export type AddToBundleMutationHook = (
-    options?: UseMutationOptions<MutationResponse, ApiError, AddToBundleRequest>,
-) => UseMutationResult<MutationResponse, ApiError, AddToBundleRequest>;
+    options?: MutationOptions<MutationResponse, ApiError, AddToBundleRequest>,
+) => MutationResult<MutationResponse, ApiError, AddToBundleRequest>;
 ```
 
-**References:** [MutationResponse](./extensions.mutationresponse.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [AddToBundleRequest](./extensions.addtobundlerequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [MutationResponse](./extensions.mutationresponse.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [AddToBundleRequest](./extensions.addtobundlerequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

@@ -8,8 +8,8 @@
 
 ```typescript
 export type DeleteItemMutationHook = (
-    options?: UseMutationOptions<void, ApiError, DeleteItemRequest>,
-) => UseMutationResult<void, ApiError, DeleteItemRequest>;
+    options?: MutationOptions<void, ApiError, DeleteItemRequest>,
+) => MutationResult<void, ApiError, DeleteItemRequest>;
 ```
 
-**References:** [ApiError](./models.apierror.md)<!-- -->, [DeleteItemRequest](./extensions.deleteitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [DeleteItemRequest](./extensions.deleteitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

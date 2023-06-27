@@ -8,8 +8,8 @@
 
 ```typescript
 export type PublishItemsMutationHook = (
-    options?: UseMutationOptions<PublishTransactionsCreationResult, ApiError, PublishItemsRequest>,
-) => UseMutationResult<PublishTransactionsCreationResult, ApiError, PublishItemsRequest>;
+    options?: MutationOptions<PublishTransactionsCreationResult, ApiError, PublishItemsRequest>,
+) => MutationResult<PublishTransactionsCreationResult, ApiError, PublishItemsRequest>;
 ```
 
-**References:** [PublishTransactionsCreationResult](./models.publishtransactionscreationresult.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [PublishItemsRequest](./extensions.publishitemsrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [PublishTransactionsCreationResult](./models.publishtransactionscreationresult.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [PublishItemsRequest](./extensions.publishitemsrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

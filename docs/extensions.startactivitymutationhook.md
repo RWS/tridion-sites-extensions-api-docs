@@ -8,8 +8,8 @@
 
 ```typescript
 export type StartActivityMutationHook = (
-    options?: UseMutationOptions<ActivityInstance, ApiError, StartActivityRequest>,
-) => UseMutationResult<ActivityInstance, ApiError, StartActivityRequest>;
+    options?: MutationOptions<ActivityInstance, ApiError, StartActivityRequest>,
+) => MutationResult<ActivityInstance, ApiError, StartActivityRequest>;
 ```
 
-**References:** [ActivityInstance](./models.activityinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [StartActivityRequest](./extensions.startactivityrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [ActivityInstance](./models.activityinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [StartActivityRequest](./extensions.startactivityrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

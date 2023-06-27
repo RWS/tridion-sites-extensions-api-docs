@@ -4,6 +4,12 @@
 
 ## models package
 
+This NPM package provides a set of domain models specifically designed for frontend development of Tridion Sites. These models encapsulate domain-specific logic and provide a convenient abstraction for interacting with the backend data.
+
+## Remarks
+
+Due to reliance on various functionality provided at runtime by Tridion Sites, this package is not suitable for standalone usage and can only be utilized as a part of an extension.
+
 ## Classes
 
 | Class                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

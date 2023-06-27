@@ -10,7 +10,7 @@
 export type ActivityInstancesQueryHook = (
     props?: ActivityInstancesQueryProps,
     options?: QueryOptions<ReadonlyArray<ActivityInstance> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<ActivityInstance> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<ActivityInstance> | undefined, ApiError>;
 ```
 
-**References:** [ActivityInstancesQueryProps](./extensions.activityinstancesqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ActivityInstance](./models.activityinstance.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ActivityInstancesQueryProps](./extensions.activityinstancesqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ActivityInstance](./models.activityinstance.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

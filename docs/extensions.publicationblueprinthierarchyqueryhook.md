@@ -10,7 +10,7 @@
 export type PublicationBlueprintHierarchyQueryHook = (
     props: PublicationBlueprintHierarchyQueryProps | undefined,
     options?: QueryOptions<PublicationBlueprintHierarchy | undefined, ApiError>,
-) => UseQueryResult<PublicationBlueprintHierarchy | undefined, ApiError>;
+) => QueryResult<PublicationBlueprintHierarchy | undefined, ApiError>;
 ```
 
-**References:** [PublicationBlueprintHierarchyQueryProps](./extensions.publicationblueprinthierarchyqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [PublicationBlueprintHierarchy](./models.publicationblueprinthierarchy.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [PublicationBlueprintHierarchyQueryProps](./extensions.publicationblueprinthierarchyqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [PublicationBlueprintHierarchy](./models.publicationblueprinthierarchy.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

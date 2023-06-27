@@ -7,10 +7,7 @@
 **Signature:**
 
 ```typescript
-export type FinishActivitiesMutationOptions = Without<
-    UseMutationOptions<Batch[], ApiError, FinishActivitiesRequest>,
-    'mutationFn'
->;
+export type FinishActivitiesMutationOptions = MutationOptions<Batch[], ApiError, FinishActivitiesRequest>;
 ```
 
-**References:** [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [FinishActivitiesRequest](./extensions.finishactivitiesrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [FinishActivitiesRequest](./extensions.finishactivitiesrequest.md)

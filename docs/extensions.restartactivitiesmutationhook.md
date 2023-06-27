@@ -9,7 +9,7 @@
 ```typescript
 export type RestartActivitiesMutationHook = (
     options?: BatchMutationOptions<RestartActivitiesRequest>,
-) => UseMutationResult<Batch, ApiError, RestartActivitiesRequest>;
+) => MutationResult<Batch, ApiError, RestartActivitiesRequest>;
 ```
 
-**References:** [RestartActivitiesRequest](./extensions.restartactivitiesrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [RestartActivitiesRequest](./extensions.restartactivitiesrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

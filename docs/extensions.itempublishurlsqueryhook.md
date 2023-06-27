@@ -10,7 +10,7 @@
 export type ItemPublishUrlsQueryHook = (
     props: ItemPublishUrlsQueryProps | undefined,
     options?: QueryOptions<ReadonlyArray<PublishUrlInfo> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<PublishUrlInfo> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<PublishUrlInfo> | undefined, ApiError>;
 ```
 
-**References:** [ItemPublishUrlsQueryProps](./extensions.itempublishurlsqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [PublishUrlInfo](./models.publishurlinfo.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [ItemPublishUrlsQueryProps](./extensions.itempublishurlsqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [PublishUrlInfo](./models.publishurlinfo.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

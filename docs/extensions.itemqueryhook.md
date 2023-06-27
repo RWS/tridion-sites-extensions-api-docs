@@ -10,7 +10,7 @@
 export type ItemQueryHook = <TItem extends IdentifiableObject>(
     props: ItemQueryProps | undefined,
     options?: QueryOptions<TItem | undefined, ApiError>,
-) => UseQueryResult<TItem | undefined, ApiError>;
+) => QueryResult<TItem | undefined, ApiError>;
 ```
 
-**References:** [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ItemQueryProps](./extensions.itemqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ItemQueryProps](./extensions.itemqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

@@ -8,8 +8,8 @@
 
 ```typescript
 export type CopyItemMutationHook = (
-    options?: UseMutationOptions<RepositoryLocalObject, ApiError, CopyItemRequest>,
-) => UseMutationResult<RepositoryLocalObject, ApiError, CopyItemRequest>;
+    options?: MutationOptions<RepositoryLocalObject, ApiError, CopyItemRequest>,
+) => MutationResult<RepositoryLocalObject, ApiError, CopyItemRequest>;
 ```
 
-**References:** [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [CopyItemRequest](./extensions.copyitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [CopyItemRequest](./extensions.copyitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

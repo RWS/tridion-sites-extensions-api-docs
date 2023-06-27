@@ -9,7 +9,7 @@
 ```typescript
 export type FavoritesQueryHook = (
     options?: QueryOptions<ReadonlyArray<IdentifiableObject> | undefined, ApiError>,
-) => UseQueryResult<ReadonlyArray<IdentifiableObject> | undefined, ApiError>;
+) => QueryResult<ReadonlyArray<IdentifiableObject> | undefined, ApiError>;
 ```
 
-**References:** [QueryOptions](./extensions.queryoptions.md)<!-- -->, [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [QueryOptions](./extensions.queryoptions.md)<!-- -->, [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

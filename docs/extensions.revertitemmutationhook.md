@@ -8,8 +8,8 @@
 
 ```typescript
 export type RevertItemMutationHook = (
-    options?: UseMutationOptions<RepositoryLocalObject | void, ApiError, RevertItemRequest>,
-) => UseMutationResult<RepositoryLocalObject | void, ApiError, RevertItemRequest>;
+    options?: MutationOptions<RepositoryLocalObject | void, ApiError, RevertItemRequest>,
+) => MutationResult<RepositoryLocalObject | void, ApiError, RevertItemRequest>;
 ```
 
-**References:** [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RevertItemRequest](./extensions.revertitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RevertItemRequest](./extensions.revertitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

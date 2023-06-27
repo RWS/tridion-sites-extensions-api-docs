@@ -8,8 +8,8 @@
 
 ```typescript
 export type RollbackItemMutationHook = (
-    options?: UseMutationOptions<RepositoryLocalObject, ApiError, RollbackItemRequest>,
-) => UseMutationResult<RepositoryLocalObject, ApiError, RollbackItemRequest>;
+    options?: MutationOptions<RepositoryLocalObject, ApiError, RollbackItemRequest>,
+) => MutationResult<RepositoryLocalObject, ApiError, RollbackItemRequest>;
 ```
 
-**References:** [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RollbackItemRequest](./extensions.rollbackitemrequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [RepositoryLocalObject](./models.repositorylocalobject.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [RollbackItemRequest](./extensions.rollbackitemrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

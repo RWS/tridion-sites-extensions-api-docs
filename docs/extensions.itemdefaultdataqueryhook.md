@@ -10,7 +10,7 @@
 export type ItemDefaultDataQueryHook = <TItem extends IdentifiableObject>(
     props: ItemDefaultDataQueryProps | undefined,
     options?: QueryOptions<TItem | undefined, ApiError>,
-) => UseQueryResult<TItem | undefined, ApiError>;
+) => QueryResult<TItem | undefined, ApiError>;
 ```
 
-**References:** [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ItemDefaultDataQueryProps](./extensions.itemdefaultdataqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [IdentifiableObject](./models.identifiableobject.md)<!-- -->, [ItemDefaultDataQueryProps](./extensions.itemdefaultdataqueryprops.md)<!-- -->, [QueryOptions](./extensions.queryoptions.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [QueryResult](./extensions.queryresult.md)

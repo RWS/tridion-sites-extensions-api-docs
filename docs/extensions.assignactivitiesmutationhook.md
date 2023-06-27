@@ -9,7 +9,7 @@
 ```typescript
 export type AssignActivitiesMutationHook = (
     options?: BatchMutationOptions<AssignActivitiesRequest>,
-) => UseMutationResult<Batch, ApiError, AssignActivitiesRequest>;
+) => MutationResult<Batch, ApiError, AssignActivitiesRequest>;
 ```
 
-**References:** [AssignActivitiesRequest](./extensions.assignactivitiesrequest.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)
+**References:** [AssignActivitiesRequest](./extensions.assignactivitiesrequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)<!-- -->, [Batch](./models.batch.md)<!-- -->, [ApiError](./models.apierror.md)

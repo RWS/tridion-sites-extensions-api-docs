@@ -8,8 +8,8 @@
 
 ```typescript
 export type UploadMultimediaMutationHook = (
-    options?: UseMutationOptions<UploadMultimediaMutationResult, ApiError, UploadMultimediaRequest>,
-) => UseMutationResult<UploadMultimediaMutationResult, ApiError, UploadMultimediaRequest>;
+    options?: MutationOptions<UploadMultimediaMutationResult, ApiError, UploadMultimediaRequest>,
+) => MutationResult<UploadMultimediaMutationResult, ApiError, UploadMultimediaRequest>;
 ```
 
-**References:** [UploadMultimediaMutationResult](./extensions.uploadmultimediamutationresult.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [UploadMultimediaRequest](./extensions.uploadmultimediarequest.md)
+**References:** [MutationOptions](./extensions.mutationoptions.md)<!-- -->, [UploadMultimediaMutationResult](./extensions.uploadmultimediamutationresult.md)<!-- -->, [ApiError](./models.apierror.md)<!-- -->, [UploadMultimediaRequest](./extensions.uploadmultimediarequest.md)<!-- -->, [MutationResult](./extensions.mutationresult.md)

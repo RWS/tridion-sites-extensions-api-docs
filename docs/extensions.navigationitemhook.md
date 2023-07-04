@@ -9,7 +9,6 @@
 ```typescript
 export type NavigationItemHook = () => {
     readonly isAvailable: boolean;
-    readonly isInitialized: boolean;
     readonly label: string;
     readonly renderLabel?: ComponentType<NavigationItemRenderLabel>;
     readonly tooltip?: string;

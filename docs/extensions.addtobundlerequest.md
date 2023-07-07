@@ -12,8 +12,8 @@ export interface AddToBundleRequest
 
 ## Properties
 
-| Property                                                       | Modifiers | Type                                                                              | Description  |
-| -------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------- | ------------ |
-| [bundleId](./extensions.addtobundlerequest.bundleid.md)        |           | [ItemUri](./models.itemuri.md)                                                    |              |
-| [contextItem?](./extensions.addtobundlerequest.contextitem.md) |           | [IdentifiableObject](./models.identifiableobject.md)                              | _(Optional)_ |
-| [itemsToAdd](./extensions.addtobundlerequest.itemstoadd.md)    |           | ReadonlyArray&lt;[IdentifiableObject](./models.identifiableobject.md)<!-- -->&gt; |              |
+| Property                                                           | Modifiers | Type                                                                              | Description  |
+| ------------------------------------------------------------------ | --------- | --------------------------------------------------------------------------------- | ------------ |
+| [bundleId](./extensions.addtobundlerequest.bundleid.md)            |           | [ItemUri](./models.itemuri.md)                                                    |              |
+| [containerItem?](./extensions.addtobundlerequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md)                              | _(Optional)_ |
+| [itemsToAdd](./extensions.addtobundlerequest.itemstoadd.md)        |           | ReadonlyArray&lt;[IdentifiableObject](./models.identifiableobject.md)<!-- -->&gt; |              |

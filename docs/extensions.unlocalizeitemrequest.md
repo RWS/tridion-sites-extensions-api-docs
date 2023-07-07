@@ -14,6 +14,6 @@ export interface UnlocalizeItemRequest
 
 | Property                                                                      | Modifiers | Type                                                 | Description  |
 | ----------------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [contextItem?](./extensions.unlocalizeitemrequest.contextitem.md)             |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
+| [containerItem?](./extensions.unlocalizeitemrequest.containeritem.md)         |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
 | [itemId](./extensions.unlocalizeitemrequest.itemid.md)                        |           | [ItemUri](./models.itemuri.md)                       |              |
 | [useDynamicVersion?](./extensions.unlocalizeitemrequest.usedynamicversion.md) |           | boolean                                              | _(Optional)_ |

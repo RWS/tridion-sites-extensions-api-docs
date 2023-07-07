@@ -12,7 +12,7 @@ export interface DeleteItemRequest
 
 ## Properties
 
-| Property                                                      | Modifiers | Type                                                 | Description  |
-| ------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [contextItem?](./extensions.deleteitemrequest.contextitem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [item](./extensions.deleteitemrequest.item.md)                |           | [IdentifiableObject](./models.identifiableobject.md) |              |
+| Property                                                          | Modifiers | Type                                                 | Description  |
+| ----------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
+| [containerItem?](./extensions.deleteitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
+| [item](./extensions.deleteitemrequest.item.md)                    |           | [IdentifiableObject](./models.identifiableobject.md) |              |

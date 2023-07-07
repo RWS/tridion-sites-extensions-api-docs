@@ -12,7 +12,7 @@ export interface FinishEditingItemRequest
 
 ## Properties
 
-| Property                                                             | Modifiers | Type                                                 | Description  |
-| -------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [contextItem?](./extensions.finisheditingitemrequest.contextitem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [item](./extensions.finisheditingitemrequest.item.md)                |           | [VersionedItem](./models.versioneditem.md)           |              |
+| Property                                                                 | Modifiers | Type                                                 | Description  |
+| ------------------------------------------------------------------------ | --------- | ---------------------------------------------------- | ------------ |
+| [containerItem?](./extensions.finisheditingitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
+| [item](./extensions.finisheditingitemrequest.item.md)                    |           | [VersionedItem](./models.versioneditem.md)           |              |

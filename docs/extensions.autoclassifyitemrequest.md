@@ -12,7 +12,7 @@ export interface AutoClassifyItemRequest
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                                                 | Description  |
-| ------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [contextItem?](./extensions.autoclassifyitemrequest.contextitem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [itemId](./extensions.autoclassifyitemrequest.itemid.md)            |           | [ItemUri](./models.itemuri.md)                       |              |
+| Property                                                                | Modifiers | Type                                                 | Description  |
+| ----------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
+| [containerItem?](./extensions.autoclassifyitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
+| [itemId](./extensions.autoclassifyitemrequest.itemid.md)                |           | [ItemUri](./models.itemuri.md)                       |              |

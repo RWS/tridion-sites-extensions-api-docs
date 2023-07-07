@@ -14,6 +14,6 @@ export interface RollbackItemRequest
 
 | Property                                                                       | Modifiers | Type                                                 | Description  |
 | ------------------------------------------------------------------------------ | --------- | ---------------------------------------------------- | ------------ |
-| [contextItem?](./extensions.rollbackitemrequest.contextitem.md)                |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
+| [containerItem?](./extensions.rollbackitemrequest.containeritem.md)            |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
 | [deleteNewerVersions](./extensions.rollbackitemrequest.deletenewerversions.md) |           | boolean                                              |              |
 | [itemId](./extensions.rollbackitemrequest.itemid.md)                           |           | [ItemUri](./models.itemuri.md)                       |              |

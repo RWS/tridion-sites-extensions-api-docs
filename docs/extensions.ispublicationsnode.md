@@ -4,6 +4,8 @@
 
 ## isPublicationsNode variable
 
+Checks whether the provided node is the 'Publications' node.
+
 **Signature:**
 
 ```typescript

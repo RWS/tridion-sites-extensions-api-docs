@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerTableHookResult.refresh property
 
+Refetch list of Activity Instances.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## BundleEditorHookResult.metadataSchema property
 
+Bundle's metadata schema.
+
 **Signature:**
 
 ```typescript

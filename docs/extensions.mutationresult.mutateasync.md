@@ -4,6 +4,8 @@
 
 ## MutationResult.mutateAsync property
 
+Similar to mutate but returns a promise which can be awaited.
+
 **Signature:**
 
 ```typescript

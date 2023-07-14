@@ -12,9 +12,9 @@ export interface FolderEditorHookResult
 
 ## Properties
 
-| Property                                                                | Modifiers | Type                         | Description |
-| ----------------------------------------------------------------------- | --------- | ---------------------------- | ----------- |
-| [folder](./extensions.foldereditorhookresult.folder.md)                 |           | [Folder](./models.folder.md) |             |
-| [isChanged](./extensions.foldereditorhookresult.ischanged.md)           |           | boolean                      |             |
-| [isEditing](./extensions.foldereditorhookresult.isediting.md)           |           | boolean                      |             |
-| [metadataSchema](./extensions.foldereditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md) |             |
+| Property                                                                | Modifiers | Type                         | Description                                             |
+| ----------------------------------------------------------------------- | --------- | ---------------------------- | ------------------------------------------------------- |
+| [folder](./extensions.foldereditorhookresult.folder.md)                 |           | [Folder](./models.folder.md) | Editable Folder.                                        |
+| [isChanged](./extensions.foldereditorhookresult.ischanged.md)           |           | boolean                      | Boolean that indicates that Folder has unsaved changes. |
+| [isEditing](./extensions.foldereditorhookresult.isediting.md)           |           | boolean                      | Boolean that indicates that Folder can be edited.       |
+| [metadataSchema](./extensions.foldereditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md) | Folder's metadata schema.                               |

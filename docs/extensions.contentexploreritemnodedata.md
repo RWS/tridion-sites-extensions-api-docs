@@ -4,6 +4,8 @@
 
 ## ContentExplorerItemNodeData interface
 
+Data contained in a Content Explorer ItemNode.
+
 **Signature:**
 
 ```typescript

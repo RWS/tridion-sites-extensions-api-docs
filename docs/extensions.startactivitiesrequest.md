@@ -12,6 +12,6 @@ export interface StartActivitiesRequest
 
 ## Properties
 
-| Property                                                                      | Modifiers | Type                                                                          | Description |
-| ----------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | ----------- |
-| [activityInstances](./extensions.startactivitiesrequest.activityinstances.md) |           | ReadonlyArray&lt;[ActivityInstance](./models.activityinstance.md)<!-- -->&gt; |             |
+| Property                                                                      | Modifiers | Type                                                                          | Description                           |
+| ----------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | ------------------------------------- |
+| [activityInstances](./extensions.startactivitiesrequest.activityinstances.md) |           | ReadonlyArray&lt;[ActivityInstance](./models.activityinstance.md)<!-- -->&gt; | Array of Activity Instances to start. |

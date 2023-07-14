@@ -4,6 +4,8 @@
 
 ## ContentExplorerExtensionsBuilder.tree property
 
+Provides a mechanism for customizing Content Explorer Tree.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ContentExplorerItemNode type
 
+Tridion item node of the Content Explorer hierarchy.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ActionGroup.id property
 
+A unique identifier for the action group.
+
 **Signature:**
 
 ```typescript

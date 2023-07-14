@@ -12,8 +12,8 @@ export interface FinishActivityRequest
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                           | Description  |
-| ------------------------------------------------------------------- | --------- | ------------------------------ | ------------ |
-| [activityId](./extensions.finishactivityrequest.activityid.md)      |           | [ItemUri](./models.itemuri.md) |              |
-| [message?](./extensions.finishactivityrequest.message.md)           |           | string                         | _(Optional)_ |
-| [nextActivity?](./extensions.finishactivityrequest.nextactivity.md) |           | [Link](./models.link.md)       | _(Optional)_ |
+| Property                                                            | Modifiers | Type                           | Description                                                                      |
+| ------------------------------------------------------------------- | --------- | ------------------------------ | -------------------------------------------------------------------------------- |
+| [activityId](./extensions.finishactivityrequest.activityid.md)      |           | [ItemUri](./models.itemuri.md) | ID of the Activity Instance to finish.                                           |
+| [message?](./extensions.finishactivityrequest.message.md)           |           | string                         | _(Optional)_ User comment that will be added to finished Activity Instances.     |
+| [nextActivity?](./extensions.finishactivityrequest.nextactivity.md) |           | [Link](./models.link.md)       | _(Optional)_ In case of choice fork Activity ID can be specified to be next one. |

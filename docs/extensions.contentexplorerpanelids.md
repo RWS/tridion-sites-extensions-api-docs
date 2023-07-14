@@ -4,6 +4,8 @@
 
 ## contentExplorerPanelIds variable
 
+List of all built-in panel IDs of the Content Explorer.
+
 **Signature:**
 
 ```typescript

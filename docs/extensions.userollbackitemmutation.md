@@ -4,6 +4,8 @@
 
 ## useRollbackItemMutation variable
 
+Rolls back all changes that have been made to an item since a specified version.
+
 **Signature:**
 
 ```typescript

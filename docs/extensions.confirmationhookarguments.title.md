@@ -4,6 +4,8 @@
 
 ## ConfirmationHookArguments.title property
 
+Dialog's title.
+
 **Signature:**
 
 ```typescript

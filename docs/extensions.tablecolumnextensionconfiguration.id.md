@@ -4,7 +4,7 @@
 
 ## TableColumnExtensionConfiguration.id property
 
-Column id (unique)
+A unique identifier for the column.
 
 **Signature:**
 

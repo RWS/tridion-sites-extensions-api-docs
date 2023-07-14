@@ -12,8 +12,8 @@ export interface FinishActivitiesRequestData
 
 ## Properties
 
-| Property                                                                           | Modifiers | Type                                                                          | Description  |
-| ---------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | ------------ |
-| [activityInstances](./extensions.finishactivitiesrequestdata.activityinstances.md) |           | ReadonlyArray&lt;[ActivityInstance](./models.activityinstance.md)<!-- -->&gt; |              |
-| [message?](./extensions.finishactivitiesrequestdata.message.md)                    |           | string                                                                        | _(Optional)_ |
-| [nextActivity?](./extensions.finishactivitiesrequestdata.nextactivity.md)          |           | [Link](./models.link.md)                                                      | _(Optional)_ |
+| Property                                                                           | Modifiers | Type                                                                          | Description                                                                      |
+| ---------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [activityInstances](./extensions.finishactivitiesrequestdata.activityinstances.md) |           | ReadonlyArray&lt;[ActivityInstance](./models.activityinstance.md)<!-- -->&gt; | Array of Activity Instances to finish activity for.                              |
+| [message?](./extensions.finishactivitiesrequestdata.message.md)                    |           | string                                                                        | _(Optional)_ User comment that will be added to finished Activity Instances.     |
+| [nextActivity?](./extensions.finishactivitiesrequestdata.nextactivity.md)          |           | [Link](./models.link.md)                                                      | _(Optional)_ In case of choice fork Activity ID can be specified to be next one. |

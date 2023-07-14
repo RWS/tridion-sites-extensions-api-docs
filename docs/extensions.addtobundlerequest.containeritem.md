@@ -4,6 +4,8 @@
 
 ## AddToBundleRequest.containerItem property
 
+Container item of the bundle.
+
 **Signature:**
 
 ```typescript

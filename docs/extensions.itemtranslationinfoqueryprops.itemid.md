@@ -4,6 +4,8 @@
 
 ## ItemTranslationInfoQueryProps.itemId property
 
+Identifies the item for which Translation Info is being retrieved.
+
 **Signature:**
 
 ```typescript

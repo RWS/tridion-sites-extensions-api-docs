@@ -9,5 +9,5 @@ System-predefined transition duration.
 **Signature:**
 
 ```typescript
-getTransitionDuration: GetTransitionDuration;
+getTransitionDuration: TransitionDurationGetter;
 ```

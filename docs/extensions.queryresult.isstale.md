@@ -4,6 +4,8 @@
 
 ## QueryResult.isStale property
 
+Will be `true` if the data in the cache is invalidated or if the data is older than the given `staleTime`<!-- -->.
+
 **Signature:**
 
 ```typescript

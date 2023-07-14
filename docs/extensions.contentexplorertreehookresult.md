@@ -4,6 +4,8 @@
 
 ## ContentExplorerTreeHookResult interface
 
+Methods of the Content Explorer Tree.
+
 **Signature:**
 
 ```typescript

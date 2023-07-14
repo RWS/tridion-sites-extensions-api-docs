@@ -4,6 +4,8 @@
 
 ## ContentExplorerTableExtensionsBuilder.addColumn property
 
+Adds a new column to Content Explorer Table.
+
 **Signature:**
 
 ```typescript

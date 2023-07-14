@@ -12,6 +12,6 @@ export interface TooltipProps
 
 ## Properties
 
-| Property                                         | Modifiers | Type   | Description                                         |
-| ------------------------------------------------ | --------- | ------ | --------------------------------------------------- |
-| [tooltip?](./extensions.tooltipprops.tooltip.md) |           | string | _(Optional)_ Tooltip that should be shown on hover. |
+| Property                                         | Modifiers | Type   | Description                                  |
+| ------------------------------------------------ | --------- | ------ | -------------------------------------------- |
+| [tooltip?](./extensions.tooltipprops.tooltip.md) |           | string | _(Optional)_ Tooltip that is shown on hover. |

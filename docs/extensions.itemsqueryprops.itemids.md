@@ -4,6 +4,8 @@
 
 ## ItemsQueryProps.itemIds property
 
+IDs of items to request.
+
 **Signature:**
 
 ```typescript

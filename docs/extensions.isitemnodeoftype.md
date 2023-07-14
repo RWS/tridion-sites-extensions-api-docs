@@ -4,6 +4,8 @@
 
 ## isItemNodeOfType variable
 
+Checks if an item in a node, given as the first parameter, is an instance of a constructor, provided as the second parameter.
+
 **Signature:**
 
 ```typescript

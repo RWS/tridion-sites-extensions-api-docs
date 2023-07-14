@@ -4,6 +4,8 @@
 
 ## AutoClassifyItemRequest.containerItem property
 
+Container of an item to classify.
+
 **Signature:**
 
 ```typescript

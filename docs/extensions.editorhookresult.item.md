@@ -4,6 +4,8 @@
 
 ## EditorHookResult.item property
 
+Editable item.
+
 **Signature:**
 
 ```typescript

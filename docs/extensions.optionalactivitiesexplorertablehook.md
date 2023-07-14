@@ -4,6 +4,8 @@
 
 ## OptionalActivitiesExplorerTableHook type
 
+Hook for accessing Activities Explorer Table data and methods when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalActivitiesExplorerTableHook = () => ActivitiesExplorerTableH
 ```
 
 **References:** [ActivitiesExplorerTableHookResult](./extensions.activitiesexplorertablehookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Activities Explorer Table. `undefined` is returned when used outside of the Activities Explorer Table.

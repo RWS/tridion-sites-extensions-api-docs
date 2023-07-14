@@ -4,6 +4,8 @@
 
 ## isRootNodeId variable
 
+Checks whether the provided nodeId is the 'Root' node ID.
+
 **Signature:**
 
 ```typescript

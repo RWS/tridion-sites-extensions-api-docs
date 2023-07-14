@@ -12,7 +12,7 @@ export interface RemoveFromBundleRequest
 
 ## Properties
 
-| Property                                                                   | Modifiers | Type                                                        | Description |
-| -------------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [bundleId](./extensions.removefrombundlerequest.bundleid.md)               |           | [ItemUri](./models.itemuri.md)                              |             |
-| [itemIdsToRemove](./extensions.removefrombundlerequest.itemidstoremove.md) |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
+| Property                                                                   | Modifiers | Type                                                        | Description                             |
+| -------------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | --------------------------------------- |
+| [bundleId](./extensions.removefrombundlerequest.bundleid.md)               |           | [ItemUri](./models.itemuri.md)                              | ID of a bundle to remove items from.    |
+| [itemIdsToRemove](./extensions.removefrombundlerequest.itemidstoremove.md) |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of items to remove from the bundle. |

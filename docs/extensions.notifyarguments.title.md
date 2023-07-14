@@ -4,6 +4,8 @@
 
 ## NotifyArguments.title property
 
+Notification's title.
+
 **Signature:**
 
 ```typescript

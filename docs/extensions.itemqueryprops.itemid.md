@@ -4,6 +4,8 @@
 
 ## ItemQueryProps.itemId property
 
+ID of an item to get.
+
 **Signature:**
 
 ```typescript

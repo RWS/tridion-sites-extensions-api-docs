@@ -4,6 +4,8 @@
 
 ## NotifyArguments.description property
 
+Detailed notification message.
+
 **Signature:**
 
 ```typescript

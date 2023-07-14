@@ -4,6 +4,8 @@
 
 ## useCopyItemMutation variable
 
+Copies a single item to the specified destination.
+
 **Signature:**
 
 ```typescript

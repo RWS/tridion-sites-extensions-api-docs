@@ -4,6 +4,8 @@
 
 ## MultimediaUploadResult.componentLink property
 
+Link to the created component with uploaded File.
+
 **Signature:**
 
 ```typescript

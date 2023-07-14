@@ -4,6 +4,8 @@
 
 ## ContentExplorerTreeHook type
 
+Hook for accessing Content Explorer Tree data and methods.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type ContentExplorerTreeHook = () => ContentExplorerTreeHookResult;
 ```
 
 **References:** [ContentExplorerTreeHookResult](./extensions.contentexplorertreehookresult.md)
+
+## Remarks
+
+Should be used only inside Content Explorer Tree, otherwise throws an error.

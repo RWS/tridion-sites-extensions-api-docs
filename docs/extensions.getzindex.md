@@ -9,5 +9,5 @@ System-predefined z-index values.
 **Signature:**
 
 ```typescript
-getZIndex: GetZIndex;
+getZIndex: ZIndexGetter;
 ```

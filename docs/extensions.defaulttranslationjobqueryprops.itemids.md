@@ -4,6 +4,8 @@
 
 ## DefaultTranslationJobQueryProps.itemIds property
 
+IDs to get default Translation Job for.
+
 **Signature:**
 
 ```typescript

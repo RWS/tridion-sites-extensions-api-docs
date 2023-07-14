@@ -4,6 +4,8 @@
 
 ## MoveItemRequest.sourceId property
 
+ID of organizational item to move from.
+
 **Signature:**
 
 ```typescript

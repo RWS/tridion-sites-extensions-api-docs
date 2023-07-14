@@ -4,6 +4,8 @@
 
 ## ItemBlueprintHierarchyQueryProps.itemId property
 
+Identifies the item for which Blueprint hierarchy is being retrieved.
+
 **Signature:**
 
 ```typescript

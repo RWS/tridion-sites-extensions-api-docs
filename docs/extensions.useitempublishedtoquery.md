@@ -4,6 +4,8 @@
 
 ## useItemPublishedToQuery variable
 
+Retrieves a list of targets to which the provided item is published.
+
 **Signature:**
 
 ```typescript

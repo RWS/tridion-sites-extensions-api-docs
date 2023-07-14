@@ -4,6 +4,8 @@
 
 ## ContentExplorerSystemNode type
 
+Predefined node of the Content Explorer hierarchy.
+
 **Signature:**
 
 ```typescript

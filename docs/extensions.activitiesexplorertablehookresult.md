@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerTableHookResult interface
 
+Methods of the Activities Explorer Table.
+
 **Signature:**
 
 ```typescript
@@ -12,6 +14,6 @@ export interface ActivitiesExplorerTableHookResult
 
 ## Properties
 
-| Property                                                             | Modifiers | Type          | Description |
-| -------------------------------------------------------------------- | --------- | ------------- | ----------- |
-| [refresh](./extensions.activitiesexplorertablehookresult.refresh.md) |           | () =&gt; void |             |
+| Property                                                             | Modifiers | Type          | Description                         |
+| -------------------------------------------------------------------- | --------- | ------------- | ----------------------------------- |
+| [refresh](./extensions.activitiesexplorertablehookresult.refresh.md) |           | () =&gt; void | Refetch list of Activity Instances. |

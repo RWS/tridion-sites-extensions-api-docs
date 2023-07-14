@@ -4,6 +4,8 @@
 
 ## MutationResult.isIdle property
 
+Is `true` when status is `idle`<!-- -->.
+
 **Signature:**
 
 ```typescript

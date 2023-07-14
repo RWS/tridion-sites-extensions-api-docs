@@ -4,6 +4,8 @@
 
 ## ItemPublishedPagesQueryProps.itemId property
 
+Identifies the item for which published pages will be requested.
+
 **Signature:**
 
 ```typescript

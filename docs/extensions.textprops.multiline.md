@@ -4,6 +4,8 @@
 
 ## TextProps.multiLine property
 
+Allow text to flow over multiple lines. By default it's a single line text with truncation enabled.
+
 **Signature:**
 
 ```typescript

@@ -12,7 +12,7 @@ export interface ActionHookResult
 
 ## Properties
 
-| Property                                                    | Modifiers | Type          | Description |
-| ----------------------------------------------------------- | --------- | ------------- | ----------- |
-| [execute](./extensions.actionhookresult.execute.md)         |           | () =&gt; void |             |
-| [isAvailable](./extensions.actionhookresult.isavailable.md) |           | boolean       |             |
+| Property                                                    | Modifiers | Type          | Description                                                        |
+| ----------------------------------------------------------- | --------- | ------------- | ------------------------------------------------------------------ |
+| [execute](./extensions.actionhookresult.execute.md)         |           | () =&gt; void | A callback function that is executed when the action is triggered. |
+| [isAvailable](./extensions.actionhookresult.isavailable.md) |           | boolean       | Indicates the availability of the action.                          |

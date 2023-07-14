@@ -4,6 +4,8 @@
 
 ## ActionExtensionConfiguration.id property
 
+A unique identifier for the action.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## useNotifications variable
 
+Provides access to data and methods for managing notifications.
+
 **Signature:**
 
 ```typescript

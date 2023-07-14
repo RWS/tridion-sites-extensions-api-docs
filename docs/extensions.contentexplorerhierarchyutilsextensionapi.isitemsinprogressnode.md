@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchyUtilsExtensionApi.isItemsInProgressNode property
 
+Checks if a node is "items in progress" node.
+
 **Signature:**
 
 ```typescript

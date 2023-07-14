@@ -4,6 +4,8 @@
 
 ## SetTargetContentExplorerProps.containerNodeId property
 
+Id of a container node to resolve to.
+
 **Signature:**
 
 ```typescript

@@ -4,7 +4,7 @@
 
 ## NavigationItemExtensionConfiguration.useNavigationItem property
 
-Hook to determine if a navigation item is available
+Hook that contains behavior of the navigation item.
 
 **Signature:**
 

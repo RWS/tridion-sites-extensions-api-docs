@@ -4,6 +4,8 @@
 
 ## MutationResult.error property
 
+The error object for the query, if an error was encountered.
+
 **Signature:**
 
 ```typescript

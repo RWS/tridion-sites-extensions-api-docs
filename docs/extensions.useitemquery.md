@@ -4,6 +4,8 @@
 
 ## useItemQuery variable
 
+Retrieves a single item using the provided item URI.
+
 **Signature:**
 
 ```typescript

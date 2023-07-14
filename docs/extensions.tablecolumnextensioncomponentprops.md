@@ -12,6 +12,6 @@ export interface TableColumnExtensionComponentProps<TItem extends IdentifiableOb
 
 ## Properties
 
-| Property                                                        | Modifiers | Type  | Description                               |
-| --------------------------------------------------------------- | --------- | ----- | ----------------------------------------- |
-| [item](./extensions.tablecolumnextensioncomponentprops.item.md) |           | TItem | Item that is rendered for the current row |
+| Property                                                        | Modifiers | Type  | Description                                                                  |
+| --------------------------------------------------------------- | --------- | ----- | ---------------------------------------------------------------------------- |
+| [item](./extensions.tablecolumnextensioncomponentprops.item.md) |           | TItem | An item associated with the table row where the component is being rendered. |

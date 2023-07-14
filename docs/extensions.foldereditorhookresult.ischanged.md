@@ -4,6 +4,8 @@
 
 ## FolderEditorHookResult.isChanged property
 
+Boolean that indicates that Folder has unsaved changes.
+
 **Signature:**
 
 ```typescript

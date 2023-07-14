@@ -4,6 +4,8 @@
 
 ## ComponentEditorHookResult.isEditing property
 
+Boolean that indicates that Component can be edited.
+
 **Signature:**
 
 ```typescript

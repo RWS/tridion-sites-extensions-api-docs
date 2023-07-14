@@ -4,6 +4,8 @@
 
 ## KeywordEditorHookResult.isChanged property
 
+Boolean that indicates that Keyword has unsaved changes.
+
 **Signature:**
 
 ```typescript

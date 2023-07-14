@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerTableExtensionsBuilder.contextMenu property
 
+Provides a mechanism for customizing the configuration of actions within Activities Explorer Table context menu.
+
 **Signature:**
 
 ```typescript

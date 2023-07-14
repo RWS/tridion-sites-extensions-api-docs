@@ -4,6 +4,8 @@
 
 ## useChangeUserLanguageMutation variable
 
+Updates the language selection for a given user.
+
 **Signature:**
 
 ```typescript

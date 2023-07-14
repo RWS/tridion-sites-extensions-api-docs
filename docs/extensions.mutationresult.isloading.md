@@ -4,6 +4,8 @@
 
 ## MutationResult.isLoading property
 
+Is `true` when status is `loading`<!-- -->.
+
 **Signature:**
 
 ```typescript

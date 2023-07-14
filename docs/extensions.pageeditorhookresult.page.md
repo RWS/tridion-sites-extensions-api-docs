@@ -4,6 +4,8 @@
 
 ## PageEditorHookResult.page property
 
+Editable Page.
+
 **Signature:**
 
 ```typescript

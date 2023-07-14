@@ -4,6 +4,8 @@
 
 ## UnlocalizeItemsRequest.itemIds property
 
+IDs of items to unlocalize.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## useUserProfile variable
 
+Provides access to user profile data and methods.
+
 **Signature:**
 
 ```typescript

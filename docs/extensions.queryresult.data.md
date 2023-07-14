@@ -4,6 +4,8 @@
 
 ## QueryResult.data property
 
+The last successfully resolved data for the query.
+
 **Signature:**
 
 ```typescript

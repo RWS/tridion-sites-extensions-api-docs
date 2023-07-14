@@ -4,6 +4,8 @@
 
 ## activitiesExplorerActionId variable
 
+All built-in action IDs available in Activities Explorer.
+
 **Signature:**
 
 ```typescript

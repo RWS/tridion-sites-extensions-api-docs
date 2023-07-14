@@ -12,6 +12,6 @@ export interface RestartActivityRequest
 
 ## Properties
 
-| Property                                                                        | Modifiers | Type                           | Description |
-| ------------------------------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [activityInstanceId](./extensions.restartactivityrequest.activityinstanceid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                                        | Modifiers | Type                           | Description                      |
+| ------------------------------------------------------------------------------- | --------- | ------------------------------ | -------------------------------- |
+| [activityInstanceId](./extensions.restartactivityrequest.activityinstanceid.md) |           | [ItemUri](./models.itemuri.md) | Activity Instance ID to restart. |

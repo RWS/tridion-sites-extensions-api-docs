@@ -12,8 +12,8 @@ export interface UnlocalizeItemRequest
 
 ## Properties
 
-| Property                                                                      | Modifiers | Type                                                 | Description  |
-| ----------------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [containerItem?](./extensions.unlocalizeitemrequest.containeritem.md)         |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [itemId](./extensions.unlocalizeitemrequest.itemid.md)                        |           | [ItemUri](./models.itemuri.md)                       |              |
-| [useDynamicVersion?](./extensions.unlocalizeitemrequest.usedynamicversion.md) |           | boolean                                              | _(Optional)_ |
+| Property                                                                      | Modifiers | Type                                                 | Description                                            |
+| ----------------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------------------------------------------------ |
+| [containerItem?](./extensions.unlocalizeitemrequest.containeritem.md)         |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ Container item of the item to unlocalize. |
+| [itemId](./extensions.unlocalizeitemrequest.itemid.md)                        |           | [ItemUri](./models.itemuri.md)                       | ID of the local item to unlocalize.                    |
+| [useDynamicVersion?](./extensions.unlocalizeitemrequest.usedynamicversion.md) |           | boolean                                              | _(Optional)_                                           |

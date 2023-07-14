@@ -12,7 +12,7 @@ export interface TranslationItemExtensionConfiguration
 
 ## Properties
 
-| Property                                                                 | Modifiers | Type                                         | Description                                                         |
-| ------------------------------------------------------------------------ | --------- | -------------------------------------------- | ------------------------------------------------------------------- |
-| [code](./extensions.translationitemextensionconfiguration.code.md)       |           | [LanguageCode](./extensions.languagecode.md) | Language code.                                                      |
-| [records](./extensions.translationitemextensionconfiguration.records.md) |           | Record&lt;string, any&gt;                    | Key-value pairs of string translated to <code>code</code> language. |
+| Property                                                                 | Modifiers | Type                                         | Description                                                                                                                                                |
+| ------------------------------------------------------------------------ | --------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [code](./extensions.translationitemextensionconfiguration.code.md)       |           | [LanguageCode](./extensions.languagecode.md) | A code used to identify a specific language.                                                                                                               |
+| [records](./extensions.translationitemextensionconfiguration.records.md) |           | Record&lt;string, any&gt;                    | Key-value pairs of string translated to [TranslationItemExtensionConfiguration.code](./extensions.translationitemextensionconfiguration.code.md) language. |

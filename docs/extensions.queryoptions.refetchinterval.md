@@ -4,7 +4,7 @@
 
 ## QueryOptions.refetchInterval property
 
-If set to a number, the query will continuously refetch at this frequency in milliseconds. If set to a function, the function will be executed with the latest data and query to compute a frequency Defaults to `false`<!-- -->.
+If set to a number, the query will continuously refetch at this frequency in milliseconds. If set to a function, the function will be executed with the latest data and query to compute a frequency. Defaults to `false`<!-- -->.
 
 **Signature:**
 

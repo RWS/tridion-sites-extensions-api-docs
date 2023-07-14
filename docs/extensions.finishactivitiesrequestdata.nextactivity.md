@@ -4,6 +4,8 @@
 
 ## FinishActivitiesRequestData.nextActivity property
 
+In case of choice fork Activity ID can be specified to be next one.
+
 **Signature:**
 
 ```typescript

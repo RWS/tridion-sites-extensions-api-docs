@@ -4,6 +4,8 @@
 
 ## TextProps.underline property
 
+Determines whether the text should have an underline.
+
 **Signature:**
 
 ```typescript

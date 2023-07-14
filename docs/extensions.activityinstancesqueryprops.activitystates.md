@@ -4,6 +4,8 @@
 
 ## ActivityInstancesQueryProps.activityStates property
 
+If specified, only Activity Instances which have one of the given Activity States will be returned.
+
 **Signature:**
 
 ```typescript

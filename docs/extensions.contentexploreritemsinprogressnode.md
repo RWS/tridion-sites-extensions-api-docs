@@ -4,6 +4,8 @@
 
 ## ContentExplorerItemsInProgressNode type
 
+Content Explorer hierarchy node that stores items in progress.
+
 **Signature:**
 
 ```typescript

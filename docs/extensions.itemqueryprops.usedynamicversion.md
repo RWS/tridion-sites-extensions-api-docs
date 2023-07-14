@@ -4,6 +4,8 @@
 
 ## ItemQueryProps.useDynamicVersion property
 
+Option to request dynamic item (v0) if it's available.
+
 **Signature:**
 
 ```typescript

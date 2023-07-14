@@ -4,6 +4,8 @@
 
 ## AddToBundleRequest.bundleId property
 
+ID of the bundle to which items should be added.
+
 **Signature:**
 
 ```typescript

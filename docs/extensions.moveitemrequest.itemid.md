@@ -4,6 +4,8 @@
 
 ## MoveItemRequest.itemId property
 
+ID of an item to move.
+
 **Signature:**
 
 ```typescript

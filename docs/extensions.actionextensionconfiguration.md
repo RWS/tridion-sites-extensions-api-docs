@@ -12,9 +12,9 @@ export interface ActionExtensionConfiguration
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                                     | Description |
-| ------------------------------------------------------------------- | --------- | ---------------------------------------- | ----------- |
-| [icon](./extensions.actionextensionconfiguration.icon.md)           |           | [CustomIcon](./extensions.customicon.md) |             |
-| [id](./extensions.actionextensionconfiguration.id.md)               |           | string                                   |             |
-| [label](./extensions.actionextensionconfiguration.label.md)         |           | string                                   |             |
-| [useAction](./extensions.actionextensionconfiguration.useaction.md) |           | [ActionHook](./extensions.actionhook.md) |             |
+| Property                                                            | Modifiers | Type                                     | Description                                |
+| ------------------------------------------------------------------- | --------- | ---------------------------------------- | ------------------------------------------ |
+| [icon](./extensions.actionextensionconfiguration.icon.md)           |           | [CustomIcon](./extensions.customicon.md) | Icon associated with the action.           |
+| [id](./extensions.actionextensionconfiguration.id.md)               |           | string                                   | A unique identifier for the action.        |
+| [label](./extensions.actionextensionconfiguration.label.md)         |           | string                                   | Label associated with the action.          |
+| [useAction](./extensions.actionextensionconfiguration.useaction.md) |           | [ActionHook](./extensions.actionhook.md) | Hook that contains behavior of the action. |

@@ -4,6 +4,8 @@
 
 ## useUserProfileQuery variable
 
+Retrieves user profile data of the currently logged-in user.
+
 **Signature:**
 
 ```typescript

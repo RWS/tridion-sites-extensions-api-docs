@@ -4,6 +4,8 @@
 
 ## UsersQueryProps.includeDisabled property
 
+Specifies whether to include disabled user accounts. These are excluded by default.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## Text_2 variable
 
+Component which renders text with customizable content and styling.
+
 **Signature:**
 
 ```typescript

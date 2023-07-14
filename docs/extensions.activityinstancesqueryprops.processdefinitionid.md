@@ -4,6 +4,8 @@
 
 ## ActivityInstancesQueryProps.processDefinitionId property
 
+If specified, only Activity Instances based on the given Process Definition will be returned.
+
 **Signature:**
 
 ```typescript

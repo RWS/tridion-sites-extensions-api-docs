@@ -4,6 +4,8 @@
 
 ## RollbackItemRequest.itemId property
 
+ID of the item being rolled back.
+
 **Signature:**
 
 ```typescript

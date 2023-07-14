@@ -4,6 +4,8 @@
 
 ## useItemBlueprintHierarchyQuery variable
 
+Retrieves the context of the provided item within the BluePrint hierarchy.
+
 **Signature:**
 
 ```typescript

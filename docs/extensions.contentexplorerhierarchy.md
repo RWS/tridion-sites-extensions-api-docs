@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchy type
 
+Data of Content Explorer structured in a hierarchy form.
+
 **Signature:**
 
 ```typescript

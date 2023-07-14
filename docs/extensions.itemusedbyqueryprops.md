@@ -12,6 +12,6 @@ export interface ItemUsedByQueryProps
 
 ## Properties
 
-| Property                                              | Modifiers | Type                           | Description |
-| ----------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [itemId](./extensions.itemusedbyqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                              | Modifiers | Type                           | Description                                                               |
+| ----------------------------------------------------- | --------- | ------------------------------ | ------------------------------------------------------------------------- |
+| [itemId](./extensions.itemusedbyqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) | Identifies the item for which 'Used By' dependencies are being retrieved. |

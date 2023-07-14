@@ -4,6 +4,8 @@
 
 ## ChangeUserLocaleRequest.userId property
 
+ID of a User to change locale for.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## AddToBundleRequest.itemsToAdd property
 
+Items to add to the bundle.
+
 **Signature:**
 
 ```typescript

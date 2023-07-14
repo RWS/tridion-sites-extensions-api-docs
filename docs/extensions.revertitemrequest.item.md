@@ -4,6 +4,8 @@
 
 ## RevertItemRequest.item property
 
+ID of the item being reverted.
+
 **Signature:**
 
 ```typescript

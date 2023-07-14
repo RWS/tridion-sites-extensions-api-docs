@@ -4,6 +4,8 @@
 
 ## UserGroupsQueryProps.search property
 
+If specified, return only groups with titles matching this value.
+
 **Signature:**
 
 ```typescript

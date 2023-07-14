@@ -4,6 +4,8 @@
 
 ## useOptionalFolderEditor variable
 
+Provides access to Folder Editor data and methods, if available. `undefined` is returned when used outside of Folder Editor.
+
 **Signature:**
 
 ```typescript

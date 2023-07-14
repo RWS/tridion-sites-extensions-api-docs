@@ -4,6 +4,8 @@
 
 ## TextProps.compact property
 
+Determines whether the Text component should have compact spacing. If set to `true`<!-- -->, the line height of the text will be reduced.
+
 **Signature:**
 
 ```typescript

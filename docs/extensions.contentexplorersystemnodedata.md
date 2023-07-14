@@ -4,6 +4,8 @@
 
 ## ContentExplorerSystemNodeData interface
 
+Data contained in a Content Explorer SystemNode.
+
 **Signature:**
 
 ```typescript

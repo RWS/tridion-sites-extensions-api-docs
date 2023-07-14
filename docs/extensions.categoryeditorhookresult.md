@@ -12,9 +12,9 @@ export interface CategoryEditorHookResult
 
 ## Properties
 
-| Property                                                                  | Modifiers | Type                                           | Description |
-| ------------------------------------------------------------------------- | --------- | ---------------------------------------------- | ----------- |
-| [category](./extensions.categoryeditorhookresult.category.md)             |           | [KeywordCategory](./models.keywordcategory.md) |             |
-| [isChanged](./extensions.categoryeditorhookresult.ischanged.md)           |           | boolean                                        |             |
-| [isEditing](./extensions.categoryeditorhookresult.isediting.md)           |           | boolean                                        |             |
-| [metadataSchema](./extensions.categoryeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md)                   |             |
+| Property                                                                  | Modifiers | Type                                           | Description                                               |
+| ------------------------------------------------------------------------- | --------- | ---------------------------------------------- | --------------------------------------------------------- |
+| [category](./extensions.categoryeditorhookresult.category.md)             |           | [KeywordCategory](./models.keywordcategory.md) | Editable Category.                                        |
+| [isChanged](./extensions.categoryeditorhookresult.ischanged.md)           |           | boolean                                        | Boolean that indicates that Category has unsaved changes. |
+| [isEditing](./extensions.categoryeditorhookresult.isediting.md)           |           | boolean                                        | Boolean that indicates that Category can be edited.       |
+| [metadataSchema](./extensions.categoryeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md)                   | Category's metadata schema.                               |

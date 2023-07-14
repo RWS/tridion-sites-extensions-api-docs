@@ -4,6 +4,8 @@
 
 ## useItemPublishedPagesQuery variable
 
+Retrieves a list of published pages that use the provided item.
+
 **Signature:**
 
 ```typescript

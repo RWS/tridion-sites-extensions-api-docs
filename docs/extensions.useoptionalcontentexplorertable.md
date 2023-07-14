@@ -4,8 +4,14 @@
 
 ## useOptionalContentExplorerTable variable
 
+Hook for accessing Content Explorer Table data and methods, if available.
+
 **Signature:**
 
 ```typescript
 useOptionalContentExplorerTable: OptionalContentExplorerTableHook;
 ```
+
+## Remarks
+
+Safe to be used within or outside of the Content Explorer Table. `undefined` is returned when used outside of Content Explorer Table.

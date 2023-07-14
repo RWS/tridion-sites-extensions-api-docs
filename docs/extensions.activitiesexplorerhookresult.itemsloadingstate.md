@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerHookResult.itemsLoadingState property
 
+The loading state of the Activity Instances list.
+
 **Signature:**
 
 ```typescript

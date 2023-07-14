@@ -12,7 +12,7 @@ export interface CopyItemsRequest
 
 ## Properties
 
-| Property                                                        | Modifiers | Type                                                        | Description |
-| --------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [destinationId](./extensions.copyitemsrequest.destinationid.md) |           | [ItemUri](./models.itemuri.md)                              |             |
-| [itemIds](./extensions.copyitemsrequest.itemids.md)             |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
+| Property                                                        | Modifiers | Type                                                        | Description                           |
+| --------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ------------------------------------- |
+| [destinationId](./extensions.copyitemsrequest.destinationid.md) |           | [ItemUri](./models.itemuri.md)                              | ID of organizational item to copy to. |
+| [itemIds](./extensions.copyitemsrequest.itemids.md)             |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of items to copy.                 |

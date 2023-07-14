@@ -4,6 +4,8 @@
 
 ## ColorProps.color property
 
+Color of the component based on the color palette.
+
 **Signature:**
 
 ```typescript

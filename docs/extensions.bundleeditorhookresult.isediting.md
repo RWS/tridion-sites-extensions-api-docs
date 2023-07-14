@@ -4,6 +4,8 @@
 
 ## BundleEditorHookResult.isEditing property
 
+Boolean that indicates that Bundle can be edited.
+
 **Signature:**
 
 ```typescript

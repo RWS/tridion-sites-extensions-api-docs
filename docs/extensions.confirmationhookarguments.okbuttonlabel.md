@@ -4,6 +4,8 @@
 
 ## ConfirmationHookArguments.okButtonLabel property
 
+Label for dialog's confirm button.
+
 **Signature:**
 
 ```typescript

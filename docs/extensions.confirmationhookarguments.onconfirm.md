@@ -4,6 +4,8 @@
 
 ## ConfirmationHookArguments.onConfirm property
 
+Callback is called after pressing confirm button.
+
 **Signature:**
 
 ```typescript

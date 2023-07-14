@@ -12,6 +12,6 @@ export interface StartActivityRequest
 
 ## Properties
 
-| Property                                                                      | Modifiers | Type                           | Description |
-| ----------------------------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [activityInstanceId](./extensions.startactivityrequest.activityinstanceid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                                      | Modifiers | Type                           | Description                       |
+| ----------------------------------------------------------------------------- | --------- | ------------------------------ | --------------------------------- |
+| [activityInstanceId](./extensions.startactivityrequest.activityinstanceid.md) |           | [ItemUri](./models.itemuri.md) | ID of Activity Instance to start. |

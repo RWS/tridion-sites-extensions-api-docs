@@ -4,6 +4,8 @@
 
 ## ActionExtensionConfiguration.useAction property
 
+Hook that contains behavior of the action.
+
 **Signature:**
 
 ```typescript

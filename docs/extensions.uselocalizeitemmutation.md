@@ -4,6 +4,8 @@
 
 ## useLocalizeItemMutation variable
 
+Localizes a shared item by creating a local copy that can then be modified locally.
+
 **Signature:**
 
 ```typescript

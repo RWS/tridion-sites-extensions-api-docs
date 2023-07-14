@@ -4,6 +4,8 @@
 
 ## QueryResult.isInitialLoading property
 
+Is true whenever the first fetch for a query is in-flight.
+
 **Signature:**
 
 ```typescript

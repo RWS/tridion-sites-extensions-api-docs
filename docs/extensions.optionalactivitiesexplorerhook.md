@@ -4,6 +4,8 @@
 
 ## OptionalActivitiesExplorerHook type
 
+Hook for accessing Activities Explorer data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalActivitiesExplorerHook = () => ActivitiesExplorerHookResult 
 ```
 
 **References:** [ActivitiesExplorerHookResult](./extensions.activitiesexplorerhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Activities Explorer. `undefined` is returned when used outside of Activities Explorer.

@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerExtensionsBuilder.table property
 
+Provides a mechanism for customizing Activities Explorer Table.
+
 **Signature:**
 
 ```typescript

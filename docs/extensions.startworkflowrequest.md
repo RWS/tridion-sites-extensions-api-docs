@@ -12,6 +12,6 @@ export interface StartWorkflowRequest
 
 ## Properties
 
-| Property                                              | Modifiers | Type                           | Description |
-| ----------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [itemId](./extensions.startworkflowrequest.itemid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                              | Modifiers | Type                           | Description                          |
+| ----------------------------------------------------- | --------- | ------------------------------ | ------------------------------------ |
+| [itemId](./extensions.startworkflowrequest.itemid.md) |           | [ItemUri](./models.itemuri.md) | ID of an item to start workflow for. |

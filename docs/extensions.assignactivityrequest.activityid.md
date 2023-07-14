@@ -4,6 +4,8 @@
 
 ## AssignActivityRequest.activityId property
 
+ID of an Activity Instance to change assignment for.
+
 **Signature:**
 
 ```typescript

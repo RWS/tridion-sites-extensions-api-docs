@@ -12,7 +12,7 @@ export declare class TranslationExtensionsBuilder
 
 ## Properties
 
-| Property                                                                      | Modifiers | Type                                                                                                        | Description |
-| ----------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
-| [addTranslation](./extensions.translationextensionsbuilder.addtranslation.md) |           | (code: [LanguageCode](./extensions.languagecode.md)<!-- -->, records: Record&lt;string, any&gt;) =&gt; this |             |
-| [build](./extensions.translationextensionsbuilder.build.md)                   |           | () =&gt; [TranslationExtensions](./extensions.translationextensions.md)                                     |             |
+| Property                                                                      | Modifiers | Type                                                                                                        | Description                                            |
+| ----------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [addTranslation](./extensions.translationextensionsbuilder.addtranslation.md) |           | (code: [LanguageCode](./extensions.languagecode.md)<!-- -->, records: Record&lt;string, any&gt;) =&gt; this | Adds new translations for the specified language code. |
+| [build](./extensions.translationextensionsbuilder.build.md)                   |           | () =&gt; [TranslationExtensions](./extensions.translationextensions.md)                                     |                                                        |

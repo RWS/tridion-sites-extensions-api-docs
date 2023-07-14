@@ -12,7 +12,7 @@ export interface AssignActivitiesRequest
 
 ## Properties
 
-| Property                                                               | Modifiers | Type                                                        | Description |
-| ---------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [itemIds](./extensions.assignactivitiesrequest.itemids.md)             |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
-| [newAssigneeId](./extensions.assignactivitiesrequest.newassigneeid.md) |           | [ItemUri](./models.itemuri.md)                              |             |
+| Property                                                               | Modifiers | Type                                                        | Description                                             |
+| ---------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ------------------------------------------------------- |
+| [itemIds](./extensions.assignactivitiesrequest.itemids.md)             |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | The IDs of the ActivityInstances that will be assigned. |
+| [newAssigneeId](./extensions.assignactivitiesrequest.newassigneeid.md) |           | [ItemUri](./models.itemuri.md)                              | User or Group ID to assign ActivityInstances to.        |

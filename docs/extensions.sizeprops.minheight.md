@@ -4,6 +4,8 @@
 
 ## SizeProps.minHeight property
 
+Minimum height of the component in pixels.
+
 **Signature:**
 
 ```typescript

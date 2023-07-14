@@ -4,6 +4,8 @@
 
 ## ContentExplorerHook type
 
+Hook for accessing Content Explorer data and methods.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type ContentExplorerHook = () => ContentExplorerHookResult;
 ```
 
 **References:** [ContentExplorerHookResult](./extensions.contentexplorerhookresult.md)
+
+## Remarks
+
+Should be used only inside Content Explorer, otherwise throws an error.

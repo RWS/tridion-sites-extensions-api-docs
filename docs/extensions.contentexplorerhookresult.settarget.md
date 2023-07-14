@@ -4,6 +4,8 @@
 
 ## ContentExplorerHookResult.setTarget property
 
+Method to change current location of the Content Explorer.
+
 **Signature:**
 
 ```typescript

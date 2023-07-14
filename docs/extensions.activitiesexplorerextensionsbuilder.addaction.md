@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerExtensionsBuilder.addAction property
 
+Adds a new action to Activities Explorer.
+
 **Signature:**
 
 ```typescript

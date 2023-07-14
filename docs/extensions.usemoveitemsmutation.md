@@ -4,6 +4,8 @@
 
 ## useMoveItemsMutation variable
 
+Moves a list of items from their current location to the specified destination.
+
 **Signature:**
 
 ```typescript

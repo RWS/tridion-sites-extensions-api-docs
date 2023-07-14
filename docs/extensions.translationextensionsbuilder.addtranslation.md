@@ -4,6 +4,8 @@
 
 ## TranslationExtensionsBuilder.addTranslation property
 
+Adds new translations for the specified language code.
+
 **Signature:**
 
 ```typescript

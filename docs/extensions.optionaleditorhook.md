@@ -4,6 +4,8 @@
 
 ## OptionalEditorHook type
 
+Hook for accessing Item Editor data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalEditorHook = () => EditorHookResult | undefined;
 ```
 
 **References:** [EditorHookResult](./extensions.editorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Item Editor. `undefined` is returned when used outside of Item Editor.

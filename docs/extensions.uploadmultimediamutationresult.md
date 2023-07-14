@@ -12,7 +12,7 @@ export interface UploadMultimediaMutationResult
 
 ## Properties
 
-| Property                                                                        | Modifiers | Type                                                                                        | Description |
-| ------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------- | ----------- |
-| [processId](./extensions.uploadmultimediamutationresult.processid.md)           |           | string                                                                                      |             |
-| [resultsPerFile](./extensions.uploadmultimediamutationresult.resultsperfile.md) |           | Map&lt;string, [MultimediaUploadResult](./extensions.multimediauploadresult.md)<!-- -->&gt; |             |
+| Property                                                                        | Modifiers | Type                                                                                        | Description                                                                         |
+| ------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [processId](./extensions.uploadmultimediamutationresult.processid.md)           |           | string                                                                                      | ID of the upload process.                                                           |
+| [resultsPerFile](./extensions.uploadmultimediamutationresult.resultsperfile.md) |           | Map&lt;string, [MultimediaUploadResult](./extensions.multimediauploadresult.md)<!-- -->&gt; | <p>Results for completed uploads.</p><p>Result is mapped to uploaded file name.</p> |

@@ -4,6 +4,8 @@
 
 ## StartWorkflowRequest.itemId property
 
+ID of an item to start workflow for.
+
 **Signature:**
 
 ```typescript

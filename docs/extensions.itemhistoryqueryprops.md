@@ -12,6 +12,6 @@ export interface ItemHistoryQueryProps
 
 ## Properties
 
-| Property                                               | Modifiers | Type                           | Description |
-| ------------------------------------------------------ | --------- | ------------------------------ | ----------- |
-| [itemId](./extensions.itemhistoryqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                               | Modifiers | Type                           | Description                                               |
+| ------------------------------------------------------ | --------- | ------------------------------ | --------------------------------------------------------- |
+| [itemId](./extensions.itemhistoryqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) | Identifies the item for which History is being retrieved. |

@@ -12,11 +12,11 @@ export interface ConfirmationHookArguments
 
 ## Properties
 
-| Property                                                                          | Modifiers | Type          | Description  |
-| --------------------------------------------------------------------------------- | --------- | ------------- | ------------ |
-| [cancelButtonLabel?](./extensions.confirmationhookarguments.cancelbuttonlabel.md) |           | string        | _(Optional)_ |
-| [description?](./extensions.confirmationhookarguments.description.md)             |           | ReactNode     | _(Optional)_ |
-| [okButtonLabel?](./extensions.confirmationhookarguments.okbuttonlabel.md)         |           | string        | _(Optional)_ |
-| [onCancel?](./extensions.confirmationhookarguments.oncancel.md)                   |           | () =&gt; void | _(Optional)_ |
-| [onConfirm](./extensions.confirmationhookarguments.onconfirm.md)                  |           | () =&gt; void |              |
-| [title](./extensions.confirmationhookarguments.title.md)                          |           | string        |              |
+| Property                                                                          | Modifiers | Type          | Description                                                      |
+| --------------------------------------------------------------------------------- | --------- | ------------- | ---------------------------------------------------------------- |
+| [cancelButtonLabel?](./extensions.confirmationhookarguments.cancelbuttonlabel.md) |           | string        | _(Optional)_ Label for dialog's cancel button.                   |
+| [description?](./extensions.confirmationhookarguments.description.md)             |           | ReactNode     | _(Optional)_ Content of the dialog.                              |
+| [okButtonLabel?](./extensions.confirmationhookarguments.okbuttonlabel.md)         |           | string        | _(Optional)_ Label for dialog's confirm button.                  |
+| [onCancel?](./extensions.confirmationhookarguments.oncancel.md)                   |           | () =&gt; void | _(Optional)_ Callback is executed when dialog has been canceled. |
+| [onConfirm](./extensions.confirmationhookarguments.onconfirm.md)                  |           | () =&gt; void | Callback is called after pressing confirm button.                |
+| [title](./extensions.confirmationhookarguments.title.md)                          |           | string        | Dialog's title.                                                  |

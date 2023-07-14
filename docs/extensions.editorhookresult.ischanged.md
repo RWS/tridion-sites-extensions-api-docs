@@ -4,6 +4,8 @@
 
 ## EditorHookResult.isChanged property
 
+Boolean that indicates that Item has unsaved changes.
+
 **Signature:**
 
 ```typescript

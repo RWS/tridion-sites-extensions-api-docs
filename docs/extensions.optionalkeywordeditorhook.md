@@ -4,6 +4,8 @@
 
 ## OptionalKeywordEditorHook type
 
+Hook for accessing Keyword Editor data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalKeywordEditorHook = () => KeywordEditorHookResult | undefine
 ```
 
 **References:** [KeywordEditorHookResult](./extensions.keywordeditorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Keyword Editor. `undefined` is returned when used outside of Keyword Editor.

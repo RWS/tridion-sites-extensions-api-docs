@@ -9,5 +9,5 @@ System-predefined opacity levels.
 **Signature:**
 
 ```typescript
-getOpacityLevel: GetOpacityLevel;
+getOpacityLevel: OpacityLevelGetter;
 ```

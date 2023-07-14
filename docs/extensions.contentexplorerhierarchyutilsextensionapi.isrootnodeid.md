@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchyUtilsExtensionApi.isRootNodeId property
 
+Checks if a node ID is root node ID.
+
 **Signature:**
 
 ```typescript

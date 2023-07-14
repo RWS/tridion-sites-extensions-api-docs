@@ -4,7 +4,7 @@
 
 ## TableColumnExtensionComponentProps.item property
 
-Item that is rendered for the current row
+An item associated with the table row where the component is being rendered.
 
 **Signature:**
 

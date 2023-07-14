@@ -4,6 +4,8 @@
 
 ## CreateTranslationJobRequest.translationJob property
 
+Configuration to create Translation Job from.
+
 **Signature:**
 
 ```typescript

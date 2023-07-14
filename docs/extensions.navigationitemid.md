@@ -4,6 +4,8 @@
 
 ## navigationItemId variable
 
+All available built-in navigation item IDs.
+
 **Signature:**
 
 ```typescript

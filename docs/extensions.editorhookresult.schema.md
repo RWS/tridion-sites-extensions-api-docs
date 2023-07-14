@@ -4,6 +4,8 @@
 
 ## EditorHookResult.schema property
 
+Item's metadata schema.
+
 **Signature:**
 
 ```typescript

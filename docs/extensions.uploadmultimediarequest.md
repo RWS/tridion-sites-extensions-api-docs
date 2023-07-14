@@ -12,8 +12,8 @@ export interface UploadMultimediaRequest
 
 ## Properties
 
-| Property                                                           | Modifiers | Type                           | Description  |
-| ------------------------------------------------------------------ | --------- | ------------------------------ | ------------ |
-| [containerId](./extensions.uploadmultimediarequest.containerid.md) |           | [ItemUri](./models.itemuri.md) |              |
-| [files](./extensions.uploadmultimediarequest.files.md)             |           | ReadonlyArray&lt;File&gt;      |              |
-| [schemaId?](./extensions.uploadmultimediarequest.schemaid.md)      |           | [ItemUri](./models.itemuri.md) | _(Optional)_ |
+| Property                                                           | Modifiers | Type                           | Description                                                |
+| ------------------------------------------------------------------ | --------- | ------------------------------ | ---------------------------------------------------------- |
+| [containerId](./extensions.uploadmultimediarequest.containerid.md) |           | [ItemUri](./models.itemuri.md) | ID of a Folder to upload files to.                         |
+| [files](./extensions.uploadmultimediarequest.files.md)             |           | ReadonlyArray&lt;File&gt;      | Files to upload.                                           |
+| [schemaId?](./extensions.uploadmultimediarequest.schemaid.md)      |           | [ItemUri](./models.itemuri.md) | _(Optional)_ ID of a schema to create components based on. |

@@ -12,8 +12,8 @@ export declare class ActivitiesExplorerExtensionsBuilder
 
 ## Properties
 
-| Property                                                                   | Modifiers | Type                                                                                                 | Description |
-| -------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------- | ----------- |
-| [addAction](./extensions.activitiesexplorerextensionsbuilder.addaction.md) |           | (action: [ActionExtension](./extensions.actionextension.md)<!-- -->) =&gt; this                      |             |
-| [build](./extensions.activitiesexplorerextensionsbuilder.build.md)         |           | () =&gt; [ActivitiesExplorerExtensions](./extensions.activitiesexplorerextensions.md)                |             |
-| [table](./extensions.activitiesexplorerextensionsbuilder.table.md)         |           | [ActivitiesExplorerTableExtensionsBuilder](./extensions.activitiesexplorertableextensionsbuilder.md) |             |
+| Property                                                                   | Modifiers | Type                                                                                                 | Description                                                     |
+| -------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [addAction](./extensions.activitiesexplorerextensionsbuilder.addaction.md) |           | (action: [ActionExtension](./extensions.actionextension.md)<!-- -->) =&gt; this                      | Adds a new action to Activities Explorer.                       |
+| [build](./extensions.activitiesexplorerextensionsbuilder.build.md)         |           | () =&gt; [ActivitiesExplorerExtensions](./extensions.activitiesexplorerextensions.md)                |                                                                 |
+| [table](./extensions.activitiesexplorerextensionsbuilder.table.md)         |           | [ActivitiesExplorerTableExtensionsBuilder](./extensions.activitiesexplorertableextensionsbuilder.md) | Provides a mechanism for customizing Activities Explorer Table. |

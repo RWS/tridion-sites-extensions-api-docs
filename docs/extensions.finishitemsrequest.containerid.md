@@ -4,6 +4,8 @@
 
 ## FinishItemsRequest.containerId property
 
+Container item ID of the items to finish.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## MutationOptions.onError property
 
+This function will fire if the mutation encounters an error and will be passed the error.
+
 **Signature:**
 
 ```typescript

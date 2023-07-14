@@ -12,6 +12,6 @@ export interface PublishableTargetTypesQueryProps
 
 ## Properties
 
-| Property                                                                                        | Modifiers | Type                           | Description |
-| ----------------------------------------------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [businessProcessTypeId](./extensions.publishabletargettypesqueryprops.businessprocesstypeid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                                                        | Modifiers | Type                           | Description                                                                      |
+| ----------------------------------------------------------------------------------------------- | --------- | ------------------------------ | -------------------------------------------------------------------------------- |
+| [businessProcessTypeId](./extensions.publishabletargettypesqueryprops.businessprocesstypeid.md) |           | [ItemUri](./models.itemuri.md) | Identifies the Business Process Type for which Target Types are being retrieved. |

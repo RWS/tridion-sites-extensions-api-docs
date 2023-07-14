@@ -4,6 +4,8 @@
 
 ## isItemsInProgressNodeId variable
 
+Checks whether the provided nodeId is the 'Items in Progress' node ID.
+
 **Signature:**
 
 ```typescript

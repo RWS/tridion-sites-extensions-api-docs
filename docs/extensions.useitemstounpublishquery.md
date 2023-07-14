@@ -4,6 +4,8 @@
 
 ## useItemsToUnpublishQuery variable
 
+Retrieves a list of items that will be unpublished with the provided instructions.
+
 **Signature:**
 
 ```typescript

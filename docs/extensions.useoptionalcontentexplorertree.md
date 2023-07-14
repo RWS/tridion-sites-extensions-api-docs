@@ -4,8 +4,14 @@
 
 ## useOptionalContentExplorerTree variable
 
+Hook for accessing Content Explorer Tree data and methods, if available.
+
 **Signature:**
 
 ```typescript
 useOptionalContentExplorerTree: OptionalContentExplorerTreeHook;
 ```
+
+## Remarks
+
+Safe to be used within or outside of the Content Explorer Tree. `undefined` is returned when used outside of Content Explorer Tree.

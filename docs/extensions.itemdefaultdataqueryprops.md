@@ -12,6 +12,6 @@ export interface ItemDefaultDataQueryProps
 
 ## Properties
 
-| Property                                                         | Modifiers | Type                                                 | Description |
-| ---------------------------------------------------------------- | --------- | ---------------------------------------------------- | ----------- |
-| [modelType](./extensions.itemdefaultdataqueryprops.modeltype.md) |           | [DefaultModelType](./extensions.defaultmodeltype.md) |             |
+| Property                                                         | Modifiers | Type                                                 | Description                                |
+| ---------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------------------------------------ |
+| [modelType](./extensions.itemdefaultdataqueryprops.modeltype.md) |           | [DefaultModelType](./extensions.defaultmodeltype.md) | Type of the model to get default data for. |

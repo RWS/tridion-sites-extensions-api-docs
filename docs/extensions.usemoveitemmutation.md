@@ -4,6 +4,8 @@
 
 ## useMoveItemMutation variable
 
+Moves a single item from its current location to the specified destination.
+
 **Signature:**
 
 ```typescript

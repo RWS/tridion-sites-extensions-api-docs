@@ -4,6 +4,8 @@
 
 ## ItemsInProgressQueryProps.forAllUsers property
 
+Option to include items that are in progress by any user, but only in Publications where the user has Publication Administration or Lock Management Rights (unless the user has System Administration privileges). By default, only items locked by the current user are returned.
+
 **Signature:**
 
 ```typescript

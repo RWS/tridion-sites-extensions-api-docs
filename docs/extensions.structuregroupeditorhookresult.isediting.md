@@ -4,6 +4,8 @@
 
 ## StructureGroupEditorHookResult.isEditing property
 
+Boolean that indicates that Structure Group can be edited.
+
 **Signature:**
 
 ```typescript

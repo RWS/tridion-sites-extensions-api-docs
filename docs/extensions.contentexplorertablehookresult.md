@@ -4,6 +4,8 @@
 
 ## ContentExplorerTableHookResult interface
 
+Methods of a Content Explorer Table.
+
 **Signature:**
 
 ```typescript

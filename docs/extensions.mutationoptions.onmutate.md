@@ -4,6 +4,8 @@
 
 ## MutationOptions.onMutate property
 
+This function will fire before the mutation function is fired and is passed the same variables the mutation function would receive.
+
 **Signature:**
 
 ```typescript

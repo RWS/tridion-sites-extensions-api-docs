@@ -4,6 +4,8 @@
 
 ## ExtensionBuilder.translations property
 
+Provides a mechanism for managing localization strings within extensions.
+
 **Signature:**
 
 ```typescript

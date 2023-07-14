@@ -4,6 +4,8 @@
 
 ## BundleEditorHookResult.isChanged property
 
+Boolean that indicates that Bundle has unsaved changes.
+
 **Signature:**
 
 ```typescript

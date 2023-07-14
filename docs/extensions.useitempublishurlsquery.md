@@ -4,6 +4,8 @@
 
 ## useItemPublishUrlsQuery variable
 
+Retrieves a list of URLs where the provided item is published.
+
 **Signature:**
 
 ```typescript

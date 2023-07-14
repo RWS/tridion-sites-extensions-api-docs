@@ -4,6 +4,8 @@
 
 ## TextProps.breakWord property
 
+Determines whether the text should break words if they exceed the container width. Note that it can be used in combination with `multiLine: true` only, since single line text is truncated by default.
+
 **Signature:**
 
 ```typescript

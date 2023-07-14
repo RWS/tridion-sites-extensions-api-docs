@@ -4,6 +4,8 @@
 
 ## QueryResult.isRefetchError property
 
+Will be `true` if the query failed while fetching for the first time.
+
 **Signature:**
 
 ```typescript

@@ -12,7 +12,7 @@ export interface UnlocalizeItemsRequest
 
 ## Properties
 
-| Property                                                          | Modifiers | Type                                                        | Description |
-| ----------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [containerId](./extensions.unlocalizeitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                              |             |
-| [itemIds](./extensions.unlocalizeitemsrequest.itemids.md)         |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
+| Property                                                          | Modifiers | Type                                                        | Description                                   |
+| ----------------------------------------------------------------- | --------- | ----------------------------------------------------------- | --------------------------------------------- |
+| [containerId](./extensions.unlocalizeitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                              | Container item ID of the items to unlocalize. |
+| [itemIds](./extensions.unlocalizeitemsrequest.itemids.md)         |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of items to unlocalize.                   |

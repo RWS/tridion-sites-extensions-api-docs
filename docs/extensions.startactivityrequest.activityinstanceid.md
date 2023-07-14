@@ -4,6 +4,8 @@
 
 ## StartActivityRequest.activityInstanceId property
 
+ID of Activity Instance to start.
+
 **Signature:**
 
 ```typescript

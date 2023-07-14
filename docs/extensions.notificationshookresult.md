@@ -12,6 +12,6 @@ export interface NotificationsHookResult
 
 ## Properties
 
-| Property                                                 | Modifiers | Type                                                                          | Description |
-| -------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | ----------- |
-| [notify](./extensions.notificationshookresult.notify.md) |           | (args: [NotifyArguments](./extensions.notifyarguments.md)<!-- -->) =&gt; void |             |
+| Property                                                 | Modifiers | Type                                                                          | Description                        |
+| -------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | ---------------------------------- |
+| [notify](./extensions.notificationshookresult.notify.md) |           | (args: [NotifyArguments](./extensions.notifyarguments.md)<!-- -->) =&gt; void | Method to show a new notification. |

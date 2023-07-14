@@ -4,6 +4,8 @@
 
 ## SizeProps.minWidth property
 
+Minimum width of the component in pixels.
+
 **Signature:**
 
 ```typescript

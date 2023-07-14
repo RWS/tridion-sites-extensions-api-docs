@@ -4,6 +4,8 @@
 
 ## useOptionalKeywordEditor variable
 
+Provides access to Keyword Editor data and methods, if available. `undefined` is returned when used outside of Keyword Editor.
+
 **Signature:**
 
 ```typescript

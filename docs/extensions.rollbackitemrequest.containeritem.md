@@ -4,6 +4,8 @@
 
 ## RollbackItemRequest.containerItem property
 
+Container item of the item to rollback.
+
 **Signature:**
 
 ```typescript

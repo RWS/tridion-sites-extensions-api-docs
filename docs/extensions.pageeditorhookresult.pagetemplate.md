@@ -4,6 +4,8 @@
 
 ## PageEditorHookResult.pageTemplate property
 
+Template that is used to publish Page with.
+
 **Signature:**
 
 ```typescript

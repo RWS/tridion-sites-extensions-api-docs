@@ -4,6 +4,8 @@
 
 ## OptionalFolderEditorHook type
 
+Hook for accessing Folder Editor data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalFolderEditorHook = () => FolderEditorHookResult | undefined;
 ```
 
 **References:** [FolderEditorHookResult](./extensions.foldereditorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Folder Editor. `undefined` is returned when used outside of Folder Editor.

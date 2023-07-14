@@ -4,6 +4,8 @@
 
 ## QueryResult.isFetched property
 
+Will be true if the query has been fetched.
+
 **Signature:**
 
 ```typescript

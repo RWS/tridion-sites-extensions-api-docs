@@ -4,6 +4,8 @@
 
 ## QueryResult.errorUpdateCount property
 
+The sum of all errors.
+
 **Signature:**
 
 ```typescript

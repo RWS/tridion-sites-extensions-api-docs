@@ -9,5 +9,5 @@ System-predefined spacings.
 **Signature:**
 
 ```typescript
-getSpacing: GetSpacing;
+getSpacing: SpacingGetter;
 ```

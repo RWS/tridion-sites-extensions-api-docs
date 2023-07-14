@@ -4,6 +4,8 @@
 
 ## NotificationsHookResult.notify property
 
+Method to show a new notification.
+
 **Signature:**
 
 ```typescript

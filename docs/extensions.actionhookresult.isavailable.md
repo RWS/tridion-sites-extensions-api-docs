@@ -4,6 +4,8 @@
 
 ## ActionHookResult.isAvailable property
 
+Indicates the availability of the action.
+
 **Signature:**
 
 ```typescript

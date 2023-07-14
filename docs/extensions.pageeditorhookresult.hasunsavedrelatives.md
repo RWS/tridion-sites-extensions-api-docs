@@ -4,6 +4,8 @@
 
 ## PageEditorHookResult.hasUnsavedRelatives property
 
+Boolean that indicates whether any components in the page have unsaved changes.
+
 **Signature:**
 
 ```typescript

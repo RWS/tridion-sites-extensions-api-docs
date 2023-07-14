@@ -4,6 +4,10 @@
 
 ## UploadMultimediaMutationResult.resultsPerFile property
 
+Results for completed uploads.
+
+Result is mapped to uploaded file name.
+
 **Signature:**
 
 ```typescript

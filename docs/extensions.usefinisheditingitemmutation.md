@@ -4,6 +4,8 @@
 
 ## useFinishEditingItemMutation variable
 
+Finishes editing of a checked out versioned item. Saves changes made in minor version updates and increments the major version of the item.
+
 **Signature:**
 
 ```typescript

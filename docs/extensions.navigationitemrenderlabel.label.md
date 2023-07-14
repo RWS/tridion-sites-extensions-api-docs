@@ -4,7 +4,7 @@
 
 ## NavigationItemRenderLabel.label property
 
-Label that is returned from `NavigationItemHook`<!-- -->.
+The label obtained from [NavigationItemHookResult.label](./extensions.navigationitemhookresult.label.md)<!-- -->.
 
 **Signature:**
 

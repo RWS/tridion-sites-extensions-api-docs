@@ -4,6 +4,8 @@
 
 ## KeywordEditorHookResult.isEditing property
 
+Boolean that indicates that Keyword can be edited.
+
 **Signature:**
 
 ```typescript

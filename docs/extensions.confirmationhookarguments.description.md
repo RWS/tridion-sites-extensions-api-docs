@@ -4,6 +4,8 @@
 
 ## ConfirmationHookArguments.description property
 
+Content of the dialog.
+
 **Signature:**
 
 ```typescript

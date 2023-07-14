@@ -10,10 +10,10 @@
 export interface TextLinkProps extends TextProps, LinkProps
 ```
 
-**Extends:** [TextProps](./extensions.textprops.md)<!-- -->, LinkProps
+**Extends:** [TextProps](./extensions.textprops.md)<!-- -->, [LinkProps](./extensions.linkprops.md)
 
 ## Properties
 
-| Property                                   | Modifiers | Type   | Description |
-| ------------------------------------------ | --------- | ------ | ----------- |
-| [text](./extensions.textlinkprops.text.md) |           | string |             |
+| Property                                   | Modifiers | Type   | Description                        |
+| ------------------------------------------ | --------- | ------ | ---------------------------------- |
+| [text](./extensions.textlinkprops.text.md) |           | string | String that is rendered as a link. |

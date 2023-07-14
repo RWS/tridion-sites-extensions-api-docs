@@ -12,8 +12,8 @@ export interface ActionGroup
 
 ## Properties
 
-| Property                                           | Modifiers | Type                | Description |
-| -------------------------------------------------- | --------- | ------------------- | ----------- |
-| [actionIds](./extensions.actiongroup.actionids.md) |           | readonly string\[\] |             |
-| [id](./extensions.actiongroup.id.md)               |           | string              |             |
-| [label](./extensions.actiongroup.label.md)         |           | string              |             |
+| Property                                           | Modifiers | Type                | Description                                                    |
+| -------------------------------------------------- | --------- | ------------------- | -------------------------------------------------------------- |
+| [actionIds](./extensions.actiongroup.actionids.md) |           | readonly string\[\] | An ordered array of action IDs that are included in the group. |
+| [id](./extensions.actiongroup.id.md)               |           | string              | A unique identifier for the action group.                      |
+| [label](./extensions.actiongroup.label.md)         |           | string              | Label associated with the action group.                        |

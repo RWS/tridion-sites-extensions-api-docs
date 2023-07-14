@@ -4,8 +4,14 @@
 
 ## UsersQueryProps.predefined property
 
+If specified, return only non-predefined users or predefined users.
+
 **Signature:**
 
 ```typescript
 predefined?: boolean;
 ```
+
+## Example
+
+-   `undefined` - all of the users returned - `true` - predefined only users returned - `false` - non-predefined only users returned

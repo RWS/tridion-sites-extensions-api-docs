@@ -4,6 +4,8 @@
 
 ## QueryResult.errorUpdatedAt property
 
+The timestamp for when the query most recently returned the `status` as `error`<!-- -->.
+
 **Signature:**
 
 ```typescript

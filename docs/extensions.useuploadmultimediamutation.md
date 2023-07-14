@@ -4,6 +4,8 @@
 
 ## useUploadMultimediaMutation variable
 
+Uploads multimedia files and creates multimedia components out of them. Uploading is done using a queue, which limits the number of files being uploaded at the same time.
+
 **Signature:**
 
 ```typescript

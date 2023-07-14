@@ -4,6 +4,8 @@
 
 ## ItemDefaultDataQueryProps.modelType property
 
+Type of the model to get default data for.
+
 **Signature:**
 
 ```typescript

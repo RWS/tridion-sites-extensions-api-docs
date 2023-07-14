@@ -4,6 +4,8 @@
 
 ## UserGroupsQueryProps.includeEveryone property
 
+Specifies whether the special "Everyone" Group (representing all CM users) should be returned.
+
 **Signature:**
 
 ```typescript

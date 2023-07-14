@@ -4,6 +4,8 @@
 
 ## StartActivitiesRequest.activityInstances property
 
+Array of Activity Instances to start.
+
 **Signature:**
 
 ```typescript

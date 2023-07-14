@@ -4,6 +4,8 @@
 
 ## KeywordEditorHookResult.keyword property
 
+Editable Keyword.
+
 **Signature:**
 
 ```typescript

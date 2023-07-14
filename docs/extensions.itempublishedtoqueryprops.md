@@ -12,6 +12,6 @@ export interface ItemPublishedToQueryProps
 
 ## Properties
 
-| Property                                                   | Modifiers | Type                           | Description |
-| ---------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [itemId](./extensions.itempublishedtoqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                   | Modifiers | Type                           | Description               |
+| ---------------------------------------------------------- | --------- | ------------------------------ | ------------------------- |
+| [itemId](./extensions.itempublishedtoqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) | ID of the published item. |

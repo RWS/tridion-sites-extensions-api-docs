@@ -4,6 +4,8 @@
 
 ## useEditor variable
 
+Provides access to Item Editor data and methods.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## UploadMultimediaMutationResult.processId property
 
+ID of the upload process.
+
 **Signature:**
 
 ```typescript

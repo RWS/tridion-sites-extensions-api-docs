@@ -4,6 +4,8 @@
 
 ## QueryResult.error property
 
+The error object for the query, if an error was thrown.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## RevertItemsRequest.containerId property
 
+Container item ID of the items to revert.
+
 **Signature:**
 
 ```typescript

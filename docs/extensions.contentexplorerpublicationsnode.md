@@ -4,6 +4,8 @@
 
 ## ContentExplorerPublicationsNode type
 
+Content Explorer hierarchy node that has list of publications as a children.
+
 **Signature:**
 
 ```typescript

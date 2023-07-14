@@ -4,6 +4,8 @@
 
 ## ContentExplorerTreeExtensionsBuilder.contextMenu property
 
+Provides a mechanism for customizing the configuration of actions within Content Explorer Tree context menu.
+
 **Signature:**
 
 ```typescript

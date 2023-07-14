@@ -12,8 +12,8 @@ export interface MoveItemsRequest
 
 ## Properties
 
-| Property                                                        | Modifiers | Type                                                        | Description |
-| --------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [destinationId](./extensions.moveitemsrequest.destinationid.md) |           | [ItemUri](./models.itemuri.md)                              |             |
-| [itemIds](./extensions.moveitemsrequest.itemids.md)             |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
-| [sourceId](./extensions.moveitemsrequest.sourceid.md)           |           | [ItemUri](./models.itemuri.md)                              |             |
+| Property                                                        | Modifiers | Type                                                        | Description                             |
+| --------------------------------------------------------------- | --------- | ----------------------------------------------------------- | --------------------------------------- |
+| [destinationId](./extensions.moveitemsrequest.destinationid.md) |           | [ItemUri](./models.itemuri.md)                              | ID of organizational item to move to.   |
+| [itemIds](./extensions.moveitemsrequest.itemids.md)             |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of items to move.                   |
+| [sourceId](./extensions.moveitemsrequest.sourceid.md)           |           | [ItemUri](./models.itemuri.md)                              | ID of organizational item to move from. |

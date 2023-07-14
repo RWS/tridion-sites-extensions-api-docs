@@ -4,8 +4,14 @@
 
 ## useContentExplorerTree variable
 
+Hook for accessing Content Explorer Tree data and methods.
+
 **Signature:**
 
 ```typescript
 useContentExplorerTree: ContentExplorerTreeHook;
 ```
+
+## Remarks
+
+Should be used only inside Content Explorer Tree, otherwise throws an error.

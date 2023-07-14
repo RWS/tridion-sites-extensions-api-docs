@@ -4,6 +4,8 @@
 
 ## ContentExplorerHookResult interface
 
+Data and methods of the Content Explorer.
+
 **Signature:**
 
 ```typescript
@@ -12,9 +14,9 @@ export interface ContentExplorerHookResult
 
 ## Properties
 
-| Property                                                                                 | Modifiers | Type                                                                                                       | Description |
-| ---------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------- | ----------- |
-| [currentNode](./extensions.contentexplorerhookresult.currentnode.md)                     |           | [ContentExplorerNode](./extensions.contentexplorernode.md) \| undefined                                    |             |
-| [hierarchy](./extensions.contentexplorerhookresult.hierarchy.md)                         |           | [ContentExplorerHierarchy](./extensions.contentexplorerhierarchy.md)                                       |             |
-| [hierarchyLoadingState](./extensions.contentexplorerhookresult.hierarchyloadingstate.md) |           | [ContentExplorerHierarchyLoadingState](./extensions.contentexplorerhierarchyloadingstate.md)               |             |
-| [setTarget](./extensions.contentexplorerhookresult.settarget.md)                         |           | (props: [SetTargetContentExplorerProps](./extensions.settargetcontentexplorerprops.md)<!-- -->) =&gt; void |             |
+| Property                                                                                 | Modifiers | Type                                                                                                       | Description                                                |
+| ---------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [currentNode](./extensions.contentexplorerhookresult.currentnode.md)                     |           | [ContentExplorerNode](./extensions.contentexplorernode.md) \| undefined                                    |                                                            |
+| [hierarchy](./extensions.contentexplorerhookresult.hierarchy.md)                         |           | [ContentExplorerHierarchy](./extensions.contentexplorerhierarchy.md)                                       |                                                            |
+| [hierarchyLoadingState](./extensions.contentexplorerhookresult.hierarchyloadingstate.md) |           | [ContentExplorerHierarchyLoadingState](./extensions.contentexplorerhierarchyloadingstate.md)               | Loading state of nodes of the Content Explorer hierarchy.  |
+| [setTarget](./extensions.contentexplorerhookresult.settarget.md)                         |           | (props: [SetTargetContentExplorerProps](./extensions.settargetcontentexplorerprops.md)<!-- -->) =&gt; void | Method to change current location of the Content Explorer. |

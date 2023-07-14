@@ -4,6 +4,8 @@
 
 ## ComponentEditorHookResult.component property
 
+Editable Component.
+
 **Signature:**
 
 ```typescript

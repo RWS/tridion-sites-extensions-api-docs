@@ -4,6 +4,8 @@
 
 ## FinishActivityRequest.message property
 
+User comment that will be added to finished Activity Instances.
+
 **Signature:**
 
 ```typescript

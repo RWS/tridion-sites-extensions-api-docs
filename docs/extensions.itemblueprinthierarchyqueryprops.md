@@ -12,6 +12,6 @@ export interface ItemBlueprintHierarchyQueryProps
 
 ## Properties
 
-| Property                                                          | Modifiers | Type                           | Description |
-| ----------------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [itemId](./extensions.itemblueprinthierarchyqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                          | Modifiers | Type                           | Description                                                           |
+| ----------------------------------------------------------------- | --------- | ------------------------------ | --------------------------------------------------------------------- |
+| [itemId](./extensions.itemblueprinthierarchyqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) | Identifies the item for which Blueprint hierarchy is being retrieved. |

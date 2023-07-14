@@ -4,8 +4,14 @@
 
 ## useActivitiesExplorerTable variable
 
+Provides access to Activities Explorer Table data and methods.
+
 **Signature:**
 
 ```typescript
 useActivitiesExplorerTable: ActivitiesExplorerTableHook;
 ```
+
+## Remarks
+
+Should be used only inside Activities Explorer Table, otherwise throws an error.

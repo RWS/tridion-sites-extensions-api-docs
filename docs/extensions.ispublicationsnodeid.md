@@ -4,6 +4,8 @@
 
 ## isPublicationsNodeId variable
 
+Checks whether the provided nodeId is the 'Publications' node ID
+
 **Signature:**
 
 ```typescript

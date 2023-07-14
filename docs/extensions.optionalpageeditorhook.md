@@ -4,6 +4,8 @@
 
 ## OptionalPageEditorHook type
 
+Hook for accessing Page Editor data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalPageEditorHook = () => PageEditorHookResult | undefined;
 ```
 
 **References:** [PageEditorHookResult](./extensions.pageeditorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Page Editor. `undefined` is returned when used outside of Page Editor.

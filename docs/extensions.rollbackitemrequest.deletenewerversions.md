@@ -4,8 +4,14 @@
 
 ## RollbackItemRequest.deleteNewerVersions property
 
+Option to delete all the versions higher than `itemId` version.
+
 **Signature:**
 
 ```typescript
 deleteNewerVersions: boolean;
 ```
+
+## Example
+
+Latest item version is 5. Revert to version 3. Case 1: `deleteNewerVersions: false` - v6 is created out of v3. Case 2: `deleteNewerVersions: true` - v3 is the latest version now, v4 and v5 are deleted.

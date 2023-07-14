@@ -4,8 +4,14 @@
 
 ## useOptionalActivitiesExplorer variable
 
+Provides access to Activities Explorer data and methods, if available.
+
 **Signature:**
 
 ```typescript
 useOptionalActivitiesExplorer: OptionalActivitiesExplorerHook;
 ```
+
+## Remarks
+
+Safe to be used within or outside of the Activities Explorer. `undefined` is returned when used outside of Activities Explorer.

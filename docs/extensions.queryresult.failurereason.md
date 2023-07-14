@@ -4,6 +4,8 @@
 
 ## QueryResult.failureReason property
 
+The failure reason for the query retry. Reset to null when the query succeeds.
+
 **Signature:**
 
 ```typescript

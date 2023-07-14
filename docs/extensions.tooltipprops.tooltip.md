@@ -4,7 +4,7 @@
 
 ## TooltipProps.tooltip property
 
-Tooltip that should be shown on hover.
+Tooltip that is shown on hover.
 
 **Signature:**
 

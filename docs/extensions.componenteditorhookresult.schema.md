@@ -4,6 +4,8 @@
 
 ## ComponentEditorHookResult.schema property
 
+Component's metadata schema.
+
 **Signature:**
 
 ```typescript

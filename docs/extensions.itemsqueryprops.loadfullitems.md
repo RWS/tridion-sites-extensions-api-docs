@@ -4,8 +4,14 @@
 
 ## ItemsQueryProps.loadFullItems property
 
+By default list includes contentless items. Some of the properties might be missed. This option allows to include all available fields.
+
 **Signature:**
 
 ```typescript
 loadFullItems?: boolean;
 ```
+
+## Example
+
+When `false` - Component item will be returned without `content` property.

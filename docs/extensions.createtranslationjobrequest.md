@@ -12,6 +12,6 @@ export interface CreateTranslationJobRequest
 
 ## Properties
 
-| Property                                                                     | Modifiers | Type                                         | Description |
-| ---------------------------------------------------------------------------- | --------- | -------------------------------------------- | ----------- |
-| [translationJob](./extensions.createtranslationjobrequest.translationjob.md) |           | [TranslationJob](./models.translationjob.md) |             |
+| Property                                                                     | Modifiers | Type                                         | Description                                   |
+| ---------------------------------------------------------------------------- | --------- | -------------------------------------------- | --------------------------------------------- |
+| [translationJob](./extensions.createtranslationjobrequest.translationjob.md) |           | [TranslationJob](./models.translationjob.md) | Configuration to create Translation Job from. |

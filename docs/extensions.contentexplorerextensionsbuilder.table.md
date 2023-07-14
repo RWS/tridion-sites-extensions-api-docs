@@ -4,6 +4,8 @@
 
 ## ContentExplorerExtensionsBuilder.table property
 
+Provides a mechanism for customizing Content Explorer Table.
+
 **Signature:**
 
 ```typescript

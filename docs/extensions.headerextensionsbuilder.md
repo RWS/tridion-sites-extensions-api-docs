@@ -12,7 +12,7 @@ export declare class HeaderExtensionsBuilder
 
 ## Properties
 
-| Property                                                         | Modifiers | Type                                                                       | Description |
-| ---------------------------------------------------------------- | --------- | -------------------------------------------------------------------------- | ----------- |
-| [build](./extensions.headerextensionsbuilder.build.md)           |           | () =&gt; [HeaderExtensions](./extensions.headerextensions.md)              |             |
-| [navigation](./extensions.headerextensionsbuilder.navigation.md) |           | [NavigationExtensionsBuilder](./extensions.navigationextensionsbuilder.md) |             |
+| Property                                                         | Modifiers | Type                                                                       | Description                                            |
+| ---------------------------------------------------------------- | --------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [build](./extensions.headerextensionsbuilder.build.md)           |           | () =&gt; [HeaderExtensions](./extensions.headerextensions.md)              |                                                        |
+| [navigation](./extensions.headerextensionsbuilder.navigation.md) |           | [NavigationExtensionsBuilder](./extensions.navigationextensionsbuilder.md) | Provides a mechanism for customizing navigation items. |

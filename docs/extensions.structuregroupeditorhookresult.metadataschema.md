@@ -4,6 +4,8 @@
 
 ## StructureGroupEditorHookResult.metadataSchema property
 
+Structure Group's metadata schema.
+
 **Signature:**
 
 ```typescript

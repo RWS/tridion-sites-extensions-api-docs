@@ -12,7 +12,7 @@ export interface FinishItemsRequest
 
 ## Properties
 
-| Property                                                      | Modifiers | Type                                                                    | Description |
-| ------------------------------------------------------------- | --------- | ----------------------------------------------------------------------- | ----------- |
-| [containerId](./extensions.finishitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                                          |             |
-| [items](./extensions.finishitemsrequest.items.md)             |           | ReadonlyArray&lt;[VersionedItem](./models.versioneditem.md)<!-- -->&gt; |             |
+| Property                                                      | Modifiers | Type                                                                    | Description                               |
+| ------------------------------------------------------------- | --------- | ----------------------------------------------------------------------- | ----------------------------------------- |
+| [containerId](./extensions.finishitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                                          | Container item ID of the items to finish. |
+| [items](./extensions.finishitemsrequest.items.md)             |           | ReadonlyArray&lt;[VersionedItem](./models.versioneditem.md)<!-- -->&gt; | Items to finish editing on.               |

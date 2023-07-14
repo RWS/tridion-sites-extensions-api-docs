@@ -4,6 +4,8 @@
 
 ## isRootNode variable
 
+Checks whether the provided node is the 'Root' node.
+
 **Signature:**
 
 ```typescript

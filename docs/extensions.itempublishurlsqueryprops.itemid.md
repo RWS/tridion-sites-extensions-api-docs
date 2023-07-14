@@ -4,6 +4,8 @@
 
 ## ItemPublishUrlsQueryProps.itemId property
 
+Identifies the item for which Publish URLs are being retrieved.
+
 **Signature:**
 
 ```typescript

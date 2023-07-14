@@ -4,6 +4,8 @@
 
 ## ContentExplorerExtensionsBuilder.addAction property
 
+Adds a new action to Content Explorer.
+
 **Signature:**
 
 ```typescript

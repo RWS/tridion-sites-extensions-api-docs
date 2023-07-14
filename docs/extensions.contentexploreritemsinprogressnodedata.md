@@ -4,6 +4,8 @@
 
 ## ContentExplorerItemsInProgressNodeData interface
 
+Data contained in a Content Explorer ItemsInProgressNode.
+
 **Signature:**
 
 ```typescript

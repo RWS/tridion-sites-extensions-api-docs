@@ -4,6 +4,8 @@
 
 ## UsersQueryProps.search property
 
+If specified, return only users whose account name (Title) matches this value.
+
 **Signature:**
 
 ```typescript

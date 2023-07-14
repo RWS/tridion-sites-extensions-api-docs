@@ -4,6 +4,8 @@
 
 ## useItemsQuery variable
 
+Retrieves a list of items using the provided list of item URIs.
+
 **Signature:**
 
 ```typescript

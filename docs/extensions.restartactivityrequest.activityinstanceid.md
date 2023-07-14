@@ -4,6 +4,8 @@
 
 ## RestartActivityRequest.activityInstanceId property
 
+Activity Instance ID to restart.
+
 **Signature:**
 
 ```typescript

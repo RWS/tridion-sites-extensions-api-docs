@@ -9,5 +9,5 @@ System-predefined color palette.
 **Signature:**
 
 ```typescript
-getColorPalette: GetColorPalette;
+getColorPalette: ColorPaletteGetter;
 ```

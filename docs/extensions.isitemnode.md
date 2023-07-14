@@ -4,8 +4,14 @@
 
 ## isItemNode variable
 
+Checks whether the provided node is an item in the system.
+
 **Signature:**
 
 ```typescript
 isItemNode: (node: ContentExplorerNode | undefined) => node is ContentExplorerItemNode
 ```
+
+## Example
+
+Folder node returns `true` Publication node returns `false` Taxonomies node returns `false`

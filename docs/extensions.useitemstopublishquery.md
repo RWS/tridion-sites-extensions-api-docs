@@ -4,6 +4,8 @@
 
 ## useItemsToPublishQuery variable
 
+Retrieves a list of items that will be published with the provided instructions.
+
 **Signature:**
 
 ```typescript

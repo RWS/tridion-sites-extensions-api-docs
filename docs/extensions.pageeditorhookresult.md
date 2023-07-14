@@ -12,11 +12,11 @@ export interface PageEditorHookResult
 
 ## Properties
 
-| Property                                                                        | Modifiers | Type                                                  | Description |
-| ------------------------------------------------------------------------------- | --------- | ----------------------------------------------------- | ----------- |
-| [hasUnsavedRelatives](./extensions.pageeditorhookresult.hasunsavedrelatives.md) |           | boolean                                               |             |
-| [isChanged](./extensions.pageeditorhookresult.ischanged.md)                     |           | boolean                                               |             |
-| [isEditing](./extensions.pageeditorhookresult.isediting.md)                     |           | boolean                                               |             |
-| [metadataSchema](./extensions.pageeditorhookresult.metadataschema.md)           |           | [Schema](./models.schema.md) \| undefined             |             |
-| [page](./extensions.pageeditorhookresult.page.md)                               |           | [Page](./models.page.md)                              |             |
-| [pageTemplate](./extensions.pageeditorhookresult.pagetemplate.md)               |           | [PageTemplate](./models.pagetemplate.md) \| undefined |             |
+| Property                                                                        | Modifiers | Type                                                  | Description                                                                     |
+| ------------------------------------------------------------------------------- | --------- | ----------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [hasUnsavedRelatives](./extensions.pageeditorhookresult.hasunsavedrelatives.md) |           | boolean                                               | Boolean that indicates whether any components in the page have unsaved changes. |
+| [isChanged](./extensions.pageeditorhookresult.ischanged.md)                     |           | boolean                                               | Boolean that indicates that Page has unsaved changes.                           |
+| [isEditing](./extensions.pageeditorhookresult.isediting.md)                     |           | boolean                                               | Boolean that indicates that Page can be edited.                                 |
+| [metadataSchema](./extensions.pageeditorhookresult.metadataschema.md)           |           | [Schema](./models.schema.md) \| undefined             | Page's metadata schema.                                                         |
+| [page](./extensions.pageeditorhookresult.page.md)                               |           | [Page](./models.page.md)                              | Editable Page.                                                                  |
+| [pageTemplate](./extensions.pageeditorhookresult.pagetemplate.md)               |           | [PageTemplate](./models.pagetemplate.md) \| undefined | Template that is used to publish Page with.                                     |

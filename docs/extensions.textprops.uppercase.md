@@ -4,6 +4,8 @@
 
 ## TextProps.uppercase property
 
+Determines whether the text should be displayed in uppercase.
+
 **Signature:**
 
 ```typescript

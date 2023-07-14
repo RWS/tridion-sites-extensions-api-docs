@@ -4,6 +4,8 @@
 
 ## useChangeUserLocaleMutation variable
 
+Updates the locale selection for a given user.
+
 **Signature:**
 
 ```typescript

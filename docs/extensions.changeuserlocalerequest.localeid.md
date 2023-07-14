@@ -4,6 +4,8 @@
 
 ## ChangeUserLocaleRequest.localeId property
 
+ID of a Locale to set to.
+
 **Signature:**
 
 ```typescript

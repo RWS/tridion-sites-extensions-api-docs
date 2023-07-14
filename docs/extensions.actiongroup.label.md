@@ -4,8 +4,14 @@
 
 ## ActionGroup.label property
 
+Label associated with the action group.
+
 **Signature:**
 
 ```typescript
 readonly label: string;
 ```
+
+## Remarks
+
+It can be used to provide insight into why specific actions are grouped together.

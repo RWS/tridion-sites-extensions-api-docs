@@ -12,9 +12,9 @@ export interface UserGroupsQueryProps
 
 ## Properties
 
-| Property                                                                 | Modifiers | Type                                                                   | Description  |
-| ------------------------------------------------------------------------ | --------- | ---------------------------------------------------------------------- | ------------ |
-| [includeEveryone?](./extensions.usergroupsqueryprops.includeeveryone.md) |           | boolean                                                                | _(Optional)_ |
-| [inPublicationId?](./extensions.usergroupsqueryprops.inpublicationid.md) |           | [ItemUri](./models.itemuri.md)                                         | _(Optional)_ |
-| [search?](./extensions.usergroupsqueryprops.search.md)                   |           | string                                                                 | _(Optional)_ |
-| [searchMode?](./extensions.usergroupsqueryprops.searchmode.md)           |           | [UserGroupsQuerySearchMode](./extensions.usergroupsquerysearchmode.md) | _(Optional)_ |
+| Property                                                                 | Modifiers | Type                                                                   | Description                                                                                                 |
+| ------------------------------------------------------------------------ | --------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [includeEveryone?](./extensions.usergroupsqueryprops.includeeveryone.md) |           | boolean                                                                | _(Optional)_ Specifies whether the special "Everyone" Group (representing all CM users) should be returned. |
+| [inPublicationId?](./extensions.usergroupsqueryprops.inpublicationid.md) |           | [ItemUri](./models.itemuri.md)                                         | _(Optional)_ If specified, return only groups which are scoped to the Publication ID.                       |
+| [search?](./extensions.usergroupsqueryprops.search.md)                   |           | string                                                                 | _(Optional)_ If specified, return only groups with titles matching this value.                              |
+| [searchMode?](./extensions.usergroupsqueryprops.searchmode.md)           |           | [UserGroupsQuerySearchMode](./extensions.usergroupsquerysearchmode.md) | _(Optional)_ Specifies how to match on the group title.                                                     |

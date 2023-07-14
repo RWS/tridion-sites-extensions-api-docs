@@ -4,6 +4,8 @@
 
 ## FinishActivityRequest.activityId property
 
+ID of the Activity Instance to finish.
+
 **Signature:**
 
 ```typescript

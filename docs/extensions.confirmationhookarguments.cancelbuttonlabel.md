@@ -4,6 +4,8 @@
 
 ## ConfirmationHookArguments.cancelButtonLabel property
 
+Label for dialog's cancel button.
+
 **Signature:**
 
 ```typescript

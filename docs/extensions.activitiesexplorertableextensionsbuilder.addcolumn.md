@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerTableExtensionsBuilder.addColumn property
 
+Adds a new column to Activities Explorer Table.
+
 **Signature:**
 
 ```typescript

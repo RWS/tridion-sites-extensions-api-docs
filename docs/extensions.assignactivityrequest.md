@@ -12,7 +12,7 @@ export interface AssignActivityRequest
 
 ## Properties
 
-| Property                                                             | Modifiers | Type                           | Description |
-| -------------------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [activityId](./extensions.assignactivityrequest.activityid.md)       |           | [ItemUri](./models.itemuri.md) |             |
-| [newAssigneeId](./extensions.assignactivityrequest.newassigneeid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                             | Modifiers | Type                           | Description                                          |
+| -------------------------------------------------------------------- | --------- | ------------------------------ | ---------------------------------------------------- |
+| [activityId](./extensions.assignactivityrequest.activityid.md)       |           | [ItemUri](./models.itemuri.md) | ID of an Activity Instance to change assignment for. |
+| [newAssigneeId](./extensions.assignactivityrequest.newassigneeid.md) |           | [ItemUri](./models.itemuri.md) | User or Group ID to assign ActivityInstances to.     |

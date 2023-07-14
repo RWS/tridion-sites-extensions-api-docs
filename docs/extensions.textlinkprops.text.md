@@ -4,6 +4,8 @@
 
 ## TextLinkProps.text property
 
+String that is rendered as a link.
+
 **Signature:**
 
 ```typescript

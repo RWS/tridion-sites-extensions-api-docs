@@ -12,7 +12,7 @@ export interface SetTargetContentExplorerProps
 
 ## Properties
 
-| Property                                                                             | Modifiers | Type                                        | Description |
-| ------------------------------------------------------------------------------------ | --------- | ------------------------------------------- | ----------- |
-| [containerNodeId](./extensions.settargetcontentexplorerprops.containernodeid.md)     |           | string                                      |             |
-| [itemInContainerId](./extensions.settargetcontentexplorerprops.itemincontainerid.md) |           | [ItemUri](./models.itemuri.md) \| undefined |             |
+| Property                                                                             | Modifiers | Type                                        | Description                                                                |
+| ------------------------------------------------------------------------------------ | --------- | ------------------------------------------- | -------------------------------------------------------------------------- |
+| [containerNodeId](./extensions.settargetcontentexplorerprops.containernodeid.md)     |           | string                                      | Id of a container node to resolve to.                                      |
+| [itemInContainerId](./extensions.settargetcontentexplorerprops.itemincontainerid.md) |           | [ItemUri](./models.itemuri.md) \| undefined | Item URI of an item to resolve to inside the <code>containerNodeId</code>. |

@@ -4,6 +4,8 @@
 
 ## RemoveFromBundleRequest.bundleId property
 
+ID of a bundle to remove items from.
+
 **Signature:**
 
 ```typescript

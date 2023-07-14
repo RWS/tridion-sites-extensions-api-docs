@@ -4,6 +4,8 @@
 
 ## KeywordEditorHookResult.metadataSchema property
 
+Keyword's metadata schema.
+
 **Signature:**
 
 ```typescript

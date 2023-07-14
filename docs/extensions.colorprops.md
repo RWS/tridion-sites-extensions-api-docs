@@ -12,6 +12,6 @@ export interface ColorProps
 
 ## Properties
 
-| Property                                   | Modifiers | Type                                        | Description  |
-| ------------------------------------------ | --------- | ------------------------------------------- | ------------ |
-| [color?](./extensions.colorprops.color.md) |           | [Color](./extensions.color.md) \| 'inherit' | _(Optional)_ |
+| Property                                   | Modifiers | Type                                        | Description                                                     |
+| ------------------------------------------ | --------- | ------------------------------------------- | --------------------------------------------------------------- |
+| [color?](./extensions.colorprops.color.md) |           | [Color](./extensions.color.md) \| 'inherit' | _(Optional)_ Color of the component based on the color palette. |

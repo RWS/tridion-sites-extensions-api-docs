@@ -4,6 +4,8 @@
 
 ## CategoryEditorHookResult.isEditing property
 
+Boolean that indicates that Category can be edited.
+
 **Signature:**
 
 ```typescript

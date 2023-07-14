@@ -4,6 +4,8 @@
 
 ## MutationOptions.onSettled property
 
+This function will fire when the mutation is either successfully fetched or encounters an error and be passed either the data or error.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## UpdateItemRequest.item property
 
+Item being updated.
+
 **Signature:**
 
 ```typescript

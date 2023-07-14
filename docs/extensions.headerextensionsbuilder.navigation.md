@@ -4,6 +4,8 @@
 
 ## HeaderExtensionsBuilder.navigation property
 
+Provides a mechanism for customizing navigation items.
+
 **Signature:**
 
 ```typescript

@@ -12,7 +12,7 @@ export interface RevertItemsRequest
 
 ## Properties
 
-| Property                                                      | Modifiers | Type                                                        | Description |
-| ------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [containerId](./extensions.revertitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                              |             |
-| [itemIds](./extensions.revertitemsrequest.itemids.md)         |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
+| Property                                                      | Modifiers | Type                                                        | Description                               |
+| ------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------------------------------------- |
+| [containerId](./extensions.revertitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                              | Container item ID of the items to revert. |
+| [itemIds](./extensions.revertitemsrequest.itemids.md)         |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of items being reverted.              |

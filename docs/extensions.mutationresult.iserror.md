@@ -4,6 +4,8 @@
 
 ## MutationResult.isError property
 
+Is `true` when status is `error`<!-- -->.
+
 **Signature:**
 
 ```typescript

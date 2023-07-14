@@ -4,6 +4,8 @@
 
 ## UploadMultimediaRequest.files property
 
+Files to upload.
+
 **Signature:**
 
 ```typescript

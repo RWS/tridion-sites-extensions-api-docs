@@ -4,6 +4,8 @@
 
 ## useAutoClassifyItemsMutation variable
 
+Classifies items based on their content and metadata.
+
 **Signature:**
 
 ```typescript

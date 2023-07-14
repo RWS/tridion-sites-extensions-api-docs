@@ -4,6 +4,8 @@
 
 ## useOptionalStructureGroupEditor variable
 
+Provides access to Structure Group Editor data and methods, if available. `undefined` is returned when used outside of Structure Group Editor.
+
 **Signature:**
 
 ```typescript

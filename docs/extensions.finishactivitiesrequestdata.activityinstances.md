@@ -4,6 +4,8 @@
 
 ## FinishActivitiesRequestData.activityInstances property
 
+Array of Activity Instances to finish activity for.
+
 **Signature:**
 
 ```typescript

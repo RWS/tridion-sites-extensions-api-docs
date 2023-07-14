@@ -4,6 +4,8 @@
 
 ## TextProps.direction property
 
+The direction of the text.
+
 **Signature:**
 
 ```typescript

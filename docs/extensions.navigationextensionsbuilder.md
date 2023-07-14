@@ -12,8 +12,8 @@ export declare class NavigationExtensionsBuilder
 
 ## Properties
 
-| Property                                                         | Modifiers | Type                                                                                          | Description |
-| ---------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------- | ----------- |
-| [build](./extensions.navigationextensionsbuilder.build.md)       |           | () =&gt; [NavigationExtensions](./extensions.navigationextensions.md)                         |             |
-| [config](./extensions.navigationextensionsbuilder.config.md)     |           | ListBuilder&lt;string&gt;                                                                     |             |
-| [register](./extensions.navigationextensionsbuilder.register.md) |           | (item: [NavigationItemExtension](./extensions.navigationitemextension.md)<!-- -->) =&gt; this |             |
+| Property                                                         | Modifiers | Type                                                                                          | Description                                                                 |
+| ---------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [build](./extensions.navigationextensionsbuilder.build.md)       |           | () =&gt; [NavigationExtensions](./extensions.navigationextensions.md)                         |                                                                             |
+| [config](./extensions.navigationextensionsbuilder.config.md)     |           | ListBuilder&lt;string&gt;                                                                     | Provides a mechanism for customizing the configuration of navigation items. |
+| [register](./extensions.navigationextensionsbuilder.register.md) |           | (item: [NavigationItemExtension](./extensions.navigationitemextension.md)<!-- -->) =&gt; this | Registers a new navigation item.                                            |

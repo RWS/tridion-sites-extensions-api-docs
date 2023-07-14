@@ -12,9 +12,9 @@ export interface KeywordEditorHookResult
 
 ## Properties
 
-| Property                                                                 | Modifiers | Type                           | Description |
-| ------------------------------------------------------------------------ | --------- | ------------------------------ | ----------- |
-| [isChanged](./extensions.keywordeditorhookresult.ischanged.md)           |           | boolean                        |             |
-| [isEditing](./extensions.keywordeditorhookresult.isediting.md)           |           | boolean                        |             |
-| [keyword](./extensions.keywordeditorhookresult.keyword.md)               |           | [Keyword](./models.keyword.md) |             |
-| [metadataSchema](./extensions.keywordeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md)   |             |
+| Property                                                                 | Modifiers | Type                           | Description                                              |
+| ------------------------------------------------------------------------ | --------- | ------------------------------ | -------------------------------------------------------- |
+| [isChanged](./extensions.keywordeditorhookresult.ischanged.md)           |           | boolean                        | Boolean that indicates that Keyword has unsaved changes. |
+| [isEditing](./extensions.keywordeditorhookresult.isediting.md)           |           | boolean                        | Boolean that indicates that Keyword can be edited.       |
+| [keyword](./extensions.keywordeditorhookresult.keyword.md)               |           | [Keyword](./models.keyword.md) | Editable Keyword.                                        |
+| [metadataSchema](./extensions.keywordeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md)   | Keyword's metadata schema.                               |

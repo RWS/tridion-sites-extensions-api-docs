@@ -4,6 +4,8 @@
 
 ## ContentExplorerNodeData interface
 
+Basic data contained in a Content Explorer hierarchy node.
+
 **Signature:**
 
 ```typescript

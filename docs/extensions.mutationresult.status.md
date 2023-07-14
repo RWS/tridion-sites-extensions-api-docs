@@ -4,6 +4,8 @@
 
 ## MutationResult.status property
 
+-   `idle` initial status prior to the mutation function executing. - `loading` if the mutation is currently executing. - `error` if the last mutation attempt resulted in an error. - `success` if the last mutation attempt was successful.
+
 **Signature:**
 
 ```typescript

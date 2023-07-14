@@ -4,6 +4,8 @@
 
 ## MutationOptions.retryDelay property
 
+This function receives a retryAttempt integer and the actual Error and returns the delay to apply before the next attempt in milliseconds. Alternatively, you can pass the delay in milliseconds.
+
 **Signature:**
 
 ```typescript

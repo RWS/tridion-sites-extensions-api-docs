@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchyUtilsExtensionApi.isSystemNode property
 
+Checks if a node is system node.
+
 **Signature:**
 
 ```typescript

@@ -12,7 +12,7 @@ export interface DefaultTranslationJobQueryProps
 
 ## Properties
 
-| Property                                                           | Modifiers | Type                                                        | Description |
-| ------------------------------------------------------------------ | --------- | ----------------------------------------------------------- | ----------- |
-| [itemIds](./extensions.defaulttranslationjobqueryprops.itemids.md) |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
-| [type](./extensions.defaulttranslationjobqueryprops.type.md)       |           | [TranslationJobType](./models.translationjobtype.md)        |             |
+| Property                                                           | Modifiers | Type                                                        | Description                             |
+| ------------------------------------------------------------------ | --------- | ----------------------------------------------------------- | --------------------------------------- |
+| [itemIds](./extensions.defaulttranslationjobqueryprops.itemids.md) |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs to get default Translation Job for. |
+| [type](./extensions.defaulttranslationjobqueryprops.type.md)       |           | [TranslationJobType](./models.translationjobtype.md)        |                                         |

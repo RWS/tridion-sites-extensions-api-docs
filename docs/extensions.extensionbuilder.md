@@ -12,11 +12,11 @@ export declare class ExtensionBuilder
 
 ## Properties
 
-| Property                                                                  | Modifiers | Type                                                                                       | Description |
-| ------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------ | ----------- |
-| [activitiesExplorer](./extensions.extensionbuilder.activitiesexplorer.md) |           | [ActivitiesExplorerExtensionsBuilder](./extensions.activitiesexplorerextensionsbuilder.md) |             |
-| [build](./extensions.extensionbuilder.build.md)                           |           | () =&gt; [ExtensionPoints](./extensions.extensionpoints.md)                                |             |
-| [contentEditor](./extensions.extensionbuilder.contenteditor.md)           |           | [ContentEditorExtensionsBuilder](./extensions.contenteditorextensionsbuilder.md)           |             |
-| [contentExplorer](./extensions.extensionbuilder.contentexplorer.md)       |           | [ContentExplorerExtensionsBuilder](./extensions.contentexplorerextensionsbuilder.md)       |             |
-| [header](./extensions.extensionbuilder.header.md)                         |           | [HeaderExtensionsBuilder](./extensions.headerextensionsbuilder.md)                         |             |
-| [translations](./extensions.extensionbuilder.translations.md)             |           | [TranslationExtensionsBuilder](./extensions.translationextensionsbuilder.md)               |             |
+| Property                                                                  | Modifiers | Type                                                                                       | Description                                                               |
+| ------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [activitiesExplorer](./extensions.extensionbuilder.activitiesexplorer.md) |           | [ActivitiesExplorerExtensionsBuilder](./extensions.activitiesexplorerextensionsbuilder.md) | Provides a mechanism for customizing Activities Explorer.                 |
+| [build](./extensions.extensionbuilder.build.md)                           |           | () =&gt; [ExtensionPoints](./extensions.extensionpoints.md)                                |                                                                           |
+| [contentEditor](./extensions.extensionbuilder.contenteditor.md)           |           | [ContentEditorExtensionsBuilder](./extensions.contenteditorextensionsbuilder.md)           | Provides a mechanism for customizing form fields within editors.          |
+| [contentExplorer](./extensions.extensionbuilder.contentexplorer.md)       |           | [ContentExplorerExtensionsBuilder](./extensions.contentexplorerextensionsbuilder.md)       | Provides a mechanism for customizing Content Explorer.                    |
+| [header](./extensions.extensionbuilder.header.md)                         |           | [HeaderExtensionsBuilder](./extensions.headerextensionsbuilder.md)                         | Provides a mechanism for customizing the header of the application.       |
+| [translations](./extensions.extensionbuilder.translations.md)             |           | [TranslationExtensionsBuilder](./extensions.translationextensionsbuilder.md)               | Provides a mechanism for managing localization strings within extensions. |

@@ -4,6 +4,8 @@
 
 ## UserGroupsQueryProps.inPublicationId property
 
+If specified, return only groups which are scoped to the Publication ID.
+
 **Signature:**
 
 ```typescript

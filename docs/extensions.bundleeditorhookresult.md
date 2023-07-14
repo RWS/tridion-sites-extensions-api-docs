@@ -12,9 +12,9 @@ export interface BundleEditorHookResult
 
 ## Properties
 
-| Property                                                                | Modifiers | Type                         | Description |
-| ----------------------------------------------------------------------- | --------- | ---------------------------- | ----------- |
-| [bundle](./extensions.bundleeditorhookresult.bundle.md)                 |           | [Bundle](./models.bundle.md) |             |
-| [isChanged](./extensions.bundleeditorhookresult.ischanged.md)           |           | boolean                      |             |
-| [isEditing](./extensions.bundleeditorhookresult.isediting.md)           |           | boolean                      |             |
-| [metadataSchema](./extensions.bundleeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md) |             |
+| Property                                                                | Modifiers | Type                         | Description                                             |
+| ----------------------------------------------------------------------- | --------- | ---------------------------- | ------------------------------------------------------- |
+| [bundle](./extensions.bundleeditorhookresult.bundle.md)                 |           | [Bundle](./models.bundle.md) | Editable Bundle.                                        |
+| [isChanged](./extensions.bundleeditorhookresult.ischanged.md)           |           | boolean                      | Boolean that indicates that Bundle has unsaved changes. |
+| [isEditing](./extensions.bundleeditorhookresult.isediting.md)           |           | boolean                      | Boolean that indicates that Bundle can be edited.       |
+| [metadataSchema](./extensions.bundleeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md) | Bundle's metadata schema.                               |

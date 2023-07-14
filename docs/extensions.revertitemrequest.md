@@ -12,7 +12,7 @@ export interface RevertItemRequest
 
 ## Properties
 
-| Property                                                          | Modifiers | Type                                                 | Description  |
-| ----------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [containerItem?](./extensions.revertitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [item](./extensions.revertitemrequest.item.md)                    |           | [IdentifiableObject](./models.identifiableobject.md) |              |
+| Property                                                          | Modifiers | Type                                                 | Description                                        |
+| ----------------------------------------------------------------- | --------- | ---------------------------------------------------- | -------------------------------------------------- |
+| [containerItem?](./extensions.revertitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ Container item of the item to revert. |
+| [item](./extensions.revertitemrequest.item.md)                    |           | [IdentifiableObject](./models.identifiableobject.md) | ID of the item being reverted.                     |

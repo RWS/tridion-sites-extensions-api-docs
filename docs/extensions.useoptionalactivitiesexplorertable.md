@@ -4,8 +4,14 @@
 
 ## useOptionalActivitiesExplorerTable variable
 
+Provides access to Activities Explorer Table data and methods, if available.
+
 **Signature:**
 
 ```typescript
 useOptionalActivitiesExplorerTable: OptionalActivitiesExplorerTableHook;
 ```
+
+## Remarks
+
+Safe to be used within or outside of the Activities Explorer Table. `undefined` is returned when used outside of Activities Explorer Table.

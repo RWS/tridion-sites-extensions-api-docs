@@ -4,6 +4,8 @@
 
 ## useItemChildrenQuery variable
 
+Retrieves a list of child items for the provided organizational item.
+
 **Signature:**
 
 ```typescript

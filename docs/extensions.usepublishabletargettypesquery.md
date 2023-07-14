@@ -4,6 +4,8 @@
 
 ## usePublishableTargetTypesQuery variable
 
+Retrieves a list of Target Types for the provided Business Process Type.
+
 **Signature:**
 
 ```typescript

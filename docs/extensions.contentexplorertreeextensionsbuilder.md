@@ -12,7 +12,7 @@ export declare class ContentExplorerTreeExtensionsBuilder
 
 ## Properties
 
-| Property                                                                        | Modifiers | Type                                                                                           | Description |
-| ------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- | ----------- |
-| [build](./extensions.contentexplorertreeextensionsbuilder.build.md)             |           | () =&gt; [ContentExplorerTreeExtensions](./extensions.contentexplorertreeextensions.md)        |             |
-| [contextMenu](./extensions.contentexplorertreeextensionsbuilder.contextmenu.md) |           | [ActionsConfigurationExtensionsBuilder](./extensions.actionsconfigurationextensionsbuilder.md) |             |
+| Property                                                                        | Modifiers | Type                                                                                           | Description                                                                                                  |
+| ------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| [build](./extensions.contentexplorertreeextensionsbuilder.build.md)             |           | () =&gt; [ContentExplorerTreeExtensions](./extensions.contentexplorertreeextensions.md)        |                                                                                                              |
+| [contextMenu](./extensions.contentexplorertreeextensionsbuilder.contextmenu.md) |           | [ActionsConfigurationExtensionsBuilder](./extensions.actionsconfigurationextensionsbuilder.md) | Provides a mechanism for customizing the configuration of actions within Content Explorer Tree context menu. |

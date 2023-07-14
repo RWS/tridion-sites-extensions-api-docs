@@ -12,7 +12,7 @@ export interface MultimediaUploadResult
 
 ## Properties
 
-| Property                                                               | Modifiers | Type                                      | Description  |
-| ---------------------------------------------------------------------- | --------- | ----------------------------------------- | ------------ |
-| [componentLink?](./extensions.multimediauploadresult.componentlink.md) |           | [Link](./models.link.md)                  | _(Optional)_ |
-| [error?](./extensions.multimediauploadresult.error.md)                 |           | [ApiError](./models.apierror.md) \| Error | _(Optional)_ |
+| Property                                                               | Modifiers | Type                                      | Description                                                                             |
+| ---------------------------------------------------------------------- | --------- | ----------------------------------------- | --------------------------------------------------------------------------------------- |
+| [componentLink?](./extensions.multimediauploadresult.componentlink.md) |           | [Link](./models.link.md)                  | _(Optional)_ Link to the created component with uploaded File.                          |
+| [error?](./extensions.multimediauploadresult.error.md)                 |           | [ApiError](./models.apierror.md) \| Error | _(Optional)_ In case <code>componentLink</code> is not created error will be fulfilled. |

@@ -4,8 +4,14 @@
 
 ## useActivitiesExplorer variable
 
+Provides access to Activities Explorer data and methods.
+
 **Signature:**
 
 ```typescript
 useActivitiesExplorer: ActivitiesExplorerHook;
 ```
+
+## Remarks
+
+Should be used only inside Activities Explorer, otherwise throws an error.

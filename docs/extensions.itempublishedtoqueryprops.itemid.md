@@ -4,6 +4,8 @@
 
 ## ItemPublishedToQueryProps.itemId property
 
+ID of the published item.
+
 **Signature:**
 
 ```typescript

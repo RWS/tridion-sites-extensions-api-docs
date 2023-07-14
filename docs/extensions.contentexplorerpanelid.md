@@ -4,6 +4,8 @@
 
 ## ContentExplorerPanelId type
 
+Type represents ID of a built-in panel of the Content Explorer.
+
 **Signature:**
 
 ```typescript

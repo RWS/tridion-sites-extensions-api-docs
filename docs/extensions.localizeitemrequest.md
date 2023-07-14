@@ -12,7 +12,7 @@ export interface LocalizeItemRequest
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                                                 | Description  |
-| ------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ------------ |
-| [containerItem?](./extensions.localizeitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [itemId](./extensions.localizeitemrequest.itemid.md)                |           | [ItemUri](./models.itemuri.md)                       |              |
+| Property                                                            | Modifiers | Type                                                 | Description                                          |
+| ------------------------------------------------------------------- | --------- | ---------------------------------------------------- | ---------------------------------------------------- |
+| [containerItem?](./extensions.localizeitemrequest.containeritem.md) |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ Container item of the item to localize. |
+| [itemId](./extensions.localizeitemrequest.itemid.md)                |           | [ItemUri](./models.itemuri.md)                       | ID of an item to localize.                           |

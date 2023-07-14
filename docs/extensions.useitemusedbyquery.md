@@ -4,6 +4,8 @@
 
 ## useItemUsedByQuery variable
 
+Retrieves a list of items that use the provided item.
+
 **Signature:**
 
 ```typescript

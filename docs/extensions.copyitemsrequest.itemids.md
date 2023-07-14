@@ -4,6 +4,8 @@
 
 ## CopyItemsRequest.itemIds property
 
+IDs of items to copy.
+
 **Signature:**
 
 ```typescript

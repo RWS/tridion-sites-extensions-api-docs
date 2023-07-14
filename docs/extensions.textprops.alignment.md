@@ -4,6 +4,8 @@
 
 ## TextProps.alignment property
 
+The alignment of the text in the container.
+
 **Signature:**
 
 ```typescript

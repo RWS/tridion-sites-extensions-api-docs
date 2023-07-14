@@ -4,6 +4,8 @@
 
 ## useOptionalPageEditor variable
 
+Provides access to Page Editor data and methods, if available. `undefined` is returned when used outside of Page Editor.
+
 **Signature:**
 
 ```typescript

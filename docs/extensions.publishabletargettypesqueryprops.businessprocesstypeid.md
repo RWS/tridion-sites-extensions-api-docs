@@ -4,6 +4,8 @@
 
 ## PublishableTargetTypesQueryProps.businessProcessTypeId property
 
+Identifies the Business Process Type for which Target Types are being retrieved.
+
 **Signature:**
 
 ```typescript

@@ -12,7 +12,7 @@ export interface ChangeUserLanguageRequest
 
 ## Properties
 
-| Property                                                           | Modifiers | Type                           | Description |
-| ------------------------------------------------------------------ | --------- | ------------------------------ | ----------- |
-| [languageId](./extensions.changeuserlanguagerequest.languageid.md) |           | number                         |             |
-| [userId](./extensions.changeuserlanguagerequest.userid.md)         |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                           | Modifiers | Type                           | Description                          |
+| ------------------------------------------------------------------ | --------- | ------------------------------ | ------------------------------------ |
+| [languageId](./extensions.changeuserlanguagerequest.languageid.md) |           | number                         | ID of a language to set to.          |
+| [userId](./extensions.changeuserlanguagerequest.userid.md)         |           | [ItemUri](./models.itemuri.md) | ID of a User to change language for. |

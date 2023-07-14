@@ -4,6 +4,8 @@
 
 ## UploadMultimediaRequest.containerId property
 
+ID of a Folder to upload files to.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## useItemClassifiedItemsQuery variable
 
+Retrieves a list of items classified with the provided Keyword or Concept.
+
 **Signature:**
 
 ```typescript

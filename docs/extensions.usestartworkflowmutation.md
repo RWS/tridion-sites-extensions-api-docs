@@ -4,6 +4,8 @@
 
 ## useStartWorkflowMutation variable
 
+Starts a new workflow and associates the bundle and all items inside it with that workflow instance.
+
 **Signature:**
 
 ```typescript

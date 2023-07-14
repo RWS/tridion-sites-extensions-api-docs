@@ -12,7 +12,7 @@ export interface ItemsInProgressQueryProps
 
 ## Properties
 
-| Property                                                              | Modifiers | Type    | Description  |
-| --------------------------------------------------------------------- | --------- | ------- | ------------ |
-| [forAllUsers?](./extensions.itemsinprogressqueryprops.forallusers.md) |           | boolean | _(Optional)_ |
-| [maxResults?](./extensions.itemsinprogressqueryprops.maxresults.md)   |           | number  | _(Optional)_ |
+| Property                                                              | Modifiers | Type    | Description                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------- | --------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [forAllUsers?](./extensions.itemsinprogressqueryprops.forallusers.md) |           | boolean | _(Optional)_ Option to include items that are in progress by any user, but only in Publications where the user has Publication Administration or Lock Management Rights (unless the user has System Administration privileges). By default, only items locked by the current user are returned. |
+| [maxResults?](./extensions.itemsinprogressqueryprops.maxresults.md)   |           | number  | _(Optional)_ Specifies the maximum number of results to return.                                                                                                                                                                                                                                 |

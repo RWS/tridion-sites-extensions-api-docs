@@ -4,6 +4,8 @@
 
 ## useSystemSearchQuery variable
 
+Retrieves search results within the system for the provided input.
+
 **Signature:**
 
 ```typescript

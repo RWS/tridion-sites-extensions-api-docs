@@ -4,6 +4,8 @@
 
 ## LocalizeItemsRequest.containerId property
 
+Container item ID of the items to localize.
+
 **Signature:**
 
 ```typescript

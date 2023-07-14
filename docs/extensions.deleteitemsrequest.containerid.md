@@ -4,7 +4,7 @@
 
 ## DeleteItemsRequest.containerId property
 
-containerId may take 'undefined' value when publications which don't have a real container are being deleted.
+Container item ID of an items to delete. `containerId` may take 'undefined' value when publications which don't have a real container are being deleted.
 
 **Signature:**
 

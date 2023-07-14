@@ -4,7 +4,7 @@
 
 ## SearchInContainerQueryProps.containerId property
 
-URI of the container
+URI of the container to search in.
 
 **Signature:**
 

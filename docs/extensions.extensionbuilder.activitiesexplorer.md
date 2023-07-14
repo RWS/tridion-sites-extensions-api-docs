@@ -4,6 +4,8 @@
 
 ## ExtensionBuilder.activitiesExplorer property
 
+Provides a mechanism for customizing Activities Explorer.
+
 **Signature:**
 
 ```typescript

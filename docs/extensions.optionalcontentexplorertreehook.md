@@ -4,6 +4,8 @@
 
 ## OptionalContentExplorerTreeHook type
 
+Hook for accessing Content Explorer Tree data and methods when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalContentExplorerTreeHook = () => ContentExplorerTreeHookResul
 ```
 
 **References:** [ContentExplorerTreeHookResult](./extensions.contentexplorertreehookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Content Explorer Tree. `undefined` is returned when used outside of the Content Explorer Tree.

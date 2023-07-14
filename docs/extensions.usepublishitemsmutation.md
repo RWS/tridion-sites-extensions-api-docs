@@ -4,6 +4,8 @@
 
 ## usePublishItemsMutation variable
 
+Publishes a list of items with provided instructions.
+
 **Signature:**
 
 ```typescript

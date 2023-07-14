@@ -4,7 +4,7 @@
 
 ## TranslationItemExtensionConfiguration.records property
 
-Key-value pairs of string translated to `code` language.
+Key-value pairs of string translated to [TranslationItemExtensionConfiguration.code](./extensions.translationitemextensionconfiguration.code.md) language.
 
 **Signature:**
 

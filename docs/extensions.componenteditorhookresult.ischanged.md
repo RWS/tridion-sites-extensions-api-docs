@@ -4,6 +4,8 @@
 
 ## ComponentEditorHookResult.isChanged property
 
+Boolean that indicates that Component has unsaved changes.
+
 **Signature:**
 
 ```typescript

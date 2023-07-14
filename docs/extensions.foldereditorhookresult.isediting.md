@@ -4,6 +4,8 @@
 
 ## FolderEditorHookResult.isEditing property
 
+Boolean that indicates that Folder can be edited.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## MutationOptions.onSuccess property
 
+This function will fire when the mutation is successful and will be passed the mutation's result.
+
 **Signature:**
 
 ```typescript

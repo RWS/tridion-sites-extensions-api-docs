@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerHook type
 
+Hook for accessing Activities Explorer data.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type ActivitiesExplorerHook = () => ActivitiesExplorerHookResult;
 ```
 
 **References:** [ActivitiesExplorerHookResult](./extensions.activitiesexplorerhookresult.md)
+
+## Remarks
+
+Should be used only inside Activities Explorer, otherwise throws an error.

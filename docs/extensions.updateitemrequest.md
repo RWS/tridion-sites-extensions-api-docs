@@ -12,6 +12,6 @@ export interface UpdateItemRequest
 
 ## Properties
 
-| Property                                       | Modifiers | Type                                                 | Description |
-| ---------------------------------------------- | --------- | ---------------------------------------------------- | ----------- |
-| [item](./extensions.updateitemrequest.item.md) |           | [IdentifiableObject](./models.identifiableobject.md) |             |
+| Property                                       | Modifiers | Type                                                 | Description         |
+| ---------------------------------------------- | --------- | ---------------------------------------------------- | ------------------- |
+| [item](./extensions.updateitemrequest.item.md) |           | [IdentifiableObject](./models.identifiableobject.md) | Item being updated. |

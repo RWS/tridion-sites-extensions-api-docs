@@ -4,6 +4,8 @@
 
 ## MutationOptions.retry property
 
+Defaults to 0. - If `false`<!-- -->, failed mutations will not retry. - If `true`<!-- -->, failed mutations will retry infinitely. - If set to a number, e.g. 3, failed mutations will retry until the failed mutations count meets that number.
+
 **Signature:**
 
 ```typescript

@@ -4,8 +4,14 @@
 
 ## useContentExplorerTable variable
 
+Hook for accessing Content Explorer Table data and methods.
+
 **Signature:**
 
 ```typescript
 useContentExplorerTable: ContentExplorerTableHook;
 ```
+
+## Remarks
+
+Should be used only inside Content Explorer Table, otherwise throws an error.

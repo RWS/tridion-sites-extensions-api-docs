@@ -12,9 +12,9 @@ export interface StructureGroupEditorHookResult
 
 ## Properties
 
-| Property                                                                        | Modifiers | Type                                         | Description |
-| ------------------------------------------------------------------------------- | --------- | -------------------------------------------- | ----------- |
-| [isChanged](./extensions.structuregroupeditorhookresult.ischanged.md)           |           | boolean                                      |             |
-| [isEditing](./extensions.structuregroupeditorhookresult.isediting.md)           |           | boolean                                      |             |
-| [metadataSchema](./extensions.structuregroupeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md)                 |             |
-| [structureGroup](./extensions.structuregroupeditorhookresult.structuregroup.md) |           | [StructureGroup](./models.structuregroup.md) |             |
+| Property                                                                        | Modifiers | Type                                         | Description                                                      |
+| ------------------------------------------------------------------------------- | --------- | -------------------------------------------- | ---------------------------------------------------------------- |
+| [isChanged](./extensions.structuregroupeditorhookresult.ischanged.md)           |           | boolean                                      | Boolean that indicates that Structure Group has unsaved changes. |
+| [isEditing](./extensions.structuregroupeditorhookresult.isediting.md)           |           | boolean                                      | Boolean that indicates that Structure Group can be edited.       |
+| [metadataSchema](./extensions.structuregroupeditorhookresult.metadataschema.md) |           | [Schema](./models.schema.md)                 | Structure Group's metadata schema.                               |
+| [structureGroup](./extensions.structuregroupeditorhookresult.structuregroup.md) |           | [StructureGroup](./models.structuregroup.md) | Editable Structure Group.                                        |

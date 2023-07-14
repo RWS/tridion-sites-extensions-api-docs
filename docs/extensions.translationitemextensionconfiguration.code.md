@@ -4,7 +4,7 @@
 
 ## TranslationItemExtensionConfiguration.code property
 
-Language code.
+A code used to identify a specific language.
 
 **Signature:**
 

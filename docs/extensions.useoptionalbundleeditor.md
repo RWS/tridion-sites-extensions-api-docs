@@ -4,6 +4,8 @@
 
 ## useOptionalBundleEditor variable
 
+Provides access to Bundle Editor data and methods, if available. `undefined` is returned when used outside of Bundle Editor.
+
 **Signature:**
 
 ```typescript

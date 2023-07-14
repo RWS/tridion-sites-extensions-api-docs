@@ -4,6 +4,8 @@
 
 ## NavigationExtensionsBuilder.config property
 
+Provides a mechanism for customizing the configuration of navigation items.
+
 **Signature:**
 
 ```typescript

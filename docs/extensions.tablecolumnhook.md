@@ -7,11 +7,7 @@
 **Signature:**
 
 ```typescript
-export type TableColumnHook = () => {
-    readonly title: string;
-    readonly isAvailable: boolean;
-    readonly isResizable: boolean;
-    readonly minWidth?: number;
-    readonly initialWidth?: number;
-};
+export type TableColumnHook = () => TableColumnHookResult;
 ```
+
+**References:** [TableColumnHookResult](./extensions.tablecolumnhookresult.md)

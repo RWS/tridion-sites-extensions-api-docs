@@ -4,7 +4,7 @@
 
 ## NavigationItemExtensionConfiguration.routeComponent property
 
-Component to render on this path
+The component to be rendered when the path in the browser address bar matches the specified [NavigationItemExtensionConfiguration.routePath](./extensions.navigationitemextensionconfiguration.routepath.md)<!-- -->.
 
 **Signature:**
 

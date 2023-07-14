@@ -4,6 +4,8 @@
 
 ## ContentExplorerHookResult.hierarchyLoadingState property
 
+Loading state of nodes of the Content Explorer hierarchy.
+
 **Signature:**
 
 ```typescript

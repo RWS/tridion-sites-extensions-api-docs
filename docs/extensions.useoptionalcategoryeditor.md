@@ -4,6 +4,8 @@
 
 ## useOptionalCategoryEditor variable
 
+Provides access to Category Editor data and methods, if available. `undefined` is returned when used outside of Category Editor.
+
 **Signature:**
 
 ```typescript

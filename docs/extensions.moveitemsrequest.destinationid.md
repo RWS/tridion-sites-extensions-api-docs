@@ -4,6 +4,8 @@
 
 ## MoveItemsRequest.destinationId property
 
+ID of organizational item to move to.
+
 **Signature:**
 
 ```typescript

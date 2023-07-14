@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerTableExtensionsBuilder.toolbar property
 
+Provides a mechanism for customizing the configuration of actions within Activities Explorer Table toolbar.
+
 **Signature:**
 
 ```typescript

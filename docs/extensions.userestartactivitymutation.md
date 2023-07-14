@@ -4,6 +4,8 @@
 
 ## useRestartActivityMutation variable
 
+Restarts an activity which is failed.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## isSystemNode variable
 
+Checks whether the provided node is the 'System' node.
+
 **Signature:**
 
 ```typescript

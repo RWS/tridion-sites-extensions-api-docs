@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerTableHook type
 
+Hook for accessing Activities Explorer Table data and methods.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type ActivitiesExplorerTableHook = () => ActivitiesExplorerTableHookResul
 ```
 
 **References:** [ActivitiesExplorerTableHookResult](./extensions.activitiesexplorertablehookresult.md)
+
+## Remarks
+
+Should be used only inside Activities Explorer Table, otherwise throws an error.

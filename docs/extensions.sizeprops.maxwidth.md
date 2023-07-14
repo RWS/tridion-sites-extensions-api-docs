@@ -4,6 +4,8 @@
 
 ## SizeProps.maxWidth property
 
+Maximum width of the component in pixels.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ItemHistoryQueryProps.itemId property
 
+Identifies the item for which History is being retrieved.
+
 **Signature:**
 
 ```typescript

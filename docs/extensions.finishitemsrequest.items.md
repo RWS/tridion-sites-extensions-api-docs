@@ -4,6 +4,8 @@
 
 ## FinishItemsRequest.items property
 
+Items to finish editing on.
+
 **Signature:**
 
 ```typescript

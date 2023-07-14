@@ -4,6 +4,8 @@
 
 ## isFavoritesNodeId variable
 
+Checks whether the provided nodeId is the 'Favorites' node ID.
+
 **Signature:**
 
 ```typescript

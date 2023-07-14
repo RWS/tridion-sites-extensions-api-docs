@@ -4,6 +4,8 @@
 
 ## MultimediaUploadResult.error property
 
+In case `componentLink` is not created error will be fulfilled.
+
 **Signature:**
 
 ```typescript

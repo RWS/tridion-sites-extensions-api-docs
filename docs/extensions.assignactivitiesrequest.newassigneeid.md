@@ -4,6 +4,8 @@
 
 ## AssignActivitiesRequest.newAssigneeId property
 
+User or Group ID to assign ActivityInstances to.
+
 **Signature:**
 
 ```typescript

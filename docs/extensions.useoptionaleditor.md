@@ -4,6 +4,8 @@
 
 ## useOptionalEditor variable
 
+Provides access to Item Editor data and methods, if available. `undefined` is returned when used outside of Item Editor.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ActivitiesExplorerHookResult.items property
 
+List of Activity Instances.
+
 **Signature:**
 
 ```typescript

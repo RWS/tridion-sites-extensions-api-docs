@@ -7,12 +7,7 @@
 **Signature:**
 
 ```typescript
-export type NavigationItemHook = () => {
-    readonly isAvailable: boolean;
-    readonly label: string;
-    readonly renderLabel?: ComponentType<NavigationItemRenderLabel>;
-    readonly tooltip?: string;
-};
+export type NavigationItemHook = () => NavigationItemHookResult;
 ```
 
-**References:** [NavigationItemRenderLabel](./extensions.navigationitemrenderlabel.md)
+**References:** [NavigationItemHookResult](./extensions.navigationitemhookresult.md)

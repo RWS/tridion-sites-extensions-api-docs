@@ -4,6 +4,8 @@
 
 ## useItemDefaultDataQuery variable
 
+Retrieves the default model for the provided model type.
+
 **Signature:**
 
 ```typescript

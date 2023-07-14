@@ -4,6 +4,8 @@
 
 ## ActionExtensionConfiguration.label property
 
+Label associated with the action.
+
 **Signature:**
 
 ```typescript

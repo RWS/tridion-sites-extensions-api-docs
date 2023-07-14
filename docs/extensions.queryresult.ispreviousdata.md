@@ -4,6 +4,8 @@
 
 ## QueryResult.isPreviousData property
 
+Will be true when `keepPreviousData` is set and data from the previous query is returned.
+
 **Signature:**
 
 ```typescript

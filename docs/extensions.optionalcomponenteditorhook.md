@@ -4,6 +4,8 @@
 
 ## OptionalComponentEditorHook type
 
+Hook for accessing Component Editor data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalComponentEditorHook = () => ComponentEditorHookResult | unde
 ```
 
 **References:** [ComponentEditorHookResult](./extensions.componenteditorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Component Editor. `undefined` is returned when used outside of Component Editor.

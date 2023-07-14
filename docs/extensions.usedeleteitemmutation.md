@@ -4,6 +4,8 @@
 
 ## useDeleteItemMutation variable
 
+Deletes a single item from the system.
+
 **Signature:**
 
 ```typescript

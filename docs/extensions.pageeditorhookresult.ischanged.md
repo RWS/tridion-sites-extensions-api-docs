@@ -4,6 +4,8 @@
 
 ## PageEditorHookResult.isChanged property
 
+Boolean that indicates that Page has unsaved changes.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## QueryResult.dataUpdatedAt property
 
+The timestamp for when the query most recently returned the `status` as `success`<!-- -->.
+
 **Signature:**
 
 ```typescript

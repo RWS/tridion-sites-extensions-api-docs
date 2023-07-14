@@ -4,6 +4,8 @@
 
 ## useSearchInContainerQuery variable
 
+Retrieves search results within an individual item for the provided input.
+
 **Signature:**
 
 ```typescript

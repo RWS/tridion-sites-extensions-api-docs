@@ -4,6 +4,8 @@
 
 ## useUpdateItemMutation variable
 
+Updates an item by URI.
+
 **Signature:**
 
 ```typescript

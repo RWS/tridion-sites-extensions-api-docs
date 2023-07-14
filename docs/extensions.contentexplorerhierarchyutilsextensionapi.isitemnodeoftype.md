@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchyUtilsExtensionApi.isItemNodeOfType property
 
+Checks if a node is item node of a specific type.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## StructureGroupEditorHookResult.isChanged property
 
+Boolean that indicates that Structure Group has unsaved changes.
+
 **Signature:**
 
 ```typescript

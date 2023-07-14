@@ -4,6 +4,8 @@
 
 ## UsersQueryProps.searchMode property
 
+Specifies how to match on the account name.
+
 **Signature:**
 
 ```typescript

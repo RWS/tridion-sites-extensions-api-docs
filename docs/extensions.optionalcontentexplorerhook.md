@@ -4,6 +4,8 @@
 
 ## OptionalContentExplorerHook type
 
+Hook for accessing Content Explorer data and methods when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalContentExplorerHook = () => ContentExplorerHookResult | unde
 ```
 
 **References:** [ContentExplorerHookResult](./extensions.contentexplorerhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Content Explorer. `undefined` is returned when used outside of Content Explorer.

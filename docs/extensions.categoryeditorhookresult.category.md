@@ -4,6 +4,8 @@
 
 ## CategoryEditorHookResult.category property
 
+Editable Category.
+
 **Signature:**
 
 ```typescript

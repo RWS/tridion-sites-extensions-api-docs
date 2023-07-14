@@ -4,6 +4,8 @@
 
 ## useItemHistoryQuery variable
 
+Retrieves a list of major versions of the provided versioned item.
+
 **Signature:**
 
 ```typescript

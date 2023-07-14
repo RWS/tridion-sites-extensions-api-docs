@@ -12,7 +12,7 @@ export interface AutoClassifyItemsRequest
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                                                        | Description |
-| ------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [containerId](./extensions.autoclassifyitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                              |             |
-| [itemIds](./extensions.autoclassifyitemsrequest.itemids.md)         |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |             |
+| Property                                                            | Modifiers | Type                                                        | Description                                 |
+| ------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ------------------------------------------- |
+| [containerId](./extensions.autoclassifyitemsrequest.containerid.md) |           | [ItemUri](./models.itemuri.md)                              | Container item ID of the items to classify. |
+| [itemIds](./extensions.autoclassifyitemsrequest.itemids.md)         |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of the items to classify.               |

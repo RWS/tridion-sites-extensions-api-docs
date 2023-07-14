@@ -4,6 +4,8 @@
 
 ## ExtensionBuilder.contentExplorer property
 
+Provides a mechanism for customizing Content Explorer.
+
 **Signature:**
 
 ```typescript

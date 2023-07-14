@@ -4,6 +4,8 @@
 
 ## QueryResult.isFetchedAfterMount property
 
+Will be true if the query has been fetched after the component mounted. This property can be used to not show any previously cached data.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## useDeleteItemsMutation variable
 
+Deletes a list of items from the system.
+
 **Signature:**
 
 ```typescript

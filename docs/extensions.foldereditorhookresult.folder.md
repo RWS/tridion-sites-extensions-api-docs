@@ -4,6 +4,8 @@
 
 ## FolderEditorHookResult.folder property
 
+Editable Folder.
+
 **Signature:**
 
 ```typescript

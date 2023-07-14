@@ -4,6 +4,8 @@
 
 ## useItemTranslationInfoQuery variable
 
+Retrieves translation information for the provided item.
+
 **Signature:**
 
 ```typescript

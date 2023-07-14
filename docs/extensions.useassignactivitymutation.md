@@ -4,6 +4,8 @@
 
 ## useAssignActivityMutation variable
 
+Assigns a single activity to a new User or Group.
+
 **Signature:**
 
 ```typescript

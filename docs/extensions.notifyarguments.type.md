@@ -4,6 +4,10 @@
 
 ## NotifyArguments.type property
 
+Type defines styling of the message.
+
+Depending on intention of the message one of the values can be used: - `error` - in cases error occurred, operation failed. - `info` - general information for the user. - `success` - report about success of the operation. - `warning` - information that user needs to pay attention to.
+
 **Signature:**
 
 ```typescript

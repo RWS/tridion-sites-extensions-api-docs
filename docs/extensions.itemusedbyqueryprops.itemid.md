@@ -4,6 +4,8 @@
 
 ## ItemUsedByQueryProps.itemId property
 
+Identifies the item for which 'Used By' dependencies are being retrieved.
+
 **Signature:**
 
 ```typescript

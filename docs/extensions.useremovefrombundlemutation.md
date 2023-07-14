@@ -4,6 +4,8 @@
 
 ## useRemoveFromBundleMutation variable
 
+Removes a list of items from a given bundle.
+
 **Signature:**
 
 ```typescript

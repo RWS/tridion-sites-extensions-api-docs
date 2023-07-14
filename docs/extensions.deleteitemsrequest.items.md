@@ -4,6 +4,8 @@
 
 ## DeleteItemsRequest.items property
 
+Items to delete.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## PageEditorHookResult.metadataSchema property
 
+Page's metadata schema.
+
 **Signature:**
 
 ```typescript

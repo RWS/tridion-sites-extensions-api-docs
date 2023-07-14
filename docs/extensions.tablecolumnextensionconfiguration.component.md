@@ -4,7 +4,7 @@
 
 ## TableColumnExtensionConfiguration.component property
 
-Component to render on this path
+The component to be rendered for each cell that belongs to the column.
 
 **Signature:**
 

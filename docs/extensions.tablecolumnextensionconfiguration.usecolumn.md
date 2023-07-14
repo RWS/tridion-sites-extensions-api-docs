@@ -4,7 +4,7 @@
 
 ## TableColumnExtensionConfiguration.useColumn property
 
-Hook to determine if a table column is available
+Hook that contains behavior of the column.
 
 **Signature:**
 

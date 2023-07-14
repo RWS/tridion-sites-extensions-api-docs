@@ -4,6 +4,8 @@
 
 ## FolderEditorHookResult.metadataSchema property
 
+Folder's metadata schema.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## CategoryEditorHookResult.isChanged property
 
+Boolean that indicates that Category has unsaved changes.
+
 **Signature:**
 
 ```typescript

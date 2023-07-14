@@ -4,8 +4,14 @@
 
 ## useOptionalContentExplorer variable
 
+Hook for accessing Content Explorer data and methods, if available.
+
 **Signature:**
 
 ```typescript
 useOptionalContentExplorer: OptionalContentExplorerHook;
 ```
+
+## Remarks
+
+Safe to be used within or outside of the Content Explorer. `undefined` is returned when used outside of Content Explorer.

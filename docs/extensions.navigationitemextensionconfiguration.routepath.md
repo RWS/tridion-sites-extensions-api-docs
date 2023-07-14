@@ -4,7 +4,7 @@
 
 ## NavigationItemExtensionConfiguration.routePath property
 
-Route path
+The route path associated with the navigation item.
 
 **Signature:**
 

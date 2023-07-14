@@ -4,6 +4,8 @@
 
 ## ChangeUserLanguageRequest.userId property
 
+ID of a User to change language for.
+
 **Signature:**
 
 ```typescript

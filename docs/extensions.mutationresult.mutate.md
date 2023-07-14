@@ -4,6 +4,8 @@
 
 ## MutationResult.mutate property
 
+The mutation function to call with variables to trigger the mutation and optionally override options passed to useMutation.
+
 **Signature:**
 
 ```typescript

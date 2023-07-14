@@ -4,6 +4,8 @@
 
 ## RestartActivitiesRequest.activityInstances property
 
+Array of Activity Instances to restart.
+
 **Signature:**
 
 ```typescript

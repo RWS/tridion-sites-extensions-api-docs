@@ -9,3 +9,5 @@
 ```typescript
 export type LinkComponent = FunctionComponent<LinkProps>;
 ```
+
+**References:** [LinkProps](./extensions.linkprops.md)

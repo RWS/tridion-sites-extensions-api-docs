@@ -12,6 +12,6 @@ export interface NavigationItemRenderLabel
 
 ## Properties
 
-| Property                                                 | Modifiers | Type   | Description                                                  |
-| -------------------------------------------------------- | --------- | ------ | ------------------------------------------------------------ |
-| [label](./extensions.navigationitemrenderlabel.label.md) |           | string | Label that is returned from <code>NavigationItemHook</code>. |
+| Property                                                 | Modifiers | Type   | Description                                                                                                       |
+| -------------------------------------------------------- | --------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
+| [label](./extensions.navigationitemrenderlabel.label.md) |           | string | The label obtained from [NavigationItemHookResult.label](./extensions.navigationitemhookresult.label.md)<!-- -->. |

@@ -4,6 +4,8 @@
 
 ## QueryResult.isPlaceholderData property
 
+Will be `true` if the data shown is the placeholder data.
+
 **Signature:**
 
 ```typescript

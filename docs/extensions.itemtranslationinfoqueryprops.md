@@ -12,6 +12,6 @@ export interface ItemTranslationInfoQueryProps
 
 ## Properties
 
-| Property                                                       | Modifiers | Type                           | Description |
-| -------------------------------------------------------------- | --------- | ------------------------------ | ----------- |
-| [itemId](./extensions.itemtranslationinfoqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                       | Modifiers | Type                           | Description                                                        |
+| -------------------------------------------------------------- | --------- | ------------------------------ | ------------------------------------------------------------------ |
+| [itemId](./extensions.itemtranslationinfoqueryprops.itemid.md) |           | [ItemUri](./models.itemuri.md) | Identifies the item for which Translation Info is being retrieved. |

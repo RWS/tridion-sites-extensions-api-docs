@@ -4,6 +4,8 @@
 
 ## useRevertItemMutation variable
 
+Reverts the item to the last major version. If the item does not have a major version, it is deleted.
+
 **Signature:**
 
 ```typescript

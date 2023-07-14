@@ -4,6 +4,8 @@
 
 ## ItemsInProgressQueryProps.maxResults property
 
+Specifies the maximum number of results to return.
+
 **Signature:**
 
 ```typescript

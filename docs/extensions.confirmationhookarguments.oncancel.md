@@ -4,6 +4,8 @@
 
 ## ConfirmationHookArguments.onCancel property
 
+Callback is executed when dialog has been canceled.
+
 **Signature:**
 
 ```typescript

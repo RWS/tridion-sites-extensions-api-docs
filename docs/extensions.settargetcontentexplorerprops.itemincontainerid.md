@@ -4,6 +4,8 @@
 
 ## SetTargetContentExplorerProps.itemInContainerId property
 
+Item URI of an item to resolve to inside the `containerNodeId`<!-- -->.
+
 **Signature:**
 
 ```typescript

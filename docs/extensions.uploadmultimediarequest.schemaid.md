@@ -4,6 +4,8 @@
 
 ## UploadMultimediaRequest.schemaId property
 
+ID of a schema to create components based on.
+
 **Signature:**
 
 ```typescript

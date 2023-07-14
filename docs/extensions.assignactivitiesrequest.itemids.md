@@ -4,6 +4,8 @@
 
 ## AssignActivitiesRequest.itemIds property
 
+The IDs of the ActivityInstances that will be assigned.
+
 **Signature:**
 
 ```typescript

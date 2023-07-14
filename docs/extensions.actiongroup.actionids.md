@@ -4,6 +4,8 @@
 
 ## ActionGroup.actionIds property
 
+An ordered array of action IDs that are included in the group.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ActionExtensionConfiguration.icon property
 
+Icon associated with the action.
+
 **Signature:**
 
 ```typescript

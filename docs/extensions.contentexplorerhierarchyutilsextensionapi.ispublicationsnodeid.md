@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchyUtilsExtensionApi.isPublicationsNodeId property
 
+Checks if a node ID is publications node ID.
+
 **Signature:**
 
 ```typescript

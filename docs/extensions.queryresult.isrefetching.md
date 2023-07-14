@@ -4,6 +4,8 @@
 
 ## QueryResult.isRefetching property
 
+Is `true` whenever a background refetch is in-flight, which does not include initial loading.
+
 **Signature:**
 
 ```typescript

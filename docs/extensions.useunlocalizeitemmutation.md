@@ -4,6 +4,8 @@
 
 ## useUnlocalizeItemMutation variable
 
+Unlocalizes a single item which removes its local copy from a publication.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ExtensionBuilder.contentEditor property
 
+Provides a mechanism for customizing form fields within editors.
+
 **Signature:**
 
 ```typescript

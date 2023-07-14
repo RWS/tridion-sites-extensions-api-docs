@@ -4,6 +4,8 @@
 
 ## LanguageCode type
 
+All built-in language codes available in the system.
+
 **Signature:**
 
 ```typescript

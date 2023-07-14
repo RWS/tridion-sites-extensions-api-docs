@@ -4,6 +4,8 @@
 
 ## contentExplorerActionId variable
 
+All built-in action IDs available in Content Explorer.
+
 **Signature:**
 
 ```typescript

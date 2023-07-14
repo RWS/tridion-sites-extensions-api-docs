@@ -12,9 +12,9 @@ export interface UsersQueryProps
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                                                         | Description  |
-| ------------------------------------------------------------------- | --------- | ------------------------------------------------------------ | ------------ |
-| [includeDisabled?](./extensions.usersqueryprops.includedisabled.md) |           | boolean                                                      | _(Optional)_ |
-| [predefined?](./extensions.usersqueryprops.predefined.md)           |           | boolean                                                      | _(Optional)_ |
-| [search?](./extensions.usersqueryprops.search.md)                   |           | string                                                       | _(Optional)_ |
-| [searchMode?](./extensions.usersqueryprops.searchmode.md)           |           | [UsersQuerySearchMode](./extensions.usersquerysearchmode.md) | _(Optional)_ |
+| Property                                                            | Modifiers | Type                                                         | Description                                                                                      |
+| ------------------------------------------------------------------- | --------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| [includeDisabled?](./extensions.usersqueryprops.includedisabled.md) |           | boolean                                                      | _(Optional)_ Specifies whether to include disabled user accounts. These are excluded by default. |
+| [predefined?](./extensions.usersqueryprops.predefined.md)           |           | boolean                                                      | _(Optional)_ If specified, return only non-predefined users or predefined users.                 |
+| [search?](./extensions.usersqueryprops.search.md)                   |           | string                                                       | _(Optional)_ If specified, return only users whose account name (Title) matches this value.      |
+| [searchMode?](./extensions.usersqueryprops.searchmode.md)           |           | [UsersQuerySearchMode](./extensions.usersquerysearchmode.md) | _(Optional)_ Specifies how to match on the account name.                                         |

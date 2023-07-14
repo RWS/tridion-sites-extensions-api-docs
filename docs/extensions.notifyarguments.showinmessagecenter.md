@@ -4,6 +4,8 @@
 
 ## NotifyArguments.showInMessageCenter property
 
+Option to store notification in Message Center.
+
 **Signature:**
 
 ```typescript

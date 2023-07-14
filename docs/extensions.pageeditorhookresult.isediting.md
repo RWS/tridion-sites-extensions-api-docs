@@ -4,6 +4,8 @@
 
 ## PageEditorHookResult.isEditing property
 
+Boolean that indicates that Page can be edited.
+
 **Signature:**
 
 ```typescript

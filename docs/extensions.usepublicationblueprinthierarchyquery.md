@@ -4,6 +4,8 @@
 
 ## usePublicationBlueprintHierarchyQuery variable
 
+Retrieves the context of the provided publication within the BluePrint hierarchy.
+
 **Signature:**
 
 ```typescript

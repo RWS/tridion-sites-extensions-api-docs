@@ -4,6 +4,8 @@
 
 ## TextProps.tag property
 
+The HTML tag to be used for rendering the Text component. Overrides default tag defined by `type`<!-- -->.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## useOptionalComponentEditor variable
 
+Provides access to Component Editor data and methods, if available. `undefined` is returned when used outside of Component Editor.
+
 **Signature:**
 
 ```typescript

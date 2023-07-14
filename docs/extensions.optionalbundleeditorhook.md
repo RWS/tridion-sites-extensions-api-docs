@@ -4,6 +4,8 @@
 
 ## OptionalBundleEditorHook type
 
+Hook for accessing Bundle Editor state when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalBundleEditorHook = () => BundleEditorHookResult | undefined;
 ```
 
 **References:** [BundleEditorHookResult](./extensions.bundleeditorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Bundle Editor. `undefined` is returned when used outside of Bundle Editor.

@@ -4,6 +4,8 @@
 
 ## ContentExplorerTableHook type
 
+Hook for accessing Content Explorer Table data and methods.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type ContentExplorerTableHook = () => ContentExplorerTableHookResult;
 ```
 
 **References:** [ContentExplorerTableHookResult](./extensions.contentexplorertablehookresult.md)
+
+## Remarks
+
+Should be used only inside Content Explorer Table, otherwise throws an error.

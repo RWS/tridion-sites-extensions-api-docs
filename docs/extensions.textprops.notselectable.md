@@ -4,6 +4,8 @@
 
 ## TextProps.notSelectable property
 
+Option to make text non-selectable by the user.
+
 **Signature:**
 
 ```typescript

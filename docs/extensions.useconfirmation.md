@@ -4,6 +4,8 @@
 
 ## useConfirmation variable
 
+Opens a Confirmation Modal based on the provided options.
+
 **Signature:**
 
 ```typescript

@@ -9,5 +9,5 @@ System-predefined border radiuses.
 **Signature:**
 
 ```typescript
-getBorderRadius: GetBorderRadius;
+getBorderRadius: BorderRadiusGetter;
 ```

@@ -4,6 +4,8 @@
 
 ## BundleEditorHookResult.bundle property
 
+Editable Bundle.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## EditorHookResult.isEditing property
 
+Boolean that indicates that item can be edited.
+
 **Signature:**
 
 ```typescript

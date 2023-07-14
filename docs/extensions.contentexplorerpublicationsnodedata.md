@@ -4,6 +4,8 @@
 
 ## ContentExplorerPublicationsNodeData interface
 
+Data contained in a Content Explorer PublicationsNode.
+
 **Signature:**
 
 ```typescript

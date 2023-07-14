@@ -4,6 +4,8 @@
 
 ## CategoryEditorHookResult.metadataSchema property
 
+Category's metadata schema.
+
 **Signature:**
 
 ```typescript

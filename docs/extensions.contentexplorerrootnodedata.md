@@ -4,6 +4,8 @@
 
 ## ContentExplorerRootNodeData interface
 
+Data contained in a Content Explorer RootNode.
+
 **Signature:**
 
 ```typescript

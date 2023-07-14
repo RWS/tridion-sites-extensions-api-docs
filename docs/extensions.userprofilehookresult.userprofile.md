@@ -4,6 +4,8 @@
 
 ## UserProfileHookResult.userProfile property
 
+`UserProfile` instance of the logged-in Tridion user.
+
 **Signature:**
 
 ```typescript

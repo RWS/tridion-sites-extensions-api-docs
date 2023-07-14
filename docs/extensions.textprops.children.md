@@ -4,6 +4,8 @@
 
 ## TextProps.children property
 
+The content to be rendered inside the Text component.
+
 **Signature:**
 
 ```typescript

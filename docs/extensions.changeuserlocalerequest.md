@@ -12,7 +12,7 @@ export interface ChangeUserLocaleRequest
 
 ## Properties
 
-| Property                                                     | Modifiers | Type                           | Description |
-| ------------------------------------------------------------ | --------- | ------------------------------ | ----------- |
-| [localeId](./extensions.changeuserlocalerequest.localeid.md) |           | number                         |             |
-| [userId](./extensions.changeuserlocalerequest.userid.md)     |           | [ItemUri](./models.itemuri.md) |             |
+| Property                                                     | Modifiers | Type                           | Description                        |
+| ------------------------------------------------------------ | --------- | ------------------------------ | ---------------------------------- |
+| [localeId](./extensions.changeuserlocalerequest.localeid.md) |           | number                         | ID of a Locale to set to.          |
+| [userId](./extensions.changeuserlocalerequest.userid.md)     |           | [ItemUri](./models.itemuri.md) | ID of a User to change locale for. |

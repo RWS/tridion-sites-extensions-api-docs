@@ -4,6 +4,8 @@
 
 ## DefaultModelType type
 
+Model type for which default data can be retrieved.
+
 **Signature:**
 
 ```typescript

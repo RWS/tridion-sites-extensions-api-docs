@@ -12,8 +12,8 @@ export interface RollbackItemRequest
 
 ## Properties
 
-| Property                                                                       | Modifiers | Type                                                 | Description  |
-| ------------------------------------------------------------------------------ | --------- | ---------------------------------------------------- | ------------ |
-| [containerItem?](./extensions.rollbackitemrequest.containeritem.md)            |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ |
-| [deleteNewerVersions](./extensions.rollbackitemrequest.deletenewerversions.md) |           | boolean                                              |              |
-| [itemId](./extensions.rollbackitemrequest.itemid.md)                           |           | [ItemUri](./models.itemuri.md)                       |              |
+| Property                                                                       | Modifiers | Type                                                 | Description                                                                |
+| ------------------------------------------------------------------------------ | --------- | ---------------------------------------------------- | -------------------------------------------------------------------------- |
+| [containerItem?](./extensions.rollbackitemrequest.containeritem.md)            |           | [IdentifiableObject](./models.identifiableobject.md) | _(Optional)_ Container item of the item to rollback.                       |
+| [deleteNewerVersions](./extensions.rollbackitemrequest.deletenewerversions.md) |           | boolean                                              | Option to delete all the versions higher than <code>itemId</code> version. |
+| [itemId](./extensions.rollbackitemrequest.itemid.md)                           |           | [ItemUri](./models.itemuri.md)                       | ID of the item being rolled back.                                          |

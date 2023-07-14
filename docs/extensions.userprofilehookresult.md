@@ -12,6 +12,6 @@ export interface UserProfileHookResult
 
 ## Properties
 
-| Property                                                         | Modifiers | Type                                   | Description |
-| ---------------------------------------------------------------- | --------- | -------------------------------------- | ----------- |
-| [userProfile](./extensions.userprofilehookresult.userprofile.md) |           | [UserProfile](./models.userprofile.md) |             |
+| Property                                                         | Modifiers | Type                                   | Description                                                      |
+| ---------------------------------------------------------------- | --------- | -------------------------------------- | ---------------------------------------------------------------- |
+| [userProfile](./extensions.userprofilehookresult.userprofile.md) |           | [UserProfile](./models.userprofile.md) | <code>UserProfile</code> instance of the logged-in Tridion user. |

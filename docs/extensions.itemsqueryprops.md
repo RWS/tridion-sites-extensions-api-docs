@@ -12,8 +12,8 @@ export interface ItemsQueryProps
 
 ## Properties
 
-| Property                                                                | Modifiers | Type                                                        | Description  |
-| ----------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ------------ |
-| [itemIds](./extensions.itemsqueryprops.itemids.md)                      |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; |              |
-| [loadFullItems?](./extensions.itemsqueryprops.loadfullitems.md)         |           | boolean                                                     | _(Optional)_ |
-| [useDynamicVersion?](./extensions.itemsqueryprops.usedynamicversion.md) |           | boolean                                                     | _(Optional)_ |
+| Property                                                                | Modifiers | Type                                                        | Description                                                                                                                                          |
+| ----------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [itemIds](./extensions.itemsqueryprops.itemids.md)                      |           | ReadonlyArray&lt;[ItemUri](./models.itemuri.md)<!-- -->&gt; | IDs of items to request.                                                                                                                             |
+| [loadFullItems?](./extensions.itemsqueryprops.loadfullitems.md)         |           | boolean                                                     | _(Optional)_ By default list includes contentless items. Some of the properties might be missed. This option allows to include all available fields. |
+| [useDynamicVersion?](./extensions.itemsqueryprops.usedynamicversion.md) |           | boolean                                                     | _(Optional)_ Option to request dynamic item (v0) if it's available.                                                                                  |

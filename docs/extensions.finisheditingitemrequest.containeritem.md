@@ -4,6 +4,8 @@
 
 ## FinishEditingItemRequest.containerItem property
 
+Container item of the item to finish.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ContentExplorerRootNode type
 
+Root node of Content Explorer hierarchy.
+
 **Signature:**
 
 ```typescript

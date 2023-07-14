@@ -4,6 +4,8 @@
 
 ## UserGroupsQueryProps.searchMode property
 
+Specifies how to match on the group title.
+
 **Signature:**
 
 ```typescript

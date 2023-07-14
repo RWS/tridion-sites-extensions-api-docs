@@ -4,6 +4,8 @@
 
 ## activitiesExplorerActionGroupId variable
 
+All built-in action group IDs available in Activities Explorer.
+
 **Signature:**
 
 ```typescript

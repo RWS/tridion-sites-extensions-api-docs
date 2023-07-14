@@ -4,6 +4,8 @@
 
 ## ExtensionBuilder.header property
 
+Provides a mechanism for customizing the header of the application.
+
 **Signature:**
 
 ```typescript

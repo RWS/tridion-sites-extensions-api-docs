@@ -4,7 +4,7 @@
 
 ## NavigationItemExtensionConfiguration.id property
 
-Item id
+A unique identifier for the navigation item.
 
 **Signature:**
 

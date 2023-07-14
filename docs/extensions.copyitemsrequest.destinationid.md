@@ -4,6 +4,8 @@
 
 ## CopyItemsRequest.destinationId property
 
+ID of organizational item to copy to.
+
 **Signature:**
 
 ```typescript

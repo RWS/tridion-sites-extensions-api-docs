@@ -4,6 +4,8 @@
 
 ## ContentExplorerHierarchyUtilsExtensionApi.isFavoritesNodeId property
 
+Checks if a node ID is favorites node ID.
+
 **Signature:**
 
 ```typescript

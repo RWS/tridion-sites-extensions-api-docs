@@ -4,6 +4,8 @@
 
 ## SizeProps.maxHeight property
 
+Maximum height of the component in pixels.
+
 **Signature:**
 
 ```typescript

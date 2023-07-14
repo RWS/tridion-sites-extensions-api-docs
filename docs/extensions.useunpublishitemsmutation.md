@@ -4,6 +4,8 @@
 
 ## useUnpublishItemsMutation variable
 
+Unpublishes a list of items with provided instructions.
+
 **Signature:**
 
 ```typescript

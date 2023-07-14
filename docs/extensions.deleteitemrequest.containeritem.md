@@ -4,6 +4,8 @@
 
 ## DeleteItemRequest.containerItem property
 
+Container item ID of the item to delete.
+
 **Signature:**
 
 ```typescript

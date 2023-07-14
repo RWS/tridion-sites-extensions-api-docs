@@ -4,6 +4,8 @@
 
 ## StructureGroupEditorHookResult.structureGroup property
 
+Editable Structure Group.
+
 **Signature:**
 
 ```typescript

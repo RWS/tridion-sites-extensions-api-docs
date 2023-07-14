@@ -4,6 +4,8 @@
 
 ## OptionalStructureGroupEditorHook type
 
+Hook for accessing Structure Group Editor data when available.
+
 **Signature:**
 
 ```typescript
@@ -11,3 +13,7 @@ export type OptionalStructureGroupEditorHook = () => StructureGroupEditorHookRes
 ```
 
 **References:** [StructureGroupEditorHookResult](./extensions.structuregroupeditorhookresult.md)
+
+## Remarks
+
+Safe to be used within or outside of the Structure Group Editor. `undefined` is returned when used outside of Structure Group Editor.

@@ -4,6 +4,10 @@
 
 ## TextProps.type property
 
+Preset that consist of specific styling (size, weight, etc) and HTML tag.
+
+-   `heading1` - usually represents a top-level heading or title. It is styled as a large and prominent text. By default `<h1>` HTML tag is used. - `heading2` - a secondary-level heading. It is styled as a slightly smaller text compared to `heading1`<!-- -->. By default `<h2>` HTML tag is used. - `heading3` - a tertiary-level heading. It is styled as a smaller text compared to `heading2`<!-- -->. By default `<h3>` HTML tag is used. - `default` - default style for regular text. It is styled as a standard paragraph text. By default `<div>` HTML tag used. - `defaultBold` - the default style for bold text. It is styled similarly to `default` but with added font-weight. By default `<div>` HTML tag is used. - `small` - a smaller size for text. It is typically used for captions, footnotes, or other smaller pieces of text. By default `<div>` HTML tag is used. - `smallBold` - a smaller size for bold text. It combines the smaller size of 'small' with the added font-weight. By default `<div>` HTML tag is used.
+
 **Signature:**
 
 ```typescript

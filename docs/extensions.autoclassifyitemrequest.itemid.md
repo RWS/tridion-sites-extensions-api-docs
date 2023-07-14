@@ -4,6 +4,8 @@
 
 ## AutoClassifyItemRequest.itemId property
 
+ID of an item to classify.
+
 **Signature:**
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## ActionHookResult.execute property
 
+A callback function that is executed when the action is triggered.
+
 **Signature:**
 
 ```typescript

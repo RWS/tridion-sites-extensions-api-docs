@@ -4,6 +4,8 @@
 
 ## MutationResult.reset property
 
+A function to clean the mutation internal state (i.e., it resets the mutation to its initial state).
+
 **Signature:**
 
 ```typescript

@@ -12,10 +12,11 @@ export interface ExtensionPoints
 
 ## Properties
 
-| Property                                                                 | Modifiers | Type                                                                         | Description |
-| ------------------------------------------------------------------------ | --------- | ---------------------------------------------------------------------------- | ----------- |
-| [activitiesExplorer](./extensions.extensionpoints.activitiesexplorer.md) |           | [ActivitiesExplorerExtensions](./extensions.activitiesexplorerextensions.md) |             |
-| [contentEditor](./extensions.extensionpoints.contenteditor.md)           |           | [ContentEditorExtensions](./extensions.contenteditorextensions.md)           |             |
-| [contentExplorer](./extensions.extensionpoints.contentexplorer.md)       |           | [ContentExplorerExtensions](./extensions.contentexplorerextensions.md)       |             |
-| [header](./extensions.extensionpoints.header.md)                         |           | [HeaderExtensions](./extensions.headerextensions.md)                         |             |
-| [translations](./extensions.extensionpoints.translations.md)             |           | [TranslationExtensions](./extensions.translationextensions.md)               |             |
+| Property                                                                           | Modifiers | Type                                                                                   | Description |
+| ---------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------- | ----------- |
+| [activitiesExplorer](./extensions.extensionpoints.activitiesexplorer.md)           |           | [ActivitiesExplorerExtensions](./extensions.activitiesexplorerextensions.md)           |             |
+| [contentEditor](./extensions.extensionpoints.contenteditor.md)                     |           | [ContentEditorExtensions](./extensions.contenteditorextensions.md)                     |             |
+| [contentExplorer](./extensions.extensionpoints.contentexplorer.md)                 |           | [ContentExplorerExtensions](./extensions.contentexplorerextensions.md)                 |             |
+| [header](./extensions.extensionpoints.header.md)                                   |           | [HeaderExtensions](./extensions.headerextensions.md)                                   |             |
+| [publishingQueueExplorer](./extensions.extensionpoints.publishingqueueexplorer.md) |           | [PublishingQueueExplorerExtensions](./extensions.publishingqueueexplorerextensions.md) |             |
+| [translations](./extensions.extensionpoints.translations.md)                       |           | [TranslationExtensions](./extensions.translationextensions.md)                         |             |

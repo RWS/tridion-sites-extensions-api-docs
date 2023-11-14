@@ -9,17 +9,19 @@ Gets a list of Users. This operation returns an instance of 'User' type or one o
 **Signature:**
 
 ```typescript
-static getUsers(predefined?: boolean, includeDisabled?: boolean, search?: string, searchMode?: 'Contains' | 'StartsWith' | 'EndsWith' | 'ExactMatch'): CancelablePromise<Array<User>>;
+static getUsers({ predefined, includeDisabled, search, searchMode, }: {
+        predefined?: boolean;
+        includeDisabled?: boolean;
+        search?: string;
+        searchMode?: 'Contains' | 'StartsWith' | 'EndsWith' | 'ExactMatch';
+    }): CancelablePromise<Array<User>>;
 ```
 
 ## Parameters
 
-| Parameter       | Type                                                     | Description                                                                                                                           |
-| --------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| predefined      | boolean                                                  | _(Optional)_ If specified, return only non-predefined users (false) or predefined users (true).                                       |
-| includeDisabled | boolean                                                  | _(Optional)_ Specifies whether to include disabled users or not. Default is to not include those.                                     |
-| search          | string                                                   | _(Optional)_ If specified, return only users whose account name (Title) matches this value. See {<!-- -->searchMode<!-- -->}<!-- -->. |
-| searchMode      | 'Contains' \| 'StartsWith' \| 'EndsWith' \| 'ExactMatch' | _(Optional)_ Specifies how to match on the account name. If not specified, "Contains" is used.                                        |
+| Parameter                                            | Type                                                                                                                                         | Description |
+| ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { predefined, includeDisabled, search, searchMode, } | { predefined?: boolean; includeDisabled?: boolean; search?: string; searchMode?: 'Contains' \| 'StartsWith' \| 'EndsWith' \| 'ExactMatch'; } |             |
 
 **Returns:**
 

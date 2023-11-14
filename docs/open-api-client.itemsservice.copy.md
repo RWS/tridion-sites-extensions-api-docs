@@ -9,16 +9,18 @@ Copies a RepositoryLocalObject to the specified destination. This operation retu
 **Signature:**
 
 ```typescript
-static copy(escapedItemId: string, escapedDestinationId: string, makeUnique?: boolean): CancelablePromise<RepositoryLocalObject>;
+static copy({ escapedItemId, escapedDestinationId, makeUnique, }: {
+        escapedItemId: string;
+        escapedDestinationId: string;
+        makeUnique?: boolean;
+    }): CancelablePromise<RepositoryLocalObject>;
 ```
 
 ## Parameters
 
-| Parameter            | Type    | Description                                                                                                                                                    |
-| -------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedItemId        | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".                                                                |
-| escapedDestinationId | string  | The TCM URI of the destination, which can be either an organizational item or a Keyword. Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-2" |
-| makeUnique           | boolean | _(Optional)_ Specifies whether a unique title should be generated if an item with the same title already exists in the destination.                            |
+| Parameter                                            | Type                                                                           | Description |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------ | ----------- |
+| { escapedItemId, escapedDestinationId, makeUnique, } | { escapedItemId: string; escapedDestinationId: string; makeUnique?: boolean; } |             |
 
 **Returns:**
 

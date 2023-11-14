@@ -39,4 +39,5 @@ export interface ColorPalette
 | [transparent](./extensions.colorpalette.transparent.md)         |           | string |             |
 | [yellow100](./extensions.colorpalette.yellow100.md)             |           | string |             |
 | [yellow120](./extensions.colorpalette.yellow120.md)             |           | string |             |
+| [yellow140](./extensions.colorpalette.yellow140.md)             |           | string |             |
 | [yellow50](./extensions.colorpalette.yellow50.md)               |           | string |             |

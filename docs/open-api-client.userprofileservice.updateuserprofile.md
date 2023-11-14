@@ -11,15 +11,17 @@ Only 'Preferences.Favorites' property can be updated through this operation.
 **Signature:**
 
 ```typescript
-static updateUserProfile(escapedUserId: string, userProfile: UserProfile): CancelablePromise<UserProfile>;
+static updateUserProfile({ escapedUserId, userProfile, }: {
+        escapedUserId: string;
+        userProfile: UserProfile;
+    }): CancelablePromise<UserProfile>;
 ```
 
 ## Parameters
 
-| Parameter     | Type                                            | Description                                                                                           |
-| ------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| escapedUserId | string                                          | The TCM URI of the user with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-17". |
-| userProfile   | [UserProfile](./open-api-client.userprofile.md) |                                                                                                       |
+| Parameter                       | Type                                                                                             | Description |
+| ------------------------------- | ------------------------------------------------------------------------------------------------ | ----------- |
+| { escapedUserId, userProfile, } | { escapedUserId: string; userProfile: [UserProfile](./open-api-client.userprofile.md)<!-- -->; } |             |
 
 **Returns:**
 

@@ -9,16 +9,18 @@ Constructs an item URI from a WebDav URL, plus optionally, a Context Repository 
 **Signature:**
 
 ```typescript
-static convertWebDavUrl(webDavUrl: string, contextRepositoryUri?: string, version?: number): CancelablePromise<string>;
+static convertWebDavUrl({ webDavUrl, contextRepositoryUri, version, }: {
+        webDavUrl: string;
+        contextRepositoryUri?: string;
+        version?: number;
+    }): CancelablePromise<string>;
 ```
 
 ## Parameters
 
-| Parameter            | Type   | Description                                                                                                                                                                                 |
-| -------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| webDavUrl            | string | The WebDavUrl of the item.                                                                                                                                                                  |
-| contextRepositoryUri | string | _(Optional)_ The URI of the Publication you want to use instead of the one used in the webDavUrl. Include this if you want the constructed URI to refer to a different context Publication. |
-| version              | number | _(Optional)_ The version of the item.                                                                                                                                                       |
+| Parameter                                     | Type                                                                    | Description |
+| --------------------------------------------- | ----------------------------------------------------------------------- | ----------- |
+| { webDavUrl, contextRepositoryUri, version, } | { webDavUrl: string; contextRepositoryUri?: string; version?: number; } |             |
 
 **Returns:**
 

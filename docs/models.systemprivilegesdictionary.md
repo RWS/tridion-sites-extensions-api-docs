@@ -9,7 +9,7 @@ Represents a dictionary of the system-wide privilege keys associations with a co
 **Signature:**
 
 ```typescript
-export type SystemPrivilegesDictionary = Record<string, ReadonlyArray<Link>>;
+export type SystemPrivilegesDictionary = Record<SystemPrivilegeName, ReadonlyArray<Link>>;
 ```
 
-**References:** [Link](./models.link.md)
+**References:** [SystemPrivilegeName](./models.systemprivilegename.md)<!-- -->, [Link](./models.link.md)

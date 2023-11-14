@@ -9,14 +9,16 @@ Finishes a batch of activities. This operation returns an instance of 'BatchOper
 **Signature:**
 
 ```typescript
-static batchFinishActivity(requestModel: BatchFinishActivityRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchFinishActivity({ requestModel, }: {
+        requestModel: BatchFinishActivityRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                          | Description                       |
-| ------------ | ----------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchFinishActivityRequest](./open-api-client.batchfinishactivityrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                     | Description |
+| ----------------- | -------------------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchFinishActivityRequest](./open-api-client.batchfinishactivityrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

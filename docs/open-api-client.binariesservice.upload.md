@@ -9,14 +9,16 @@ Uploads a single binary file. This operation returns an instance of 'BinaryUploa
 **Signature:**
 
 ```typescript
-static upload(file: Blob): CancelablePromise<BinaryUploadResponse>;
+static upload({ file, }: {
+        file: Blob;
+    }): CancelablePromise<BinaryUploadResponse>;
 ```
 
 ## Parameters
 
-| Parameter | Type | Description        |
-| --------- | ---- | ------------------ |
-| file      | Blob | File for uploading |
+| Parameter | Type            | Description |
+| --------- | --------------- | ----------- |
+| { file, } | { file: Blob; } |             |
 
 **Returns:**
 

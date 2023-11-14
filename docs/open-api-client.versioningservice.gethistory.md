@@ -9,14 +9,16 @@ Gets all major versions of a specified versioned item. This operation returns an
 **Signature:**
 
 ```typescript
-static getHistory(escapedVersionedItemId: string): CancelablePromise<Array<VersionedItem>>;
+static getHistory({ escapedVersionedItemId, }: {
+        escapedVersionedItemId: string;
+    }): CancelablePromise<Array<VersionedItem>>;
 ```
 
 ## Parameters
 
-| Parameter              | Type   | Description                                                                                                               |
-| ---------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| escapedVersionedItemId | string | The URI of a versioned item (no version specified). Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-8" |
+| Parameter                   | Type                                | Description |
+| --------------------------- | ----------------------------------- | ----------- |
+| { escapedVersionedItemId, } | { escapedVersionedItemId: string; } |             |
 
 **Returns:**
 

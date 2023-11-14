@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-setupExtensionsResponse: ({ app, webAppPath, manifestPath, addonConfigPath, }: SetupExtensionsResponseParams) => void
+setupExtensionsResponse: ({ app, webAppPath, manifestPath, addonConfigPath, targetUrl, }: SetupExtensionsResponseParams) => void
 ```

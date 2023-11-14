@@ -11,14 +11,16 @@
 **Signature:**
 
 ```typescript
-static getApplicationData(escapedItemId: string): CancelablePromise<Array<ApplicationData>>;
+static getApplicationData({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<Array<ApplicationData>>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

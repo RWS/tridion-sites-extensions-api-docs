@@ -12,6 +12,6 @@ export declare class ApplicationDataService
 
 ## Methods
 
-| Method                                                                                              | Modifiers           | Description |
-| --------------------------------------------------------------------------------------------------- | ------------------- | ----------- |
-| [getApplicationData(escapedItemId)](./open-api-client.applicationdataservice.getapplicationdata.md) | <code>static</code> |             |
+| Method                                                                                                   | Modifiers           | Description |
+| -------------------------------------------------------------------------------------------------------- | ------------------- | ----------- |
+| [getApplicationData({ escapedItemId, })](./open-api-client.applicationdataservice.getapplicationdata.md) | <code>static</code> |             |

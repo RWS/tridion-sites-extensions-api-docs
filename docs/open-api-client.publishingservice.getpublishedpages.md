@@ -9,14 +9,16 @@ Gets a list of published Pages that use a specified Component. This operation re
 **Signature:**
 
 ```typescript
-static getPublishedPages(escapedComponentId: string): CancelablePromise<Array<Page>>;
+static getPublishedPages({ escapedComponentId, }: {
+        escapedComponentId: string;
+    }): CancelablePromise<Array<Page>>;
 ```
 
 ## Parameters
 
-| Parameter          | Type   | Description                                                                                            |
-| ------------------ | ------ | ------------------------------------------------------------------------------------------------------ |
-| escapedComponentId | string | The TCM URI of a Component with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-5" |
+| Parameter               | Type                            | Description |
+| ----------------------- | ------------------------------- | ----------- |
+| { escapedComponentId, } | { escapedComponentId: string; } |             |
 
 **Returns:**
 

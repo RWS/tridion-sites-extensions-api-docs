@@ -9,15 +9,17 @@ Starts the Workflow process for a Publication. This operation returns an instanc
 **Signature:**
 
 ```typescript
-static startWorkflow(escapedPublicationId: string, requestModel: StartWorkflowInstruction): CancelablePromise<ProcessInstance>;
+static startWorkflow({ escapedPublicationId, requestModel, }: {
+        escapedPublicationId: string;
+        requestModel: StartWorkflowInstruction;
+    }): CancelablePromise<ProcessInstance>;
 ```
 
 ## Parameters
 
-| Parameter            | Type                                                                      | Description                                                                                               |
-| -------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| escapedPublicationId | string                                                                    | The TCM URI of a Publication with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| requestModel         | [StartWorkflowInstruction](./open-api-client.startworkflowinstruction.md) | The model to use for the request.                                                                         |
+| Parameter                               | Type                                                                                                                               | Description |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedPublicationId, requestModel, } | { escapedPublicationId: string; requestModel: [StartWorkflowInstruction](./open-api-client.startworkflowinstruction.md)<!-- -->; } |             |
 
 **Returns:**
 

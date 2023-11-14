@@ -12,7 +12,7 @@ export declare class PublicationsService
 
 ## Methods
 
-| Method                                                                                                         | Modifiers           | Description                                                                                                                         |
-| -------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| [getPageTemplateLinks(escapedPublicationId)](./open-api-client.publicationsservice.getpagetemplatelinks.md)    | <code>static</code> | Gets a list of all Page Template links contained within a specified Publication. This operation returns an instance of 'Link' type. |
-| [getSchemaLinks(escapedPublicationId, schemaPurpose)](./open-api-client.publicationsservice.getschemalinks.md) | <code>static</code> | Gets a list of all Schema links contained within a specified Publication. This operation returns an instance of 'Link' type.        |
+| Method                                                                                                              | Modifiers           | Description                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [getPageTemplateLinks({ escapedPublicationId, })](./open-api-client.publicationsservice.getpagetemplatelinks.md)    | <code>static</code> | Gets a list of all Page Template links contained within a specified Publication. This operation returns an instance of 'Link' type. |
+| [getSchemaLinks({ escapedPublicationId, schemaPurpose, })](./open-api-client.publicationsservice.getschemalinks.md) | <code>static</code> | Gets a list of all Schema links contained within a specified Publication. This operation returns an instance of 'Link' type.        |

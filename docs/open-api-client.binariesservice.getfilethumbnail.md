@@ -9,17 +9,19 @@ Gets the thumbnail image of an uploaded binary file (or the multimedia type icon
 **Signature:**
 
 ```typescript
-static getFileThumbnail(tempFileId: string, fileExtension: string, width?: number, height?: number): CancelablePromise<any>;
+static getFileThumbnail({ tempFileId, fileExtension, width, height, }: {
+        tempFileId: string;
+        fileExtension: string;
+        width?: number;
+        height?: number;
+    }): CancelablePromise<any>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                                                                      |
-| ------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| tempFileId    | string | The temporary ID of a binary file that was previously uploaded with an upload request. The ID can be found in the model returned by the request. |
-| fileExtension | string | The extension of the uploaded binary file (excluding the leading dot).                                                                           |
-| width         | number | _(Optional)_ Resize an image binary to the specified width in pixels. Default value is 0.                                                        |
-| height        | number | _(Optional)_ Resize an image binary to the specified height in pixels. Default value is 0.                                                       |
+| Parameter                                     | Type                                                                            | Description |
+| --------------------------------------------- | ------------------------------------------------------------------------------- | ----------- |
+| { tempFileId, fileExtension, width, height, } | { tempFileId: string; fileExtension: string; width?: number; height?: number; } |             |
 
 **Returns:**
 

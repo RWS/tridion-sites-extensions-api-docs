@@ -12,9 +12,10 @@ export interface SetupExtensionsResponseParams
 
 ## Properties
 
-| Property                                                                              | Modifiers | Type                       | Description  |
-| ------------------------------------------------------------------------------------- | --------- | -------------------------- | ------------ |
-| [addonConfigPath?](./extensions-cli.setupextensionsresponseparams.addonconfigpath.md) |           | string                     | _(Optional)_ |
-| [app](./extensions-cli.setupextensionsresponseparams.app.md)                          |           | SetupExtensionsResponseApp |              |
-| [manifestPath](./extensions-cli.setupextensionsresponseparams.manifestpath.md)        |           | string                     |              |
-| [webAppPath](./extensions-cli.setupextensionsresponseparams.webapppath.md)            |           | string                     |              |
+| Property                                                                              | Modifiers | Type        | Description  |
+| ------------------------------------------------------------------------------------- | --------- | ----------- | ------------ |
+| [addonConfigPath?](./extensions-cli.setupextensionsresponseparams.addonconfigpath.md) |           | string      | _(Optional)_ |
+| [app](./extensions-cli.setupextensionsresponseparams.app.md)                          |           | Application |              |
+| [manifestPath](./extensions-cli.setupextensionsresponseparams.manifestpath.md)        |           | string      |              |
+| [targetUrl?](./extensions-cli.setupextensionsresponseparams.targeturl.md)             |           | string      | _(Optional)_ |
+| [webAppPath](./extensions-cli.setupextensionsresponseparams.webapppath.md)            |           | string      |              |

@@ -9,14 +9,16 @@ Gets a list of Keywords contained in the specified Category or parent Keyword. T
 **Signature:**
 
 ```typescript
-static getKeywords(escapedItemId: string): CancelablePromise<Array<Keyword>>;
+static getKeywords({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<Array<Keyword>>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

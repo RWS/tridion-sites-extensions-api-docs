@@ -11,14 +11,16 @@ Using this operation will not persist the changes made through synchronization.
 **Signature:**
 
 ```typescript
-static synchronizeWithSchema(requestModel: IdentifiableObject): CancelablePromise<SynchronizationResult>;
+static synchronizeWithSchema({ requestModel, }: {
+        requestModel: IdentifiableObject;
+    }): CancelablePromise<SynchronizationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                          | Description                       |
-| ------------ | ------------------------------------------------------------- | --------------------------------- |
-| requestModel | [IdentifiableObject](./open-api-client.identifiableobject.md) | The model to use for the request. |
+| Parameter         | Type                                                                                     | Description |
+| ----------------- | ---------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [IdentifiableObject](./open-api-client.identifiableobject.md)<!-- -->; } |             |
 
 **Returns:**
 

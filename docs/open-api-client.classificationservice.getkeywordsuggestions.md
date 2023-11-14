@@ -9,15 +9,17 @@ Get suggestions for classifying an item with concepts from an external taxonomy.
 **Signature:**
 
 ```typescript
-static getKeywordSuggestions(sourceObject: IdentifiableObject, categoryId?: string): CancelablePromise<Record<string, Array<KeywordSuggestion>>>;
+static getKeywordSuggestions({ sourceObject, categoryId, }: {
+        sourceObject: IdentifiableObject;
+        categoryId?: string;
+    }): CancelablePromise<Record<string, Array<KeywordSuggestion>>>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                          | Description                                                                                                                                                                                        |
-| ------------ | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| sourceObject | [IdentifiableObject](./open-api-client.identifiableobject.md) | The source item to request the keywords for.                                                                                                                                                       |
-| categoryId   | string                                                        | _(Optional)_ The Category identifier (ECL URI), if provided, the suggestions are given based on this category only, and rest of the specified categories (if any) in the sourceObject are ignored. |
+| Parameter                     | Type                                                                                                          | Description |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------- |
+| { sourceObject, categoryId, } | { sourceObject: [IdentifiableObject](./open-api-client.identifiableobject.md)<!-- -->; categoryId?: string; } |             |
 
 **Returns:**
 

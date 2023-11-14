@@ -9,17 +9,19 @@ Gets a list of Groups. This operation returns an instance of 'Group' type.
 **Signature:**
 
 ```typescript
-static getGroups(inPublicationId?: string, includeEveryone?: boolean, search?: string, searchMode?: 'Contains' | 'StartsWith' | 'EndsWith' | 'ExactMatch'): CancelablePromise<Array<Group>>;
+static getGroups({ inPublicationId, includeEveryone, search, searchMode, }: {
+        inPublicationId?: string;
+        includeEveryone?: boolean;
+        search?: string;
+        searchMode?: 'Contains' | 'StartsWith' | 'EndsWith' | 'ExactMatch';
+    }): CancelablePromise<Array<Group>>;
 ```
 
 ## Parameters
 
-| Parameter       | Type                                                     | Description                                                                                                              |
-| --------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| inPublicationId | string                                                   | _(Optional)_ If specified, return only groups which are scoped to the given Publication (TCM URI).                       |
-| includeEveryone | boolean                                                  | _(Optional)_ Specifies whether the special "Everyone" Group (representing all CM users) should be returned.              |
-| search          | string                                                   | _(Optional)_ If specified, return only groups with titles matching this value. See {<!-- -->searchMode<!-- -->}<!-- -->. |
-| searchMode      | 'Contains' \| 'StartsWith' \| 'EndsWith' \| 'ExactMatch' | _(Optional)_ Specifies how to match on the group title. If not specified, "Contains" is used.                            |
+| Parameter                                                 | Type                                                                                                                                             | Description |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| { inPublicationId, includeEveryone, search, searchMode, } | { inPublicationId?: string; includeEveryone?: boolean; search?: string; searchMode?: 'Contains' \| 'StartsWith' \| 'EndsWith' \| 'ExactMatch'; } |             |
 
 **Returns:**
 

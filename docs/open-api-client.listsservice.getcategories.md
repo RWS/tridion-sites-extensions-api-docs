@@ -9,14 +9,16 @@ Gets a list of Categories related to the specified Publication. This operation r
 **Signature:**
 
 ```typescript
-static getCategories(escapedPublicationId: string): CancelablePromise<Array<Category>>;
+static getCategories({ escapedPublicationId, }: {
+        escapedPublicationId: string;
+    }): CancelablePromise<Array<Category>>;
 ```
 
 ## Parameters
 
-| Parameter            | Type   | Description                                                                                               |
-| -------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| escapedPublicationId | string | The TCM URI of a Publication with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter                 | Type                              | Description |
+| ------------------------- | --------------------------------- | ----------- |
+| { escapedPublicationId, } | { escapedPublicationId: string; } |             |
 
 **Returns:**
 

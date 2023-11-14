@@ -9,15 +9,17 @@ Saves application settings with specified application Id
 **Signature:**
 
 ```typescript
-static saveApplicationSettings(applicationId: string, applicationSettings: Settings): CancelablePromise<void>;
+static saveApplicationSettings({ applicationId, applicationSettings, }: {
+        applicationId: string;
+        applicationSettings: Settings;
+    }): CancelablePromise<void>;
 ```
 
 ## Parameters
 
-| Parameter           | Type                                      | Description                                  |
-| ------------------- | ----------------------------------------- | -------------------------------------------- |
-| applicationId       | string                                    | The id of an Application (case-insensitive). |
-| applicationSettings | [Settings](./open-api-client.settings.md) |                                              |
+| Parameter                               | Type                                                                                               | Description |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------- |
+| { applicationId, applicationSettings, } | { applicationId: string; applicationSettings: [Settings](./open-api-client.settings.md)<!-- -->; } |             |
 
 **Returns:**
 

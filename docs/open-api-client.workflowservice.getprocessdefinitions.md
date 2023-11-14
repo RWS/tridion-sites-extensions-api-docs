@@ -9,14 +9,16 @@ Gets a list of Process Definitions for a specific context Repository. This opera
 **Signature:**
 
 ```typescript
-static getProcessDefinitions(escapedPublicationId: string): CancelablePromise<Array<ProcessDefinition>>;
+static getProcessDefinitions({ escapedPublicationId, }: {
+        escapedPublicationId: string;
+    }): CancelablePromise<Array<ProcessDefinition>>;
 ```
 
 ## Parameters
 
-| Parameter            | Type   | Description                                                                                               |
-| -------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| escapedPublicationId | string | The TCM URI of a Publication with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter                 | Type                              | Description |
+| ------------------------- | --------------------------------- | ----------- |
+| { escapedPublicationId, } | { escapedPublicationId: string; } |             |
 
 **Returns:**
 

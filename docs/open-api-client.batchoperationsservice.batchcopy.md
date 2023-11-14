@@ -9,14 +9,16 @@ Copies a batch of items. This operation returns an instance of 'BatchOperationCr
 **Signature:**
 
 ```typescript
-static batchCopy(requestModel: BatchCopyRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchCopy({ requestModel, }: {
+        requestModel: BatchCopyRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                      | Description                       |
-| ------------ | --------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchCopyRequest](./open-api-client.batchcopyrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                 | Description |
+| ----------------- | ------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchCopyRequest](./open-api-client.batchcopyrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

@@ -11,19 +11,21 @@
 **Signature:**
 
 ```typescript
-static getOrganizationalStructureTree(escapedItemId: string, includeAllPublications?: boolean, includeChildrenOnEveryLevel?: boolean, groupCategoriesAndKeywords?: boolean, groupBusinessProcessTypes?: boolean, useDynamicVersion?: boolean): CancelablePromise<TreeNode>;
+static getOrganizationalStructureTree({ escapedItemId, includeAllPublications, includeChildrenOnEveryLevel, groupCategoriesAndKeywords, groupBusinessProcessTypes, useDynamicVersion, }: {
+        escapedItemId: string;
+        includeAllPublications?: boolean;
+        includeChildrenOnEveryLevel?: boolean;
+        groupCategoriesAndKeywords?: boolean;
+        groupBusinessProcessTypes?: boolean;
+        useDynamicVersion?: boolean;
+    }): CancelablePromise<TreeNode>;
 ```
 
 ## Parameters
 
-| Parameter                   | Type    | Description                                                                                     |
-| --------------------------- | ------- | ----------------------------------------------------------------------------------------------- |
-| escapedItemId               | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| includeAllPublications      | boolean | _(Optional)_ Include all publications (and not just the context publication).                   |
-| includeChildrenOnEveryLevel | boolean | _(Optional)_ Include children of all items in the path.                                         |
-| groupCategoriesAndKeywords  | boolean | _(Optional)_ Group categories and keywords in a single treenode.                                |
-| groupBusinessProcessTypes   | boolean | _(Optional)_ Group all business process types in a single treenode.                             |
-| useDynamicVersion           | boolean | _(Optional)_ Loads a dynamic version (if available for the current user)                        |
+| Parameter                                                                                                                                         | Type                                                                                                                                                                                                        | Description |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, includeAllPublications, includeChildrenOnEveryLevel, groupCategoriesAndKeywords, groupBusinessProcessTypes, useDynamicVersion, } | { escapedItemId: string; includeAllPublications?: boolean; includeChildrenOnEveryLevel?: boolean; groupCategoriesAndKeywords?: boolean; groupBusinessProcessTypes?: boolean; useDynamicVersion?: boolean; } |             |
 
 **Returns:**
 

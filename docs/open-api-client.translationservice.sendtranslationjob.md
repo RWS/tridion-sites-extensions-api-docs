@@ -9,14 +9,16 @@ Sends a job for translation. This operation returns an instance of 'TranslationJ
 **Signature:**
 
 ```typescript
-static sendTranslationJob(jobId: number): CancelablePromise<TranslationJob>;
+static sendTranslationJob({ jobId, }: {
+        jobId: number;
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter | Type   | Description                                                                          |
-| --------- | ------ | ------------------------------------------------------------------------------------ |
-| jobId     | number | The ID of the translation job you want to send to the translation management system. |
+| Parameter  | Type               | Description |
+| ---------- | ------------------ | ----------- |
+| { jobId, } | { jobId: number; } |             |
 
 **Returns:**
 

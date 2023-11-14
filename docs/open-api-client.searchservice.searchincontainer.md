@@ -9,17 +9,19 @@ Searches within an individual item for a specified text string. This operation r
 **Signature:**
 
 ```typescript
-static searchInContainer(escapedItemId: string, fullTextQuery: string, itemTypes?: Array<any>, resultLimit?: number): CancelablePromise<Array<IdentifiableObject>>;
+static searchInContainer({ escapedItemId, fullTextQuery, itemTypes, resultLimit, }: {
+        escapedItemId: string;
+        fullTextQuery: string;
+        itemTypes?: Array<any>;
+        resultLimit?: number;
+    }): CancelablePromise<Array<IdentifiableObject>>;
 ```
 
 ## Parameters
 
-| Parameter     | Type             | Description                                                                                                                                                                                                                                                                                   |
-| ------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedItemId | string           | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".                                                                                                                                                                                               |
-| fullTextQuery | string           | Input for the full-text query. The following characters have special meaning in the query syntax: + - &amp;amp;&amp;amp; \|\| ! ( ) { } \[ \] ^ " \~ \* ? : \\ To use any of these characters without their syntactical meaning, to escape them by preceding the character with a \\<!-- -->. |
-| itemTypes     | Array&lt;any&gt; | _(Optional)_ Only return items of the given item types. If not specified, items are not filtered by item type.                                                                                                                                                                                |
-| resultLimit   | number           | _(Optional)_ The maximum number of results to return. If not specified, there will still be a limit, but it is defined by the system.                                                                                                                                                         |
+| Parameter                                                 | Type                                                                                                  | Description |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, fullTextQuery, itemTypes, resultLimit, } | { escapedItemId: string; fullTextQuery: string; itemTypes?: Array&lt;any&gt;; resultLimit?: number; } |             |
 
 **Returns:**
 

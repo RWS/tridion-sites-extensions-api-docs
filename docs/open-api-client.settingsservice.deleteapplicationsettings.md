@@ -9,14 +9,16 @@ Deletes application settings for specified application Id
 **Signature:**
 
 ```typescript
-static deleteApplicationSettings(applicationId: string): CancelablePromise<void>;
+static deleteApplicationSettings({ applicationId, }: {
+        applicationId: string;
+    }): CancelablePromise<void>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                  |
-| ------------- | ------ | -------------------------------------------- |
-| applicationId | string | The id of an Application (case-insensitive). |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { applicationId, } | { applicationId: string; } |             |
 
 **Returns:**
 

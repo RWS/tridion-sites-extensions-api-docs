@@ -9,14 +9,16 @@ Checks out a batch of items. This operation returns an instance of 'BatchOperati
 **Signature:**
 
 ```typescript
-static batchCheckOut(requestModel: BatchCheckOutRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchCheckOut({ requestModel, }: {
+        requestModel: BatchCheckOutRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                              | Description                       |
-| ------------ | ----------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchCheckOutRequest](./open-api-client.batchcheckoutrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                         | Description |
+| ----------------- | -------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchCheckOutRequest](./open-api-client.batchcheckoutrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

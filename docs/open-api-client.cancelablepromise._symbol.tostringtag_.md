@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-readonly [Symbol.toStringTag]: string;
+get [Symbol.toStringTag](): string;
 ```

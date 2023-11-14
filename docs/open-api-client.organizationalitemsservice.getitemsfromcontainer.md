@@ -9,16 +9,18 @@ Gets a list of child items of a specified organizational item. This operation re
 **Signature:**
 
 ```typescript
-static getItemsFromContainer(escapedOrgItemId: string, useDynamicVersion?: boolean, rloItemTypes?: Array<any>): CancelablePromise<Array<RepositoryLocalObject>>;
+static getItemsFromContainer({ escapedOrgItemId, useDynamicVersion, rloItemTypes, }: {
+        escapedOrgItemId: string;
+        useDynamicVersion?: boolean;
+        rloItemTypes?: Array<any>;
+    }): CancelablePromise<Array<RepositoryLocalObject>>;
 ```
 
 ## Parameters
 
-| Parameter         | Type             | Description                                                                                                                                                                          |
-| ----------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| escapedOrgItemId  | string           | The TCM URI of an organizational item, such as a Bundle, Category, Folder, Virtual folder, or Structure Group. Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-2" |
-| useDynamicVersion | boolean          | _(Optional)_ Loads a dynamic version (if available for the current user)                                                                                                             |
-| rloItemTypes      | Array&lt;any&gt; | _(Optional)_ The item types of all repository-local objects that you want to include in the response.                                                                                |
+| Parameter                                              | Type                                                                                        | Description |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ----------- |
+| { escapedOrgItemId, useDynamicVersion, rloItemTypes, } | { escapedOrgItemId: string; useDynamicVersion?: boolean; rloItemTypes?: Array&lt;any&gt;; } |             |
 
 **Returns:**
 

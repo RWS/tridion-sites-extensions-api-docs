@@ -9,14 +9,16 @@ Demotes a batch of items. This operation returns an instance of 'BatchOperationC
 **Signature:**
 
 ```typescript
-static batchDemote(requestModel: BatchPromoteDemoteRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchDemote({ requestModel, }: {
+        requestModel: BatchPromoteDemoteRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                        | Description                       |
-| ------------ | --------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchPromoteDemoteRequest](./open-api-client.batchpromotedemoterequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                   | Description |
+| ----------------- | ------------------------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchPromoteDemoteRequest](./open-api-client.batchpromotedemoterequest.md)<!-- -->; } |             |
 
 **Returns:**
 

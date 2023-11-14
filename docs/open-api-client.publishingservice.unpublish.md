@@ -9,14 +9,16 @@ Unpublishes items according to the specified instructions. This operation return
 **Signature:**
 
 ```typescript
-static unpublish(requestModel: UnPublishRequest): CancelablePromise<PublishTransactionsCreationResult>;
+static unpublish({ requestModel, }: {
+        requestModel: UnPublishRequest;
+    }): CancelablePromise<PublishTransactionsCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                      | Description                       |
-| ------------ | --------------------------------------------------------- | --------------------------------- |
-| requestModel | [UnPublishRequest](./open-api-client.unpublishrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                 | Description |
+| ----------------- | ------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [UnPublishRequest](./open-api-client.unpublishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

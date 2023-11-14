@@ -9,16 +9,18 @@ Gets multiple items by specifying a list of item URIs. This operation returns an
 **Signature:**
 
 ```typescript
-static getItems(itemIds: Array<string>, useDynamicVersion?: boolean, loadFullItems?: boolean): CancelablePromise<Record<string, IdentifiableObject>>;
+static getItems({ itemIds, useDynamicVersion, loadFullItems, }: {
+        itemIds: Array<string>;
+        useDynamicVersion?: boolean;
+        loadFullItems?: boolean;
+    }): CancelablePromise<Record<string, IdentifiableObject>>;
 ```
 
 ## Parameters
 
-| Parameter         | Type                | Description                                                                        |
-| ----------------- | ------------------- | ---------------------------------------------------------------------------------- |
-| itemIds           | Array&lt;string&gt; | A list of item URIs.                                                               |
-| useDynamicVersion | boolean             | _(Optional)_ Loads a dynamic version (if available for the current user)           |
-| loadFullItems     | boolean             | _(Optional)_ Determines whether full items or partially loaded items are returned. |
+| Parameter                                      | Type                                                                                    | Description |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------- | ----------- |
+| { itemIds, useDynamicVersion, loadFullItems, } | { itemIds: Array&lt;string&gt;; useDynamicVersion?: boolean; loadFullItems?: boolean; } |             |
 
 **Returns:**
 

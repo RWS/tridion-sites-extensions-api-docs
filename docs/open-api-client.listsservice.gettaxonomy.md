@@ -9,16 +9,18 @@ Gets a full taxonomy for a specified Category. This operation returns an instanc
 **Signature:**
 
 ```typescript
-static getTaxonomy(escapedCategoryId: string, includeAlternativeLabels?: boolean, maxNodes?: number): CancelablePromise<TaxonomyNode>;
+static getTaxonomy({ escapedCategoryId, includeAlternativeLabels, maxNodes, }: {
+        escapedCategoryId: string;
+        includeAlternativeLabels?: boolean;
+        maxNodes?: number;
+    }): CancelablePromise<TaxonomyNode>;
 ```
 
 ## Parameters
 
-| Parameter                | Type    | Description                                                                                                                                                                                |
-| ------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| escapedCategoryId        | string  | The URI of a Category where the URI can be either a TCM URI or an ECL URI (for an external taxonomy). Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-512"              |
-| includeAlternativeLabels | boolean | _(Optional)_ Where the Category represents an external taxonomy, set to "True" to include alternative labels for taxonomy concepts.                                                        |
-| maxNodes                 | number  | _(Optional)_ The maximum number of nodes the tree is allowed to contain. If the tree contains more, an HTTP 400 error will be returned. Defaults to a configured value (maxTaxonomyNodes). |
+| Parameter                                                  | Type                                                                                  | Description |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------- |
+| { escapedCategoryId, includeAlternativeLabels, maxNodes, } | { escapedCategoryId: string; includeAlternativeLabels?: boolean; maxNodes?: number; } |             |
 
 **Returns:**
 

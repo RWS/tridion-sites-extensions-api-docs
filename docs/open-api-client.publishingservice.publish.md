@@ -9,14 +9,16 @@ Publishes items according to the specified instructions. This operation returns 
 **Signature:**
 
 ```typescript
-static publish(requestModel: PublishRequest): CancelablePromise<PublishTransactionsCreationResult>;
+static publish({ requestModel, }: {
+        requestModel: PublishRequest;
+    }): CancelablePromise<PublishTransactionsCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                  | Description                       |
-| ------------ | ----------------------------------------------------- | --------------------------------- |
-| requestModel | [PublishRequest](./open-api-client.publishrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                             | Description |
+| ----------------- | -------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [PublishRequest](./open-api-client.publishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

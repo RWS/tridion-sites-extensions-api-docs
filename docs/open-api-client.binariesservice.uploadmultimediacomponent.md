@@ -11,17 +11,19 @@ The method doesn't support creating of the component based on the multimedia sch
 **Signature:**
 
 ```typescript
-static uploadMultimediaComponent(file: Blob, escapedFolderId: string, title?: string, multimediaSchemaId?: string): CancelablePromise<Component>;
+static uploadMultimediaComponent({ file, escapedFolderId, title, multimediaSchemaId, }: {
+        file: Blob;
+        escapedFolderId: string;
+        title?: string;
+        multimediaSchemaId?: string;
+    }): CancelablePromise<Component>;
 ```
 
 ## Parameters
 
-| Parameter          | Type   | Description                                                                                        |
-| ------------------ | ------ | -------------------------------------------------------------------------------------------------- |
-| file               | Blob   | File for uploading                                                                                 |
-| escapedFolderId    | string | The TCM URI of a Folder. Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-2"     |
-| title              | string | _(Optional)_ The title of the component. The name of the file is used when not specified.          |
-| multimediaSchemaId | string | _(Optional)_ TCM URI of a multimedia schema. Default multimedia schema is used when not specified. |
+| Parameter                                             | Type                                                                                  | Description |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------- |
+| { file, escapedFolderId, title, multimediaSchemaId, } | { file: Blob; escapedFolderId: string; title?: string; multimediaSchemaId?: string; } |             |
 
 **Returns:**
 

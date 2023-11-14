@@ -9,14 +9,16 @@ Checks whether an item exists in the system based on its URI.
 **Signature:**
 
 ```typescript
-static itemExists(escapedItemId: string): CancelablePromise<void>;
+static itemExists({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<void>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

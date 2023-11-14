@@ -9,16 +9,20 @@ Gets a list of Activity Instances. This operation returns an instance of 'Activi
 **Signature:**
 
 ```typescript
-static listActivityInstances(forAllUsers?: boolean, activityStates?: Array<any>, processDefinitionId?: string): CancelablePromise<Array<ActivityInstance>>;
+static listActivityInstances({ forAllUsers, ownerId, assigneeId, activityStates, processDefinitionId, }: {
+        forAllUsers?: boolean;
+        ownerId?: string;
+        assigneeId?: string;
+        activityStates?: Array<any>;
+        processDefinitionId?: string;
+    }): CancelablePromise<Array<ActivityInstance>>;
 ```
 
 ## Parameters
 
-| Parameter           | Type             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| forAllUsers         | boolean          | _(Optional)_ When forAllUsers is set to false (the default value), the results will be filtered on Assignee or Owner depending on the activity instance state: Activity Instances in Assigned State are returned if they are assigned to the Current User or any groups of the Current User. Activity Instances in other Activity States are returned if they are owned by the Current User <para> When forAllUsers is set to true, the results are filtered by security instead. Only the Activity Instances on which the current user has Workflow Management rights (or system administration privileges) are returned. </para> |
-| activityStates      | Array&lt;any&gt; | _(Optional)_ If specified, only Activity Instances which have one of the given Activity States will be returned.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| processDefinitionId | string           | _(Optional)_ If specified, only Activity Instances based on the given Process Definition will be returned.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Parameter                                                                  | Type                                                                                                                               | Description |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { forAllUsers, ownerId, assigneeId, activityStates, processDefinitionId, } | { forAllUsers?: boolean; ownerId?: string; assigneeId?: string; activityStates?: Array&lt;any&gt;; processDefinitionId?: string; } |             |
 
 **Returns:**
 

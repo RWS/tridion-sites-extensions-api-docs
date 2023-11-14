@@ -16,5 +16,6 @@ export interface ActivitiesExplorerHookResult
 
 | Property                                                                            | Modifiers | Type                                                                          | Description                                       |
 | ----------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------- | ------------------------------------------------- |
+| [currentItem](./extensions.activitiesexplorerhookresult.currentitem.md)             |           | [ActivityInstance](./models.activityinstance.md) \| undefined                 | Currently active ActivityInstance.                |
 | [items](./extensions.activitiesexplorerhookresult.items.md)                         |           | ReadonlyArray&lt;[ActivityInstance](./models.activityinstance.md)<!-- -->&gt; | List of Activity Instances.                       |
 | [itemsLoadingState](./extensions.activitiesexplorerhookresult.itemsloadingstate.md) |           | [LoadingState](./extensions.loadingstate.md)                                  | The loading state of the Activity Instances list. |

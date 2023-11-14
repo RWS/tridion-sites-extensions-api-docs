@@ -14,6 +14,7 @@ export interface ContentExplorerTableHookResult
 
 ## Properties
 
-| Property                                                          | Modifiers | Type          | Description |
-| ----------------------------------------------------------------- | --------- | ------------- | ----------- |
-| [refresh](./extensions.contentexplorertablehookresult.refresh.md) |           | () =&gt; void |             |
+| Property                                                              | Modifiers | Type                                                                           | Description                                   |
+| --------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------ | --------------------------------------------- |
+| [refresh](./extensions.contentexplorertablehookresult.refresh.md)     |           | () =&gt; void                                                                  |                                               |
+| [selection](./extensions.contentexplorertablehookresult.selection.md) |           | [ContentExplorerTableSelection](./extensions.contentexplorertableselection.md) | Current state of selected items in the Table. |

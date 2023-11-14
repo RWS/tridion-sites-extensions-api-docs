@@ -9,14 +9,16 @@ Checks in a batch of items. This operation returns an instance of 'BatchOperatio
 **Signature:**
 
 ```typescript
-static batchCheckIn(requestModel: BatchCheckInRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchCheckIn({ requestModel, }: {
+        requestModel: BatchCheckInRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                            | Description                       |
-| ------------ | --------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchCheckInRequest](./open-api-client.batchcheckinrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                       | Description |
+| ----------------- | ------------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchCheckInRequest](./open-api-client.batchcheckinrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

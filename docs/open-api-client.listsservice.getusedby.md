@@ -9,16 +9,18 @@ Gets a list of items that use a specified item. This operation returns an instan
 **Signature:**
 
 ```typescript
-static getUsedBy(escapedItemId: string, onlyLatestVersions?: boolean, useDynamicVersion?: boolean): CancelablePromise<Array<IdentifiableObject>>;
+static getUsedBy({ escapedItemId, onlyLatestVersions, useDynamicVersion, }: {
+        escapedItemId: string;
+        onlyLatestVersions?: boolean;
+        useDynamicVersion?: boolean;
+    }): CancelablePromise<Array<IdentifiableObject>>;
 ```
 
 ## Parameters
 
-| Parameter          | Type    | Description                                                                                                             |
-| ------------------ | ------- | ----------------------------------------------------------------------------------------------------------------------- |
-| escapedItemId      | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".                         |
-| onlyLatestVersions | boolean | _(Optional)_ Set to true to include only the latest versions of the returned items or to false to include all versions. |
-| useDynamicVersion  | boolean | _(Optional)_ Loads a dynamic version (if available for the current user)                                                |
+| Parameter                                                 | Type                                                                                  | Description |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, onlyLatestVersions, useDynamicVersion, } | { escapedItemId: string; onlyLatestVersions?: boolean; useDynamicVersion?: boolean; } |             |
 
 **Returns:**
 

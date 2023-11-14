@@ -9,15 +9,17 @@ Creates a new translation job. This operation returns an instance of 'Translatio
 **Signature:**
 
 ```typescript
-static createTranslationJob(translationJob: TranslationJob, autoSend?: boolean): CancelablePromise<TranslationJob>;
+static createTranslationJob({ translationJob, autoSend, }: {
+        translationJob: TranslationJob;
+        autoSend?: boolean;
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter      | Type                                                  | Description                                                                                                                                                                                                                                                                                    |
-| -------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| translationJob | [TranslationJob](./open-api-client.translationjob.md) | The model to use for creating the new translation job.                                                                                                                                                                                                                                         |
-| autoSend       | boolean                                               | _(Optional)_ Set to "True" to automatically send the new job to the translation management system for translation after it is created. By default, a value of "False" saves the job but keeps it in the Definition stage where you can still edit the Translation Job and add or remove items. |
+| Parameter                     | Type                                                                                                   | Description |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------ | ----------- |
+| { translationJob, autoSend, } | { translationJob: [TranslationJob](./open-api-client.translationjob.md)<!-- -->; autoSend?: boolean; } |             |
 
 **Returns:**
 

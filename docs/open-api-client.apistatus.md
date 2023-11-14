@@ -12,6 +12,7 @@ Represents the status of the CoreService REST API.
 export type ApiStatus = {
     $type?: string;
     ApiVersion?: string;
+    ProductVersion?: string;
     ServerTime?: string;
 };
 ```

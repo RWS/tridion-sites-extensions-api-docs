@@ -9,16 +9,18 @@ Gets the thumbnail image for the binary content contained in a specified Multime
 **Signature:**
 
 ```typescript
-static getItemBinaryThumbnail(escapedItemId: string, width?: number, height?: number): CancelablePromise<any>;
+static getItemBinaryThumbnail({ escapedItemId, width, height, }: {
+        escapedItemId: string;
+        width?: number;
+        height?: number;
+    }): CancelablePromise<any>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| width         | number | _(Optional)_ Resize an image binary to the specified width in pixels.                           |
-| height        | number | _(Optional)_ Resize an image binary to the specified height in pixels.                          |
+| Parameter                         | Type                                                        | Description |
+| --------------------------------- | ----------------------------------------------------------- | ----------- |
+| { escapedItemId, width, height, } | { escapedItemId: string; width?: number; height?: number; } |             |
 
 **Returns:**
 

@@ -9,14 +9,16 @@ Starts a Workflow activity. This operation returns an instance of 'ActivityInsta
 **Signature:**
 
 ```typescript
-static startActivity(escapedActivityInstanceId: string): CancelablePromise<ActivityInstance>;
+static startActivity({ escapedActivityInstanceId, }: {
+        escapedActivityInstanceId: string;
+    }): CancelablePromise<ActivityInstance>;
 ```
 
 ## Parameters
 
-| Parameter                 | Type   | Description                                                                                                              |
-| ------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| escapedActivityInstanceId | string | The URI of a Workflow activity instance with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-131104" |
+| Parameter                      | Type                                   | Description |
+| ------------------------------ | -------------------------------------- | ----------- |
+| { escapedActivityInstanceId, } | { escapedActivityInstanceId: string; } |             |
 
 **Returns:**
 

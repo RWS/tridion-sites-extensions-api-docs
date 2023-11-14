@@ -9,14 +9,16 @@ Gets a list of items that will be published when executing the specified instruc
 **Signature:**
 
 ```typescript
-static getItemsToPublish(requestModel: PublishRequest): CancelablePromise<Array<ResolvedItem>>;
+static getItemsToPublish({ requestModel, }: {
+        requestModel: PublishRequest;
+    }): CancelablePromise<Array<ResolvedItem>>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                  | Description                       |
-| ------------ | ----------------------------------------------------- | --------------------------------- |
-| requestModel | [PublishRequest](./open-api-client.publishrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                             | Description |
+| ----------------- | -------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [PublishRequest](./open-api-client.publishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

@@ -9,15 +9,17 @@ Finishes a Workflow activity. This operation returns an instance of 'FinishActiv
 **Signature:**
 
 ```typescript
-static finishActivity(escapedActivityInstanceId: string, activityFinishRequestModel: ActivityFinishRequest): CancelablePromise<FinishActivityResult>;
+static finishActivity({ escapedActivityInstanceId, activityFinishRequestModel, }: {
+        escapedActivityInstanceId: string;
+        activityFinishRequestModel: ActivityFinishRequest;
+    }): CancelablePromise<FinishActivityResult>;
 ```
 
 ## Parameters
 
-| Parameter                  | Type                                                                | Description                                                                                                              |
-| -------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| escapedActivityInstanceId  | string                                                              | The URI of a Workflow activity instance with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-131104" |
-| activityFinishRequestModel | [ActivityFinishRequest](./open-api-client.activityfinishrequest.md) | The model to use for the finish activity request.                                                                        |
+| Parameter                                                  | Type                                                                                                                                            | Description |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedActivityInstanceId, activityFinishRequestModel, } | { escapedActivityInstanceId: string; activityFinishRequestModel: [ActivityFinishRequest](./open-api-client.activityfinishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

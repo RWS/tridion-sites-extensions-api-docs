@@ -9,14 +9,16 @@ Restarts a batch of activities. This operation returns an instance of 'BatchOper
 **Signature:**
 
 ```typescript
-static batchRestartActivity(requestModel: BatchOperationRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchRestartActivity({ requestModel, }: {
+        requestModel: BatchOperationRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                | Description                       |
-| ------------ | ------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchOperationRequest](./open-api-client.batchoperationrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                           | Description |
+| ----------------- | ---------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchOperationRequest](./open-api-client.batchoperationrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

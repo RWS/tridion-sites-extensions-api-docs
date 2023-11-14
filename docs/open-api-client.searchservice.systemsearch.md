@@ -9,16 +9,18 @@ Searches the system for a specified text string. This operation returns an insta
 **Signature:**
 
 ```typescript
-static systemSearch(fullTextQuery?: string, resultLimit?: number, usedKeywordsIds?: Array<string>): CancelablePromise<Array<IdentifiableObject>>;
+static systemSearch({ fullTextQuery, resultLimit, usedKeywordsIds, }: {
+        fullTextQuery: string;
+        resultLimit?: number;
+        usedKeywordsIds?: Array<string>;
+    }): CancelablePromise<Array<IdentifiableObject>>;
 ```
 
 ## Parameters
 
-| Parameter       | Type                | Description                                                                                                                                                                                                                                                                                                |
-| --------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| fullTextQuery   | string              | _(Optional)_ Input for the full-text query. The following characters have special meaning in the query syntax: + - &amp;amp;&amp;amp; \|\| ! ( ) { } \[ \] ^ " \~ \* ? : \\ To use any of these characters without their syntactical meaning, to escape them by preceding the character with a \\<!-- -->. |
-| resultLimit     | number              | _(Optional)_ The maximum number of search results.                                                                                                                                                                                                                                                         |
-| usedKeywordsIds | Array&lt;string&gt; | _(Optional)_ Limits the search results to only items that are classified with the specified keyword IDs.                                                                                                                                                                                                   |
+| Parameter                                        | Type                                                                                    | Description |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------- | ----------- |
+| { fullTextQuery, resultLimit, usedKeywordsIds, } | { fullTextQuery: string; resultLimit?: number; usedKeywordsIds?: Array&lt;string&gt;; } |             |
 
 **Returns:**
 

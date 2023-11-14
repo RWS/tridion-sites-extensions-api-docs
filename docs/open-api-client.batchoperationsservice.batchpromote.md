@@ -9,14 +9,16 @@ Promotes a batch of items. This operation returns an instance of 'BatchOperation
 **Signature:**
 
 ```typescript
-static batchPromote(requestModel: BatchPromoteDemoteRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchPromote({ requestModel, }: {
+        requestModel: BatchPromoteDemoteRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                        | Description                       |
-| ------------ | --------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchPromoteDemoteRequest](./open-api-client.batchpromotedemoterequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                   | Description |
+| ----------------- | ------------------------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchPromoteDemoteRequest](./open-api-client.batchpromotedemoterequest.md)<!-- -->; } |             |
 
 **Returns:**
 

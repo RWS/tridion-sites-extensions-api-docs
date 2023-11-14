@@ -9,14 +9,16 @@ Unpublishes a batch of items. This operation returns an instance of 'BatchOperat
 **Signature:**
 
 ```typescript
-static batchUnpublish(requestModel: BatchUnPublishRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchUnpublish({ requestModel, }: {
+        requestModel: BatchUnPublishRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                | Description                       |
-| ------------ | ------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchUnPublishRequest](./open-api-client.batchunpublishrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                           | Description |
+| ----------------- | ---------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchUnPublishRequest](./open-api-client.batchunpublishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

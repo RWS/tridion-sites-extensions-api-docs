@@ -9,15 +9,17 @@ Updates an existing translation job with new data. This operation returns an ins
 **Signature:**
 
 ```typescript
-static updateTranslationJob(jobId: number, translationJob: TranslationJob): CancelablePromise<TranslationJob>;
+static updateTranslationJob({ jobId, translationJob, }: {
+        jobId: number;
+        translationJob: TranslationJob;
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter      | Type                                                  | Description                                       |
-| -------------- | ----------------------------------------------------- | ------------------------------------------------- |
-| jobId          | number                                                | The ID of the translation job you want to update. |
-| translationJob | [TranslationJob](./open-api-client.translationjob.md) | The model to use for the updated translation job. |
+| Parameter                  | Type                                                                                              | Description |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | ----------- |
+| { jobId, translationJob, } | { jobId: number; translationJob: [TranslationJob](./open-api-client.translationjob.md)<!-- -->; } |             |
 
 **Returns:**
 

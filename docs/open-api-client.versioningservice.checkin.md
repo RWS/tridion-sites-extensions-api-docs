@@ -9,15 +9,17 @@ Checks in a versioned item that was checked out for editing. The operation conve
 **Signature:**
 
 ```typescript
-static checkIn(escapedVersionedItemId: string, requestModel: CheckInRequest): CancelablePromise<VersionedItem>;
+static checkIn({ escapedVersionedItemId, requestModel, }: {
+        escapedVersionedItemId: string;
+        requestModel: CheckInRequest;
+    }): CancelablePromise<VersionedItem>;
 ```
 
 ## Parameters
 
-| Parameter              | Type                                                  | Description                                                                                                               |
-| ---------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| escapedVersionedItemId | string                                                | The URI of a versioned item (no version specified). Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-8" |
-| requestModel           | [CheckInRequest](./open-api-client.checkinrequest.md) | The model to use for the request.                                                                                         |
+| Parameter                                 | Type                                                                                                             | Description |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedVersionedItemId, requestModel, } | { escapedVersionedItemId: string; requestModel: [CheckInRequest](./open-api-client.checkinrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

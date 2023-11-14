@@ -9,15 +9,17 @@ Updates an existing item with the specified item URI. This operation returns an 
 **Signature:**
 
 ```typescript
-static update(escapedItemId: string, requestModel: IdentifiableObject): CancelablePromise<IdentifiableObject>;
+static update({ escapedItemId, requestModel, }: {
+        escapedItemId: string;
+        requestModel: IdentifiableObject;
+    }): CancelablePromise<IdentifiableObject>;
 ```
 
 ## Parameters
 
-| Parameter     | Type                                                          | Description                                                                                     |
-| ------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string                                                        | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| requestModel  | [IdentifiableObject](./open-api-client.identifiableobject.md) | The model to use for the request.                                                               |
+| Parameter                        | Type                                                                                                            | Description |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, requestModel, } | { escapedItemId: string; requestModel: [IdentifiableObject](./open-api-client.identifiableobject.md)<!-- -->; } |             |
 
 **Returns:**
 

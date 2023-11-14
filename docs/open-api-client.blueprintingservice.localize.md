@@ -9,14 +9,16 @@ Localizes a shared item in the BluePrint to create a local copy that can then be
 **Signature:**
 
 ```typescript
-static localize(escapedItemId: string): CancelablePromise<RepositoryLocalObject>;
+static localize({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<RepositoryLocalObject>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

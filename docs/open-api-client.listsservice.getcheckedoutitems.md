@@ -11,15 +11,17 @@
 **Signature:**
 
 ```typescript
-static getCheckedOutItems(userId?: string, maxResults?: number): CancelablePromise<Array<VersionedItem>>;
+static getCheckedOutItems({ userId, maxResults, }: {
+        userId?: string;
+        maxResults?: number;
+    }): CancelablePromise<Array<VersionedItem>>;
 ```
 
 ## Parameters
 
-| Parameter  | Type   | Description                                                                                                                                                                                                                                                                                                                             |
-| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| userId     | string | _(Optional)_ The TCM URI of a User. Specify to get only items checked out by a specific user. If not specified, the operation will get all items that are checked out. Note that Administrators can get items checked out by all users. Other users, however, can typically retrieve only the items that are checked out by themselves. |
-| maxResults | number | _(Optional)_ An integer value to limit the number of items returned in the list. Specify a positive value as the limit or -1 for no limit. Setting the value to zero will return an empty list.                                                                                                                                         |
+| Parameter               | Type                                      | Description |
+| ----------------------- | ----------------------------------------- | ----------- |
+| { userId, maxResults, } | { userId?: string; maxResults?: number; } |             |
 
 **Returns:**
 

@@ -9,15 +9,17 @@ Reassigns a Workflow Activity to another User or Group. This operation returns a
 **Signature:**
 
 ```typescript
-static reAssignActivity(escapedActivityInstanceId: string, newAssigneeId: string): CancelablePromise<ActivityInstance>;
+static reAssignActivity({ escapedActivityInstanceId, newAssigneeId, }: {
+        escapedActivityInstanceId: string;
+        newAssigneeId: string;
+    }): CancelablePromise<ActivityInstance>;
 ```
 
 ## Parameters
 
-| Parameter                 | Type   | Description                                       |
-| ------------------------- | ------ | ------------------------------------------------- |
-| escapedActivityInstanceId | string | The (escaped) Activity Instance TCM URI.          |
-| newAssigneeId             | string | The TCM URI of the User or Group to re-assign to. |
+| Parameter                                     | Type                                                          | Description |
+| --------------------------------------------- | ------------------------------------------------------------- | ----------- |
+| { escapedActivityInstanceId, newAssigneeId, } | { escapedActivityInstanceId: string; newAssigneeId: string; } |             |
 
 **Returns:**
 

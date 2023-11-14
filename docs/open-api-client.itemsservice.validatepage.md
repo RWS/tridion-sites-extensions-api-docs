@@ -9,14 +9,16 @@ Validates a Page according to the Page Schema that is used. This operation retur
 **Signature:**
 
 ```typescript
-static validatePage(pageModel: Page): CancelablePromise<Array<ValidationError>>;
+static validatePage({ pageModel, }: {
+        pageModel: Page;
+    }): CancelablePromise<Array<ValidationError>>;
 ```
 
 ## Parameters
 
-| Parameter | Type                              | Description     |
-| --------- | --------------------------------- | --------------- |
-| pageModel | [Page](./open-api-client.page.md) | The Page model. |
+| Parameter      | Type                                                      | Description |
+| -------------- | --------------------------------------------------------- | ----------- |
+| { pageModel, } | { pageModel: [Page](./open-api-client.page.md)<!-- -->; } |             |
 
 **Returns:**
 

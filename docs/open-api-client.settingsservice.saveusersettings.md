@@ -9,14 +9,16 @@ Saves user settings for authenticated user
 **Signature:**
 
 ```typescript
-static saveUserSettings(userSettings: Settings): CancelablePromise<void>;
+static saveUserSettings({ userSettings }: {
+        userSettings: Settings;
+    }): CancelablePromise<void>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                      | Description |
-| ------------ | ----------------------------------------- | ----------- |
-| userSettings | [Settings](./open-api-client.settings.md) |             |
+| Parameter        | Type                                                                 | Description |
+| ---------------- | -------------------------------------------------------------------- | ----------- |
+| { userSettings } | { userSettings: [Settings](./open-api-client.settings.md)<!-- -->; } |             |
 
 **Returns:**
 

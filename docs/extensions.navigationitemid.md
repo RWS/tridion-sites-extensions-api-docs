@@ -12,5 +12,6 @@ All available built-in navigation item IDs.
 navigationItemId: {
     activitiesExplorer: 'activitiesExplorer';
     contentExplorer: 'contentExplorer';
+    publishingQueueExplorer: 'publishingQueueExplorer';
 }
 ```

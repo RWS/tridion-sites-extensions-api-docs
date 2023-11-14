@@ -9,14 +9,16 @@ Publishes a batch of items. This operation returns an instance of 'BatchOperatio
 **Signature:**
 
 ```typescript
-static batchPublish(requestModel: BatchPublishRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchPublish({ requestModel, }: {
+        requestModel: BatchPublishRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                            | Description                       |
-| ------------ | --------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchPublishRequest](./open-api-client.batchpublishrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                       | Description |
+| ----------------- | ------------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchPublishRequest](./open-api-client.batchpublishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

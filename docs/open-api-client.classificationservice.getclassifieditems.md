@@ -9,18 +9,20 @@ Gets a list of all items that are classified with a specified Keyword (internal)
 **Signature:**
 
 ```typescript
-static getClassifiedItems(escapedKeywordId: string, useDynamicVersion?: boolean, rloItemTypes?: Array<any>, resolveDescendantKeywords?: boolean, resultLimit?: number): CancelablePromise<Array<RepositoryLocalObject>>;
+static getClassifiedItems({ escapedKeywordId, useDynamicVersion, rloItemTypes, resolveDescendantKeywords, resultLimit, }: {
+        escapedKeywordId: string;
+        useDynamicVersion?: boolean;
+        rloItemTypes?: Array<any>;
+        resolveDescendantKeywords?: boolean;
+        resultLimit?: number;
+    }): CancelablePromise<Array<RepositoryLocalObject>>;
 ```
 
 ## Parameters
 
-| Parameter                 | Type             | Description                                                                                                                                                                                     |
-| ------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedKeywordId          | string           | The URI of a Keyword or Concept with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-1024"                                                                                  |
-| useDynamicVersion         | boolean          | _(Optional)_ Loads a dynamic version (if available for the current user)                                                                                                                        |
-| rloItemTypes              | Array&lt;any&gt; | _(Optional)_ The item types of all repository-local objects that you want to include in the response.                                                                                           |
-| resolveDescendantKeywords | boolean          | _(Optional)_ A boolean value to indicate whether to include descendant keywords in the results.                                                                                                 |
-| resultLimit               | number           | _(Optional)_ An integer value to limit the number of items returned in the list. Specify a positive value as the limit or -1 for no limit. Setting the value to zero will return an empty list. |
+| Parameter                                                                                      | Type                                                                                                                                                   | Description |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| { escapedKeywordId, useDynamicVersion, rloItemTypes, resolveDescendantKeywords, resultLimit, } | { escapedKeywordId: string; useDynamicVersion?: boolean; rloItemTypes?: Array&lt;any&gt;; resolveDescendantKeywords?: boolean; resultLimit?: number; } |             |
 
 **Returns:**
 

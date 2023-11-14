@@ -9,14 +9,16 @@ Beta version. Gets the user profile of a user. This operation returns an instanc
 **Signature:**
 
 ```typescript
-static getUserProfile(escapedUserId: string): CancelablePromise<UserProfile>;
+static getUserProfile({ escapedUserId, }: {
+        escapedUserId: string;
+    }): CancelablePromise<UserProfile>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                           |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------------- |
-| escapedUserId | string | The TCM URI of the user with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-17". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedUserId, } | { escapedUserId: string; } |             |
 
 **Returns:**
 

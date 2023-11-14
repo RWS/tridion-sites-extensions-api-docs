@@ -25,7 +25,6 @@ Due to reliance on various functionality provided at runtime by Tridion Sites, t
 | [ExtensionsService](./open-api-client.extensionsservice.md)                   |             |
 | [ItemsService](./open-api-client.itemsservice.md)                             |             |
 | [ListsService](./open-api-client.listsservice.md)                             |             |
-| [LocalApiService](./open-api-client.localapiservice.md)                       |             |
 | [OrganizationalItemsService](./open-api-client.organizationalitemsservice.md) |             |
 | [PublicationsService](./open-api-client.publicationsservice.md)               |             |
 | [PublishingService](./open-api-client.publishingservice.md)                   |             |

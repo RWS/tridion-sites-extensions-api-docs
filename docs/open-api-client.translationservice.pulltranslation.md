@@ -11,14 +11,16 @@ This route is used as HATEOAS URL for the tm:PullTranslation Applicable Action
 **Signature:**
 
 ```typescript
-static pullTranslation(escapedItemId: string): CancelablePromise<TranslationJob>;
+static pullTranslation({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

@@ -14,6 +14,7 @@ export interface ActivitiesExplorerTableHookResult
 
 ## Properties
 
-| Property                                                             | Modifiers | Type          | Description                         |
-| -------------------------------------------------------------------- | --------- | ------------- | ----------------------------------- |
-| [refresh](./extensions.activitiesexplorertablehookresult.refresh.md) |           | () =&gt; void | Refetch list of Activity Instances. |
+| Property                                                                 | Modifiers | Type                                                                                 | Description                                                |
+| ------------------------------------------------------------------------ | --------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| [refresh](./extensions.activitiesexplorertablehookresult.refresh.md)     |           | () =&gt; void                                                                        | Refetch list of Activity Instances.                        |
+| [selection](./extensions.activitiesexplorertablehookresult.selection.md) |           | [ActivitiesExplorerTableSelection](./extensions.activitiesexplorertableselection.md) | Current state of selected Activity Instances in the Table. |

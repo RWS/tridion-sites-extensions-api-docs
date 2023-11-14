@@ -9,15 +9,17 @@ Creates an object based on a specified request model and saves it to the databas
 **Signature:**
 
 ```typescript
-static create(requestModel: IdentifiableObject, autoCheckIn?: boolean): CancelablePromise<IdentifiableObject>;
+static create({ requestModel, autoCheckIn, }: {
+        requestModel: IdentifiableObject;
+        autoCheckIn?: boolean;
+    }): CancelablePromise<IdentifiableObject>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                          | Description                                                  |
-| ------------ | ------------------------------------------------------------- | ------------------------------------------------------------ |
-| requestModel | [IdentifiableObject](./open-api-client.identifiableobject.md) | The model to use for the request.                            |
-| autoCheckIn  | boolean                                                       | _(Optional)_ Indicates whether to check in the created item. |
+| Parameter                      | Type                                                                                                            | Description |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, autoCheckIn, } | { requestModel: [IdentifiableObject](./open-api-client.identifiableobject.md)<!-- -->; autoCheckIn?: boolean; } |             |
 
 **Returns:**
 

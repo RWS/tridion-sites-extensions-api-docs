@@ -4,19 +4,21 @@
 
 ## ClassificationService.autoClassify() method
 
-Automatically classifies the specified item with Keywords (internal taxonomy) or concepts (external taxonomy) based on the current content and metadata of the item. This operation returns an instance of 'ClassificationInfo' type.
+Automatically classifies the specified item with Concepts from external taxonomy based on the current content and metadata of the item. This operation returns an instance of 'ClassificationInfo' type.
 
 **Signature:**
 
 ```typescript
-static autoClassify(escapedItemId: string): CancelablePromise<ClassificationInfo>;
+static autoClassify({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<ClassificationInfo>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

@@ -9,18 +9,20 @@ Gets a paged list of child items of a specified organizational item. This operat
 **Signature:**
 
 ```typescript
-static getItemsPageFromContainer(escapedOrgItemId: string, pageIndex: number, pageSize?: number, useDynamicVersion?: boolean, rloItemTypes?: Array<any>): CancelablePromise<PageOfItems>;
+static getItemsPageFromContainer({ escapedOrgItemId, pageIndex, pageSize, useDynamicVersion, rloItemTypes, }: {
+        escapedOrgItemId: string;
+        pageIndex: number;
+        pageSize?: number;
+        useDynamicVersion?: boolean;
+        rloItemTypes?: Array<any>;
+    }): CancelablePromise<PageOfItems>;
 ```
 
 ## Parameters
 
-| Parameter         | Type             | Description                                                                                                                                                                          |
-| ----------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| escapedOrgItemId  | string           | The TCM URI of an organizational item, such as a Bundle, Category, Folder, Virtual folder, or Structure Group. Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-2" |
-| pageIndex         | number           | The 0-based page index.                                                                                                                                                              |
-| pageSize          | number           | _(Optional)_ The size of the page. If set to 0 (the default), the page size is determined by the system.                                                                             |
-| useDynamicVersion | boolean          | _(Optional)_ Loads a dynamic version (if available for the current user)                                                                                                             |
-| rloItemTypes      | Array&lt;any&gt; | _(Optional)_ The item types of all repository-local objects that you want to include in the response.                                                                                |
+| Parameter                                                                   | Type                                                                                                                              | Description |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedOrgItemId, pageIndex, pageSize, useDynamicVersion, rloItemTypes, } | { escapedOrgItemId: string; pageIndex: number; pageSize?: number; useDynamicVersion?: boolean; rloItemTypes?: Array&lt;any&gt;; } |             |
 
 **Returns:**
 

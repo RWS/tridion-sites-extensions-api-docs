@@ -9,14 +9,16 @@ Deletes the translation job that has the specified job ID.
 **Signature:**
 
 ```typescript
-static deleteTranslationJob(jobId: number): CancelablePromise<void>;
+static deleteTranslationJob({ jobId, }: {
+        jobId: number;
+    }): CancelablePromise<void>;
 ```
 
 ## Parameters
 
-| Parameter | Type   | Description                                       |
-| --------- | ------ | ------------------------------------------------- |
-| jobId     | number | The ID of the translation job you want to delete. |
+| Parameter  | Type               | Description |
+| ---------- | ------------------ | ----------- |
+| { jobId, } | { jobId: number; } |             |
 
 **Returns:**
 

@@ -9,14 +9,16 @@ Gets a summary of all publishing targets for a specified item. This operation re
 **Signature:**
 
 ```typescript
-static getPublishedTo(escapedItemId: string): CancelablePromise<Array<PublishInfo>>;
+static getPublishedTo({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<Array<PublishInfo>>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

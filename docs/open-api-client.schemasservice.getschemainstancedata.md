@@ -9,14 +9,16 @@ Gets instance data of a specified Schema including default field values. This op
 **Signature:**
 
 ```typescript
-static getSchemaInstanceData(escapedSchemaId: string): CancelablePromise<SchemaInstance>;
+static getSchemaInstanceData({ escapedSchemaId, }: {
+        escapedSchemaId: string;
+    }): CancelablePromise<SchemaInstance>;
 ```
 
 ## Parameters
 
-| Parameter       | Type   | Description                                                                                         |
-| --------------- | ------ | --------------------------------------------------------------------------------------------------- |
-| escapedSchemaId | string | The TCM URI of a Schema with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-8" |
+| Parameter            | Type                         | Description |
+| -------------------- | ---------------------------- | ----------- |
+| { escapedSchemaId, } | { escapedSchemaId: string; } |             |
 
 **Returns:**
 

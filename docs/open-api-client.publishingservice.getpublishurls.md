@@ -9,14 +9,16 @@ Gets the URL where an item is published. This operation returns an instance of '
 **Signature:**
 
 ```typescript
-static getPublishUrls(escapedPageId: string): CancelablePromise<Array<PublishUrlInfo>>;
+static getPublishUrls({ escapedPageId, }: {
+        escapedPageId: string;
+    }): CancelablePromise<Array<PublishUrlInfo>>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                        |
-| ------------- | ------ | -------------------------------------------------------------------------------------------------- |
-| escapedPageId | string | The TCM URI of a Page with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-7". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedPageId, } | { escapedPageId: string; } |             |
 
 **Returns:**
 

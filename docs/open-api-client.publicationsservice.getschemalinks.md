@@ -9,15 +9,17 @@ Gets a list of all Schema links contained within a specified Publication. This o
 **Signature:**
 
 ```typescript
-static getSchemaLinks(escapedPublicationId: string, schemaPurpose: Array<any>): CancelablePromise<Array<Link>>;
+static getSchemaLinks({ escapedPublicationId, schemaPurpose, }: {
+        escapedPublicationId: string;
+        schemaPurpose: Array<any>;
+    }): CancelablePromise<Array<Link>>;
 ```
 
 ## Parameters
 
-| Parameter            | Type             | Description                                                                                               |
-| -------------------- | ---------------- | --------------------------------------------------------------------------------------------------------- |
-| escapedPublicationId | string           | The TCM URI of a Publication with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| schemaPurpose        | Array&lt;any&gt; | The types of Schemas to include in the results list. You must select at least one.                        |
+| Parameter                                | Type                                                               | Description |
+| ---------------------------------------- | ------------------------------------------------------------------ | ----------- |
+| { escapedPublicationId, schemaPurpose, } | { escapedPublicationId: string; schemaPurpose: Array&lt;any&gt;; } |             |
 
 **Returns:**
 

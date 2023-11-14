@@ -9,15 +9,17 @@ Moves a RepositoryLocalObject from its current location to a new destination. Th
 **Signature:**
 
 ```typescript
-static move(escapedItemId: string, escapedDestinationId: string): CancelablePromise<RepositoryLocalObject>;
+static move({ escapedItemId, escapedDestinationId, }: {
+        escapedItemId: string;
+        escapedDestinationId: string;
+    }): CancelablePromise<RepositoryLocalObject>;
 ```
 
 ## Parameters
 
-| Parameter            | Type   | Description                                                                                                                                                    |
-| -------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedItemId        | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".                                                                |
-| escapedDestinationId | string | The TCM URI of the destination, which can be either an organizational item or a Keyword. Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-2" |
+| Parameter                                | Type                                                     | Description |
+| ---------------------------------------- | -------------------------------------------------------- | ----------- |
+| { escapedItemId, escapedDestinationId, } | { escapedItemId: string; escapedDestinationId: string; } |             |
 
 **Returns:**
 

@@ -9,15 +9,17 @@ Reverts the check-out of a versioned item. The operation removes the editable ve
 **Signature:**
 
 ```typescript
-static undoCheckOut(escapedVersionedItemId: string, requestModel: UndoCheckOutRequest): CancelablePromise<VersionedItem>;
+static undoCheckOut({ escapedVersionedItemId, requestModel, }: {
+        escapedVersionedItemId: string;
+        requestModel: UndoCheckOutRequest;
+    }): CancelablePromise<VersionedItem>;
 ```
 
 ## Parameters
 
-| Parameter              | Type                                                            | Description                                                                                                               |
-| ---------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| escapedVersionedItemId | string                                                          | The URI of a versioned item (no version specified). Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-8" |
-| requestModel           | [UndoCheckOutRequest](./open-api-client.undocheckoutrequest.md) | The model to use for the request.                                                                                         |
+| Parameter                                 | Type                                                                                                                       | Description |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedVersionedItemId, requestModel, } | { escapedVersionedItemId: string; requestModel: [UndoCheckOutRequest](./open-api-client.undocheckoutrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

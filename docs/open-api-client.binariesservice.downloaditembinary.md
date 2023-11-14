@@ -9,14 +9,16 @@ Downloads the binary content of a Multimedia Component as a file.
 **Signature:**
 
 ```typescript
-static downloadItemBinary(escapedItemId: string): CancelablePromise<any>;
+static downloadItemBinary({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<any>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

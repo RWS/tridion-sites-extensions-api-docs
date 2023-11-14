@@ -9,14 +9,16 @@ Gets a list of Target Types for a specified Business Process Type. This operatio
 **Signature:**
 
 ```typescript
-static getPublishableTargetTypes(escapedBusinessProcessTypeId: string): CancelablePromise<Array<TargetType>>;
+static getPublishableTargetTypes({ escapedBusinessProcessTypeId, }: {
+        escapedBusinessProcessTypeId: string;
+    }): CancelablePromise<Array<TargetType>>;
 ```
 
 ## Parameters
 
-| Parameter                    | Type   | Description                                                                                                           |
-| ---------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------- |
-| escapedBusinessProcessTypeId | string | The TCM URI of a Business Process Type with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-4096" |
+| Parameter                         | Type                                      | Description |
+| --------------------------------- | ----------------------------------------- | ----------- |
+| { escapedBusinessProcessTypeId, } | { escapedBusinessProcessTypeId: string; } |             |
 
 **Returns:**
 

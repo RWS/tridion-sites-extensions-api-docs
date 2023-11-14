@@ -9,14 +9,16 @@ Retries to send or retrieve a translation job. This operation returns an instanc
 **Signature:**
 
 ```typescript
-static retryTranslationJob(jobId: number): CancelablePromise<TranslationJob>;
+static retryTranslationJob({ jobId, }: {
+        jobId: number;
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter | Type   | Description                                      |
-| --------- | ------ | ------------------------------------------------ |
-| jobId     | number | The ID of the translation job you want to retry. |
+| Parameter  | Type               | Description |
+| ---------- | ------------------ | ----------- |
+| { jobId, } | { jobId: number; } |             |
 
 **Returns:**
 

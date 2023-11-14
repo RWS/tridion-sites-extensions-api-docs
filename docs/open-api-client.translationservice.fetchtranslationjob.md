@@ -9,14 +9,16 @@ Gets full details for the translation job with the specified job ID. This operat
 **Signature:**
 
 ```typescript
-static fetchTranslationJob(jobId: number): CancelablePromise<TranslationJob>;
+static fetchTranslationJob({ jobId, }: {
+        jobId: number;
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter | Type   | Description                                         |
-| --------- | ------ | --------------------------------------------------- |
-| jobId     | number | The ID of the translation job you want to retrieve. |
+| Parameter  | Type               | Description |
+| ---------- | ------------------ | ----------- |
+| { jobId, } | { jobId: number; } |             |
 
 **Returns:**
 

@@ -9,14 +9,16 @@ Restarts an automated Activity Instance which is in Failed state. This operation
 **Signature:**
 
 ```typescript
-static restartActivity(escapedActivityInstanceId: string): CancelablePromise<ActivityInstance>;
+static restartActivity({ escapedActivityInstanceId, }: {
+        escapedActivityInstanceId: string;
+    }): CancelablePromise<ActivityInstance>;
 ```
 
 ## Parameters
 
-| Parameter                 | Type   | Description                              |
-| ------------------------- | ------ | ---------------------------------------- |
-| escapedActivityInstanceId | string | The (escaped) Activity Instance TCM URI. |
+| Parameter                      | Type                                   | Description |
+| ------------------------------ | -------------------------------------- | ----------- |
+| { escapedActivityInstanceId, } | { escapedActivityInstanceId: string; } |             |
 
 **Returns:**
 

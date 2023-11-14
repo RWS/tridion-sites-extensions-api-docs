@@ -9,14 +9,16 @@ Unlocalizes a batch of items. This operation returns an instance of 'BatchOperat
 **Signature:**
 
 ```typescript
-static batchUnlocalize(requestModel: BatchOperationRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchUnlocalize({ requestModel, }: {
+        requestModel: BatchOperationRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                | Description                       |
-| ------------ | ------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchOperationRequest](./open-api-client.batchoperationrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                           | Description |
+| ----------------- | ---------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchOperationRequest](./open-api-client.batchoperationrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

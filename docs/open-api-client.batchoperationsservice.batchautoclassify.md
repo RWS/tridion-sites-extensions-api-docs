@@ -9,14 +9,16 @@ Automatically classifies a batch of items. This operation returns an instance of
 **Signature:**
 
 ```typescript
-static batchAutoClassify(requestModel: BatchAutoClassifyRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchAutoClassify({ requestModel, }: {
+        requestModel: BatchAutoClassifyRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                      | Description                       |
-| ------------ | ------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchAutoClassifyRequest](./open-api-client.batchautoclassifyrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                 | Description |
+| ----------------- | ---------------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchAutoClassifyRequest](./open-api-client.batchautoclassifyrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

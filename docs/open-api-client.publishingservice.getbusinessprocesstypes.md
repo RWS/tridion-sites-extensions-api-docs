@@ -9,14 +9,16 @@ Gets a list of Business Process Types linked to a specified Topology Type. This 
 **Signature:**
 
 ```typescript
-static getBusinessProcessTypes(topologyTypeId: string): CancelablePromise<Array<Link>>;
+static getBusinessProcessTypes({ topologyTypeId, }: {
+        topologyTypeId: string;
+    }): CancelablePromise<Array<Link>>;
 ```
 
 ## Parameters
 
-| Parameter      | Type   | Description                  |
-| -------------- | ------ | ---------------------------- |
-| topologyTypeId | string | The ID of the Topology Type. |
+| Parameter           | Type                        | Description |
+| ------------------- | --------------------------- | ----------- |
+| { topologyTypeId, } | { topologyTypeId: string; } |             |
 
 **Returns:**
 

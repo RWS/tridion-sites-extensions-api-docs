@@ -9,16 +9,18 @@ Indicates whether a specified item is published (true) or not (false).
 **Signature:**
 
 ```typescript
-static isPublished(escapedItemId: string, isPublishedInContext: boolean, targetIdOrPurpose?: string): CancelablePromise<boolean>;
+static isPublished({ escapedItemId, isPublishedInContext, targetIdOrPurpose, }: {
+        escapedItemId: string;
+        isPublishedInContext: boolean;
+        targetIdOrPurpose?: string;
+    }): CancelablePromise<boolean>;
 ```
 
 ## Parameters
 
-| Parameter            | Type    | Description                                                                                                                                                                                                                                                                                                                                                     |
-| -------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedItemId        | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".                                                                                                                                                                                                                                                                 |
-| isPublishedInContext | boolean | Controls whether to return "true" (item is published) when the item is published in the context Publication only. Set to "true" to consider only publishing within the context Publication or to "false" to consider publishing within any Publication.                                                                                                         |
-| targetIdOrPurpose    | string  | _(Optional)_ Indicates a Target Type or Purpose as a limit for the query. If you enter a value, the query will return "true" only if the item is published at least once to that specific Target Type or Purpose. If you leave it blank, the query will return "true" if the item is published to at least one target regardless of the Target Type or Purpose. |
+| Parameter                                                   | Type                                                                                  | Description |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, isPublishedInContext, targetIdOrPurpose, } | { escapedItemId: string; isPublishedInContext: boolean; targetIdOrPurpose?: string; } |             |
 
 **Returns:**
 

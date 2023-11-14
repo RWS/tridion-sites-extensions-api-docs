@@ -9,18 +9,22 @@ Gets a list of all publishing transactions. This operation returns an instance o
 **Signature:**
 
 ```typescript
-static getPublishTransactions(userId?: string, publicationId?: string, targetTypeId?: string, startDate?: string, endDate?: string): CancelablePromise<Array<PublishTransaction>>;
+static getPublishTransactions({ userId, publicationId, targetTypeId, startDate, endDate, priority, state, }: {
+        userId?: string;
+        publicationId?: string;
+        targetTypeId?: string;
+        startDate?: string;
+        endDate?: string;
+        priority?: 'Low' | 'Normal' | 'High';
+        state?: 'ScheduledForPublish' | 'WaitingForPublish' | 'InProgress' | 'ScheduledForDeployment' | 'WaitingForDeployment' | 'Failed' | 'Success' | 'Warning' | 'Resolving' | 'Rendering' | 'Throttled' | 'ReadyForTransport' | 'Transporting' | 'Deploying' | 'PreparingDeployment' | 'PreCommittingDeployment' | 'CommittingDeployment' | 'WaitingForCdEnvironment' | 'UnknownByClient';
+    }): CancelablePromise<Array<PublishTransaction>>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                                          |
-| ------------- | ------ | -------------------------------------------------------------------------------------------------------------------- |
-| userId        | string | _(Optional)_ The TCM URI of the user who initiated the transaction.                                                  |
-| publicationId | string | _(Optional)_ The TCM URI of a Publication.                                                                           |
-| targetTypeId  | string | _(Optional)_ The TCM URI of a publishing Target Type.                                                                |
-| startDate     | string | _(Optional)_ A specific start date and time (in ISO 8601 format) for publishing transactions to include in the list. |
-| endDate       | string | _(Optional)_ A specific end date and time (in ISO 8601 format) for publishing transactions to include in the list.   |
+| Parameter                                                                     | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Description |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { userId, publicationId, targetTypeId, startDate, endDate, priority, state, } | { userId?: string; publicationId?: string; targetTypeId?: string; startDate?: string; endDate?: string; priority?: 'Low' \| 'Normal' \| 'High'; state?: 'ScheduledForPublish' \| 'WaitingForPublish' \| 'InProgress' \| 'ScheduledForDeployment' \| 'WaitingForDeployment' \| 'Failed' \| 'Success' \| 'Warning' \| 'Resolving' \| 'Rendering' \| 'Throttled' \| 'ReadyForTransport' \| 'Transporting' \| 'Deploying' \| 'PreparingDeployment' \| 'PreCommittingDeployment' \| 'CommittingDeployment' \| 'WaitingForCdEnvironment' \| 'UnknownByClient'; } |             |
 
 **Returns:**
 

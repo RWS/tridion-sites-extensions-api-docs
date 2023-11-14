@@ -9,15 +9,17 @@ Promotes an item in the BluePrint hierarchy. This operation returns an instance 
 **Signature:**
 
 ```typescript
-static promote(escapedItemId: string, requestModel: PromoteDemoteRequest): CancelablePromise<OperationResult>;
+static promote({ escapedItemId, requestModel, }: {
+        escapedItemId: string;
+        requestModel: PromoteDemoteRequest;
+    }): CancelablePromise<OperationResult>;
 ```
 
 ## Parameters
 
-| Parameter     | Type                                                              | Description                                                                                     |
-| ------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string                                                            | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| requestModel  | [PromoteDemoteRequest](./open-api-client.promotedemoterequest.md) | The model to use for the request.                                                               |
+| Parameter                        | Type                                                                                                                | Description |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, requestModel, } | { escapedItemId: string; requestModel: [PromoteDemoteRequest](./open-api-client.promotedemoterequest.md)<!-- -->; } |             |
 
 **Returns:**
 

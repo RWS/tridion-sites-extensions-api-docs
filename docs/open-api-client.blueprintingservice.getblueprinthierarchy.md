@@ -9,14 +9,16 @@ Gets the context of an item in the BluePrint hierarchy. This operation returns a
 **Signature:**
 
 ```typescript
-static getBluePrintHierarchy(escapedItemId: string): CancelablePromise<BlueprintHierarchyResponse>;
+static getBluePrintHierarchy({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<BlueprintHierarchyResponse>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                     |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------- |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

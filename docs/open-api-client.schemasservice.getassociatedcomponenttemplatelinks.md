@@ -9,14 +9,16 @@ Gets a list of all Component Template links that can render Components based on 
 **Signature:**
 
 ```typescript
-static getAssociatedComponentTemplateLinks(escapedSchemaId: string): CancelablePromise<Array<Link>>;
+static getAssociatedComponentTemplateLinks({ escapedSchemaId, }: {
+        escapedSchemaId: string;
+    }): CancelablePromise<Array<Link>>;
 ```
 
 ## Parameters
 
-| Parameter       | Type   | Description                                                                                         |
-| --------------- | ------ | --------------------------------------------------------------------------------------------------- |
-| escapedSchemaId | string | The TCM URI of a Schema with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-8" |
+| Parameter            | Type                         | Description |
+| -------------------- | ---------------------------- | ----------- |
+| { escapedSchemaId, } | { escapedSchemaId: string; } |             |
 
 **Returns:**
 

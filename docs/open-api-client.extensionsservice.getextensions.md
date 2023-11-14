@@ -4,7 +4,9 @@
 
 ## ExtensionsService.getExtensions() method
 
-Gets a list of Experience Space extensions This operation returns an instance of 'FrontendAddon' type.
+> Warning: This API is now obsolete.
+>
+> Gets a list of Experience Space extensions This operation returns an instance of 'FrontendAddon' type.
 
 **Signature:**
 

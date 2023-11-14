@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-navigationItemIds: readonly[('activitiesExplorer', 'contentExplorer')];
+navigationItemIds: readonly[('activitiesExplorer', 'contentExplorer', 'publishingQueueExplorer')];
 ```

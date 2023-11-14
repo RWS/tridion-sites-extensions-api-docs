@@ -9,16 +9,18 @@ Gets a list of items that are used by a specified item. This operation returns a
 **Signature:**
 
 ```typescript
-static getUses(escapedItemId: string, includeBlueprintParentItem?: boolean, useDynamicVersion?: boolean): CancelablePromise<Array<IdentifiableObject>>;
+static getUses({ escapedItemId, includeBlueprintParentItem, useDynamicVersion, }: {
+        escapedItemId: string;
+        includeBlueprintParentItem?: boolean;
+        useDynamicVersion?: boolean;
+    }): CancelablePromise<Array<IdentifiableObject>>;
 ```
 
 ## Parameters
 
-| Parameter                  | Type    | Description                                                                                               |
-| -------------------------- | ------- | --------------------------------------------------------------------------------------------------------- |
-| escapedItemId              | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".           |
-| includeBlueprintParentItem | boolean | _(Optional)_ Set to true to include the parent item of the specified item or false to exclude the parent. |
-| useDynamicVersion          | boolean | _(Optional)_ Loads a dynamic version (if available for the current user)                                  |
+| Parameter                                                         | Type                                                                                          | Description |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, includeBlueprintParentItem, useDynamicVersion, } | { escapedItemId: string; includeBlueprintParentItem?: boolean; useDynamicVersion?: boolean; } |             |
 
 **Returns:**
 

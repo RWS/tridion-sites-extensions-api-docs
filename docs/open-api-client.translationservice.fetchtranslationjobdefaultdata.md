@@ -9,15 +9,17 @@ Gets a translation job model with default data, which you can use as the basis f
 **Signature:**
 
 ```typescript
-static fetchTranslationJobDefaultData(itemIds: Array<string>, jobType: 'None' | 'PushJob' | 'PullJob' | 'UnknownByClient'): CancelablePromise<TranslationJob>;
+static fetchTranslationJobDefaultData({ itemIds, jobType, }: {
+        itemIds: Array<string>;
+        jobType: 'None' | 'PushJob' | 'PullJob' | 'UnknownByClient';
+    }): CancelablePromise<TranslationJob>;
 ```
 
 ## Parameters
 
-| Parameter | Type                                                  | Description                                                                                                                                                                                                                                                                                                                                                               |
-| --------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| itemIds   | Array&lt;string&gt;                                   | An array of item URIs that you want to send for translation.                                                                                                                                                                                                                                                                                                              |
-| jobType   | 'None' \| 'PushJob' \| 'PullJob' \| 'UnknownByClient' | Select the type of translation job: \* PullJob – a job that is initiated from a target Publication and which pulls the translation from a source Publication that is higher up in the BluePrint. \* PushJob – a job that is initiated from a source Publication and which pushes the translation to one or more target Publications that are lower down in the BluePrint. |
+| Parameter             | Type                                                                                              | Description |
+| --------------------- | ------------------------------------------------------------------------------------------------- | ----------- |
+| { itemIds, jobType, } | { itemIds: Array&lt;string&gt;; jobType: 'None' \| 'PushJob' \| 'PullJob' \| 'UnknownByClient'; } |             |
 
 **Returns:**
 

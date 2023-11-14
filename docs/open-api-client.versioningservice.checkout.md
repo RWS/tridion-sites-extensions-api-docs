@@ -9,15 +9,17 @@ Checks out a versioned item to create a new, editable version of the item. The n
 **Signature:**
 
 ```typescript
-static checkOut(escapedVersionedItemId: string, requestModel: CheckOutRequest): CancelablePromise<VersionedItem>;
+static checkOut({ escapedVersionedItemId, requestModel, }: {
+        escapedVersionedItemId: string;
+        requestModel: CheckOutRequest;
+    }): CancelablePromise<VersionedItem>;
 ```
 
 ## Parameters
 
-| Parameter              | Type                                                    | Description                                                                                                               |
-| ---------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| escapedVersionedItemId | string                                                  | The URI of a versioned item (no version specified). Escape the colon by replacing it with an underscore. E.g. "tcm_1-1-8" |
-| requestModel           | [CheckOutRequest](./open-api-client.checkoutrequest.md) | The model to use for the request.                                                                                         |
+| Parameter                                 | Type                                                                                                               | Description |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------- |
+| { escapedVersionedItemId, requestModel, } | { escapedVersionedItemId: string; requestModel: [CheckOutRequest](./open-api-client.checkoutrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

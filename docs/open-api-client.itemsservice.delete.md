@@ -9,14 +9,16 @@ Permanently deletes an item from the system. You can delete all versions of the 
 **Signature:**
 
 ```typescript
-static delete(escapedItemId: string): CancelablePromise<void>;
+static delete({ escapedItemId, }: {
+        escapedItemId: string;
+    }): CancelablePromise<void>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                                                                                                                                  |
-| ------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| escapedItemId | string | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-1". To delete only a specific version of the item, include the item's version in the TCM URI. E.g. "tcm_1-15-v5" |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedItemId, } | { escapedItemId: string; } |             |
 
 **Returns:**
 

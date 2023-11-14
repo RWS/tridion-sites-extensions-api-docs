@@ -9,16 +9,18 @@ Gets a list of Bundles that contain a specified item. This operation returns an 
 **Signature:**
 
 ```typescript
-static getInBundles(escapedItemId: string, onlySpecifiedBluePrintVariant?: boolean, suppressLocalCopies?: boolean): CancelablePromise<Array<Bundle>>;
+static getInBundles({ escapedItemId, onlySpecifiedBluePrintVariant, suppressLocalCopies, }: {
+        escapedItemId: string;
+        onlySpecifiedBluePrintVariant?: boolean;
+        suppressLocalCopies?: boolean;
+    }): CancelablePromise<Array<Bundle>>;
 ```
 
 ## Parameters
 
-| Parameter                     | Type    | Description                                                                                                                                                                                                                                                           |
-| ----------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedItemId                 | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1".                                                                                                                                                                       |
-| onlySpecifiedBluePrintVariant | boolean | _(Optional)_ Set to true to limit results to Bundles that contain only the specified variant of the item (same exact URI) and no other variants from the BluePrint. By default, a value of false will include Bundles that contain any variant of the specified item. |
-| suppressLocalCopies           | boolean | _(Optional)_ Set to true to exclude from the results any Bundle that is a local copy in the BluePrint. By default, a value of false will include all Bundle variants that contain the specified item.                                                                 |
+| Parameter                                                              | Type                                                                                               | Description |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedItemId, onlySpecifiedBluePrintVariant, suppressLocalCopies, } | { escapedItemId: string; onlySpecifiedBluePrintVariant?: boolean; suppressLocalCopies?: boolean; } |             |
 
 **Returns:**
 

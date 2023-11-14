@@ -9,15 +9,17 @@ Rolls back all changes that have been made to an item since a specified version.
 **Signature:**
 
 ```typescript
-static rollback(escapedVersionedItemIdWithVersion: string, requestModel: RollBackRequest): CancelablePromise<VersionedItem>;
+static rollback({ escapedVersionedItemIdWithVersion, requestModel, }: {
+        escapedVersionedItemIdWithVersion: string;
+        requestModel: RollBackRequest;
+    }): CancelablePromise<VersionedItem>;
 ```
 
 ## Parameters
 
-| Parameter                         | Type                                                    | Description                                                                                                                             |
-| --------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| escapedVersionedItemIdWithVersion | string                                                  | The URI of a versioned item including the version ID and with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-8-v5" |
-| requestModel                      | [RollBackRequest](./open-api-client.rollbackrequest.md) | The model to use for the request.                                                                                                       |
+| Parameter                                            | Type                                                                                                                          | Description |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { escapedVersionedItemIdWithVersion, requestModel, } | { escapedVersionedItemIdWithVersion: string; requestModel: [RollBackRequest](./open-api-client.rollbackrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

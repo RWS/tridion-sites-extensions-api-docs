@@ -9,14 +9,16 @@ Reassignes a batch of activities. This operation returns an instance of 'BatchOp
 **Signature:**
 
 ```typescript
-static batchReAssignActivity(requestModel: BatchReAssignActivityRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchReAssignActivity({ requestModel, }: {
+        requestModel: BatchReAssignActivityRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                              | Description                       |
-| ------------ | --------------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchReAssignActivityRequest](./open-api-client.batchreassignactivityrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                         | Description |
+| ----------------- | ------------------------------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchReAssignActivityRequest](./open-api-client.batchreassignactivityrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

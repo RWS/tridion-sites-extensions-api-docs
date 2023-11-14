@@ -9,14 +9,16 @@ Moves a batch of items. This operation returns an instance of 'BatchOperationCre
 **Signature:**
 
 ```typescript
-static batchMove(requestModel: BatchCopyOrMoveRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchMove({ requestModel, }: {
+        requestModel: BatchCopyOrMoveRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                  | Description                       |
-| ------------ | --------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchCopyOrMoveRequest](./open-api-client.batchcopyormoverequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                             | Description |
+| ----------------- | ------------------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [BatchCopyOrMoveRequest](./open-api-client.batchcopyormoverequest.md)<!-- -->; } |             |
 
 **Returns:**
 

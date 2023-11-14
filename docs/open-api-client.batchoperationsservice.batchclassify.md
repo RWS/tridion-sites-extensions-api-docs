@@ -9,14 +9,16 @@ Classifies a batch of items. This operation returns an instance of 'BatchOperati
 **Signature:**
 
 ```typescript
-static batchClassify(requestModel: BatchClassifyOrUnClassifyRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchClassify({ requestModel, }: {
+        requestModel: BatchClassifyOrUnClassifyRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                                      | Description                       |
-| ------------ | ----------------------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchClassifyOrUnClassifyRequest](./open-api-client.batchclassifyorunclassifyrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                                 | Description |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchClassifyOrUnClassifyRequest](./open-api-client.batchclassifyorunclassifyrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

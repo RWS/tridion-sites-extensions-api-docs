@@ -9,15 +9,17 @@ Downloads the temporary file for a binary file that was previously uploaded.
 **Signature:**
 
 ```typescript
-static downloadFile(tempFileId: string, filename: string): CancelablePromise<any>;
+static downloadFile({ tempFileId, filename, }: {
+        tempFileId: string;
+        filename: string;
+    }): CancelablePromise<any>;
 ```
 
 ## Parameters
 
-| Parameter  | Type   | Description                                                                                                                                      |
-| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| tempFileId | string | The temporary ID of a binary file that was previously uploaded with an upload request. The ID can be found in the model returned by the request. |
-| filename   | string | The name to give to the download file.                                                                                                           |
+| Parameter                 | Type                                      | Description |
+| ------------------------- | ----------------------------------------- | ----------- |
+| { tempFileId, filename, } | { tempFileId: string; filename: string; } |             |
 
 **Returns:**
 

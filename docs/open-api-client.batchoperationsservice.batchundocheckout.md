@@ -9,14 +9,16 @@ Undoes the checkout of a batch of items. This operation returns an instance of '
 **Signature:**
 
 ```typescript
-static batchUndoCheckOut(requestModel: BatchUndoCheckOutRequest): CancelablePromise<BatchOperationCreationResult>;
+static batchUndoCheckOut({ requestModel, }: {
+        requestModel: BatchUndoCheckOutRequest;
+    }): CancelablePromise<BatchOperationCreationResult>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                                      | Description                       |
-| ------------ | ------------------------------------------------------------------------- | --------------------------------- |
-| requestModel | [BatchUndoCheckOutRequest](./open-api-client.batchundocheckoutrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                                 | Description |
+| ----------------- | ---------------------------------------------------------------------------------------------------- | ----------- |
+| { requestModel, } | { requestModel: [BatchUndoCheckOutRequest](./open-api-client.batchundocheckoutrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

@@ -9,14 +9,16 @@ Gets a list of all child Publications of the specified Parent publication, where
 **Signature:**
 
 ```typescript
-static getPublishableChildPublications(escapedPublicationId: string): CancelablePromise<Array<Publication>>;
+static getPublishableChildPublications({ escapedPublicationId, }: {
+        escapedPublicationId: string;
+    }): CancelablePromise<Array<Publication>>;
 ```
 
 ## Parameters
 
-| Parameter            | Type   | Description                                                                                               |
-| -------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| escapedPublicationId | string | The TCM URI of a Publication with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter                 | Type                              | Description |
+| ------------------------- | --------------------------------- | ----------- |
+| { escapedPublicationId, } | { escapedPublicationId: string; } |             |
 
 **Returns:**
 

@@ -9,14 +9,16 @@ Gets a list of all Page Template links contained within a specified Publication.
 **Signature:**
 
 ```typescript
-static getPageTemplateLinks(escapedPublicationId: string): CancelablePromise<Array<Link>>;
+static getPageTemplateLinks({ escapedPublicationId, }: {
+        escapedPublicationId: string;
+    }): CancelablePromise<Array<Link>>;
 ```
 
 ## Parameters
 
-| Parameter            | Type   | Description                                                                                               |
-| -------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| escapedPublicationId | string | The TCM URI of a Publication with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
+| Parameter                 | Type                              | Description |
+| ------------------------- | --------------------------------- | ----------- |
+| { escapedPublicationId, } | { escapedPublicationId: string; } |             |
 
 **Returns:**
 

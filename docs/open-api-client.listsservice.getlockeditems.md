@@ -9,17 +9,20 @@ Gets a list of locked items (either versioned items or organizational items). Th
 **Signature:**
 
 ```typescript
-static getLockedItems(forAllUsers?: boolean, lockFilter?: Array<any>, lockResult?: Array<any>, maxResults?: number): CancelablePromise<Array<RepositoryLocalObject>>;
+static getLockedItems({ forAllUsers, lockUserId, lockFilter, lockResult, maxResults, }: {
+        forAllUsers?: boolean;
+        lockUserId?: string;
+        lockFilter?: Array<any>;
+        lockResult?: Array<any>;
+        maxResults?: number;
+    }): CancelablePromise<Array<RepositoryLocalObject>>;
 ```
 
 ## Parameters
 
-| Parameter   | Type             | Description                                                                                                                                                                                                                                                                                         |
-| ----------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| forAllUsers | boolean          | _(Optional)_ If specified and true, items locked by any user are returned, but only in Publications where the user has Publication Administration or Lock Management Rights (unless the user has System Administration privileges). By default, only items locked by the current user are returned. |
-| lockFilter  | Array&lt;any&gt; | _(Optional)_ If specified, this acts as bitmask to apply to the items' lock type. Must be used in combination with {<!-- -->lockResult<!-- -->}<!-- -->. By default, no filtering on lock type is performed.                                                                                        |
-| lockResult  | Array&lt;any&gt; | _(Optional)_ If specified, this constraints the returned items' lock type. Must be used in combination with {<!-- -->lockFilter<!-- -->}<!-- -->. By default, no filtering on lock type is performed.                                                                                               |
-| maxResults  | number           | _(Optional)_ Specifies the maximum number of results to return.                                                                                                                                                                                                                                     |
+| Parameter                                                        | Type                                                                                                                               | Description |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| { forAllUsers, lockUserId, lockFilter, lockResult, maxResults, } | { forAllUsers?: boolean; lockUserId?: string; lockFilter?: Array&lt;any&gt;; lockResult?: Array&lt;any&gt;; maxResults?: number; } |             |
 
 **Returns:**
 

@@ -9,15 +9,17 @@ Unlocalizes an item in the BluePrint. This operation returns an instance of 'Rep
 **Signature:**
 
 ```typescript
-static unlocalize(escapedItemId: string, useDynamicVersion?: boolean): CancelablePromise<RepositoryLocalObject>;
+static unlocalize({ escapedItemId, useDynamicVersion, }: {
+        escapedItemId: string;
+        useDynamicVersion?: boolean;
+    }): CancelablePromise<RepositoryLocalObject>;
 ```
 
 ## Parameters
 
-| Parameter         | Type    | Description                                                                                     |
-| ----------------- | ------- | ----------------------------------------------------------------------------------------------- |
-| escapedItemId     | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| useDynamicVersion | boolean | _(Optional)_ Loads a dynamic version (if available for the current user)                        |
+| Parameter                             | Type                                                    | Description |
+| ------------------------------------- | ------------------------------------------------------- | ----------- |
+| { escapedItemId, useDynamicVersion, } | { escapedItemId: string; useDynamicVersion?: boolean; } |             |
 
 **Returns:**
 

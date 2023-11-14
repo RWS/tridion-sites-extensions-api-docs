@@ -9,14 +9,16 @@ Gets information about the source from which content was published using the pub
 **Signature:**
 
 ```typescript
-static getPublishSourceByUrl(url: string): CancelablePromise<PublishSource>;
+static getPublishSourceByUrl({ url, }: {
+        url: string;
+    }): CancelablePromise<PublishSource>;
 ```
 
 ## Parameters
 
-| Parameter | Type   | Description                             |
-| --------- | ------ | --------------------------------------- |
-| url       | string | The URL to which content was published. |
+| Parameter | Type             | Description |
+| --------- | ---------------- | ----------- |
+| { url, }  | { url: string; } |             |
 
 **Returns:**
 

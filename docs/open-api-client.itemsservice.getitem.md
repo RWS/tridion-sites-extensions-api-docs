@@ -9,15 +9,17 @@ Gets a single item by specifying the item URI. This operation returns an instanc
 **Signature:**
 
 ```typescript
-static getItem(escapedItemId: string, useDynamicVersion?: boolean): CancelablePromise<IdentifiableObject>;
+static getItem({ escapedItemId, useDynamicVersion, }: {
+        escapedItemId: string;
+        useDynamicVersion?: boolean;
+    }): CancelablePromise<IdentifiableObject>;
 ```
 
 ## Parameters
 
-| Parameter         | Type    | Description                                                                                     |
-| ----------------- | ------- | ----------------------------------------------------------------------------------------------- |
-| escapedItemId     | string  | The URI of an item with the colon escaped by replacing it with an underscore. E.g. "tcm_0-1-1". |
-| useDynamicVersion | boolean | _(Optional)_ Loads a dynamic version (if available for the current user)                        |
+| Parameter                             | Type                                                    | Description |
+| ------------------------------------- | ------------------------------------------------------- | ----------- |
+| { escapedItemId, useDynamicVersion, } | { escapedItemId: string; useDynamicVersion?: boolean; } |             |
 
 **Returns:**
 

@@ -9,14 +9,16 @@ Gets a list of items that will be unpublished when executing the specified instr
 **Signature:**
 
 ```typescript
-static getItemsToUnpublish(requestModel: UnPublishRequest): CancelablePromise<Array<ResolvedItem>>;
+static getItemsToUnpublish({ requestModel, }: {
+        requestModel: UnPublishRequest;
+    }): CancelablePromise<Array<ResolvedItem>>;
 ```
 
 ## Parameters
 
-| Parameter    | Type                                                      | Description                       |
-| ------------ | --------------------------------------------------------- | --------------------------------- |
-| requestModel | [UnPublishRequest](./open-api-client.unpublishrequest.md) | The model to use for the request. |
+| Parameter         | Type                                                                                 | Description |
+| ----------------- | ------------------------------------------------------------------------------------ | ----------- |
+| { requestModel, } | { requestModel: [UnPublishRequest](./open-api-client.unpublishrequest.md)<!-- -->; } |             |
 
 **Returns:**
 

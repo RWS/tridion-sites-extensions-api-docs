@@ -12,6 +12,6 @@ export declare class ExtensionsService
 
 ## Methods
 
-| Method                                                                  | Modifiers           | Description                                                                                            |
-| ----------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------ |
-| [getExtensions()](./open-api-client.extensionsservice.getextensions.md) | <code>static</code> | Gets a list of Experience Space extensions This operation returns an instance of 'FrontendAddon' type. |
+| Method                                                                  | Modifiers           | Description |
+| ----------------------------------------------------------------------- | ------------------- | ----------- |
+| [getExtensions()](./open-api-client.extensionsservice.getextensions.md) | <code>static</code> |             |

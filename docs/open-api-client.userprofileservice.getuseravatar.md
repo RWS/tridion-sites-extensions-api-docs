@@ -9,14 +9,16 @@ Beta version. Gets the avatar (profile picture) of a user.
 **Signature:**
 
 ```typescript
-static getUserAvatar(escapedUserId: string): CancelablePromise<string>;
+static getUserAvatar({ escapedUserId, }: {
+        escapedUserId: string;
+    }): CancelablePromise<string>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                                                                           |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------------- |
-| escapedUserId | string | The TCM URI of the user with the colon escaped by replacing it with an underscore. E.g. "tcm_1-1-17". |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { escapedUserId, } | { escapedUserId: string; } |             |
 
 **Returns:**
 

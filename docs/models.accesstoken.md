@@ -27,3 +27,9 @@ export declare class AccessToken extends User
 | [getInternalModel](./models.accesstoken.getinternalmodel.md)                   |           | () =&gt; [BackendAccessToken](./open-api-client.accesstoken.md)                   |                                                                                                     |
 | [inheritedSystemPrivileges](./models.accesstoken.inheritedsystemprivileges.md) |           | [SystemPrivilegesDictionary](./models.systemprivilegesdictionary.md) \| undefined | Dictionary containing "SystemPrivilege" and link "Group" associations.                              |
 | [signature](./models.accesstoken.signature.md)                                 |           | string \| undefined                                                               | Signature value for this token to prevent modifying any of its properties outside of the CM system. |
+
+## Methods
+
+| Method                                                                                              | Modifiers | Description |
+| --------------------------------------------------------------------------------------------------- | --------- | ----------- |
+| [hasInheritedSystemPrivilege(systemPrivilege)](./models.accesstoken.hasinheritedsystemprivilege.md) |           |             |

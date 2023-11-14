@@ -9,14 +9,16 @@ Gets application settings for specified application Id This operation returns an
 **Signature:**
 
 ```typescript
-static getApplicationSettings(applicationId: string): CancelablePromise<Settings>;
+static getApplicationSettings({ applicationId, }: {
+        applicationId: string;
+    }): CancelablePromise<Settings>;
 ```
 
 ## Parameters
 
-| Parameter     | Type   | Description                                  |
-| ------------- | ------ | -------------------------------------------- |
-| applicationId | string | The id of an Application (case-insensitive). |
+| Parameter          | Type                       | Description |
+| ------------------ | -------------------------- | ----------- |
+| { applicationId, } | { applicationId: string; } |             |
 
 **Returns:**
 

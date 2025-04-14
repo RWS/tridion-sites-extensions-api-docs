@@ -8,7 +8,8 @@
 
 ```typescript
 contentExplorerActionGroupIds: readonly[
-    ('browsing',
+    ('blueprinting',
+    'browsing',
     'bundle',
     'classification',
     'clipboard',
@@ -16,7 +17,7 @@ contentExplorerActionGroupIds: readonly[
     'deletion',
     'editing',
     'exporting',
-    'blueprinting',
+    'favorites',
     'publishing',
     'refreshing',
     'translation',

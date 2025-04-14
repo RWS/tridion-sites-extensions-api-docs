@@ -37,4 +37,5 @@ export declare class TcmUri
 | [parse](./models.tcmuri.parse.md)                               | <code>static</code> | (input: string) =&gt; [TcmUri](./models.tcmuri.md) \| undefined                                                            |             |
 | [publicationId](./models.tcmuri.publicationid.md)               |                     | number                                                                                                                     |             |
 | [system](./models.tcmuri.system.md)                             | <code>static</code> | [TcmUri](./models.tcmuri.md)                                                                                               |             |
+| [uriPrefix](./models.tcmuri.uriprefix.md)                       | <code>static</code> | string                                                                                                                     |             |
 | [version](./models.tcmuri.version.md)                           |                     | number \| undefined                                                                                                        |             |

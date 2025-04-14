@@ -9,11 +9,11 @@ Constructs a new instance of the `ActivityInstance` class
 **Signature:**
 
 ```typescript
-constructor({ backendModel, activityConstraints, activityDefinition, activityState, approvalStatus, processDefinition, workflowType, ...acticityArgs }: ActivityInstanceConstructorArgs);
+constructor({ backendModel, activityConstraints, activityDefinition, activityState, approvalStatus, processDefinition, workflowType, ...activityArgs }: ActivityInstanceConstructorArgs);
 ```
 
 ## Parameters
 
 | Parameter                                                                                                                                  | Type                                                                           | Description |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------- |
-| { backendModel, activityConstraints, activityDefinition, activityState, approvalStatus, processDefinition, workflowType, ...acticityArgs } | [ActivityInstanceConstructorArgs](./models.activityinstanceconstructorargs.md) |             |
+| { backendModel, activityConstraints, activityDefinition, activityState, approvalStatus, processDefinition, workflowType, ...activityArgs } | [ActivityInstanceConstructorArgs](./models.activityinstanceconstructorargs.md) |             |

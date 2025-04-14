@@ -12,17 +12,22 @@ Represents the basic information of a {<!-- -->Tridion.TranslationManager.OpenAp
 export type TranslationJobOverview = {
     Id?: number;
     Title?: string;
+    ApplicableActions?: Array<HateoasLink>;
     ContextPublicationTitle?: string;
+    CreationDate?: string;
+    Creator?: Link;
     DisplayState?: TranslationJobDisplayState;
     ErrorSeverityLevel?: ErrorSeverity;
     HasError?: boolean;
     IsAwaitingAuthorization?: boolean;
     Language?: TmsLanguage;
     ProgressPercentage?: number;
+    RequiredDate?: string;
     RevisionDate?: string;
+    Revisor?: Link;
     State?: TranslationJobState;
     Type?: Array<TranslationJobType>;
 };
 ```
 
-**References:** [TranslationJobDisplayState](./open-api-client.translationjobdisplaystate.md)<!-- -->, [ErrorSeverity](./open-api-client.errorseverity.md)<!-- -->, [TmsLanguage](./open-api-client.tmslanguage.md)<!-- -->, [TranslationJobState](./open-api-client.translationjobstate.md)<!-- -->, [TranslationJobType](./open-api-client.translationjobtype.md)
+**References:** [HateoasLink](./open-api-client.hateoaslink.md)<!-- -->, [Link](./open-api-client.link.md)<!-- -->, [TranslationJobDisplayState](./open-api-client.translationjobdisplaystate.md)<!-- -->, [ErrorSeverity](./open-api-client.errorseverity.md)<!-- -->, [TmsLanguage](./open-api-client.tmslanguage.md)<!-- -->, [TranslationJobState](./open-api-client.translationjobstate.md)<!-- -->, [TranslationJobType](./open-api-client.translationjobtype.md)

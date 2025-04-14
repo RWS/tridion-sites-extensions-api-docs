@@ -30,4 +30,5 @@ export declare abstract class VersionedItem extends RepositoryLocalObject
 | [isAwaitingFirstCheckIn](./models.versioneditem.isawaitingfirstcheckin.md) |           | boolean                                                             |             |
 | [isCurrentVersion](./models.versioneditem.iscurrentversion.md)             |           | boolean                                                             |             |
 | [isDynamic](./models.versioneditem.isdynamic.md)                           |           | boolean                                                             |             |
+| [isHistoricVersion](./models.versioneditem.ishistoricversion.md)           |           | boolean                                                             |             |
 | [versionInfo](./models.versioneditem.versioninfo.md)                       |           | [FullVersionInfo](./models.fullversioninfo.md) \| undefined         |             |

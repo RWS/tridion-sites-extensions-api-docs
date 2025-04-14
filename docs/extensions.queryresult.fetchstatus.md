@@ -4,7 +4,7 @@
 
 ## QueryResult.fetchStatus property
 
--   `fetching` - Is true whenever the queryFn is executing, which includes initial loading as well as background refetches. - `paused` - The query wanted to fetch, but has been paused. - `idle` - The query is not fetching.
+- `fetching` - Is true whenever the queryFn is executing, which includes initial loading as well as background refetches. - `paused` - The query wanted to fetch, but has been paused. - `idle` - The query is not fetching.
 
 **Signature:**
 

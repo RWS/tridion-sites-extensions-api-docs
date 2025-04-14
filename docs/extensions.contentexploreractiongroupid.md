@@ -15,12 +15,13 @@ contentExplorerActionGroupId: {
     exporting: 'exporting';
     refreshing: 'refreshing';
     workflow: 'workflow';
+    blueprinting: 'blueprinting';
     browsing: 'browsing';
     clipboard: 'clipboard';
     creation: 'creation';
     deletion: 'deletion';
     editing: 'editing';
-    blueprinting: 'blueprinting';
+    favorites: 'favorites';
     publishing: 'publishing';
     translation: 'translation';
 }

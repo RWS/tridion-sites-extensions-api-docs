@@ -18,7 +18,7 @@ export declare class ActivityInstance extends Activity
 
 | Constructor                                                                                                                                                                                             | Modifiers | Description                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- |
-| [(constructor)({ backendModel, activityConstraints, activityDefinition, activityState, approvalStatus, processDefinition, workflowType, ...acticityArgs })](./models.activityinstance._constructor_.md) |           | Constructs a new instance of the <code>ActivityInstance</code> class |
+| [(constructor)({ backendModel, activityConstraints, activityDefinition, activityState, approvalStatus, processDefinition, workflowType, ...activityArgs })](./models.activityinstance._constructor_.md) |           | Constructs a new instance of the <code>ActivityInstance</code> class |
 
 ## Properties
 

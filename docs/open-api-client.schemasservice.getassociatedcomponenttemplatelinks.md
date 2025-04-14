@@ -9,16 +9,17 @@ Gets a list of all Component Template links that can render Components based on 
 **Signature:**
 
 ```typescript
-static getAssociatedComponentTemplateLinks({ escapedSchemaId, }: {
+static getAssociatedComponentTemplateLinks({ escapedSchemaId, onlyAllowedOnPage, }: {
         escapedSchemaId: string;
+        onlyAllowedOnPage?: boolean;
     }): CancelablePromise<Array<Link>>;
 ```
 
 ## Parameters
 
-| Parameter            | Type                         | Description |
-| -------------------- | ---------------------------- | ----------- |
-| { escapedSchemaId, } | { escapedSchemaId: string; } |             |
+| Parameter                               | Type                                                      | Description |
+| --------------------------------------- | --------------------------------------------------------- | ----------- |
+| { escapedSchemaId, onlyAllowedOnPage, } | { escapedSchemaId: string; onlyAllowedOnPage?: boolean; } |             |
 
 **Returns:**
 

@@ -27,3 +27,9 @@ export declare class LockInfo
 | [lockDate](./models.lockinfo.lockdate.md)                 |           | Date \| undefined                                             | Date and time in UTC at which the item was locked. |
 | [lockType](./models.lockinfo.locktype.md)                 |           | ReadonlyArray&lt;[LockType](./models.locktype.md)<!-- -->&gt; | Type of lock on the item (if any).                 |
 | [lockUser](./models.lockinfo.lockuser.md)                 |           | [Link](./models.link.md) \| undefined                         | A user who locked the item.                        |
+
+## Methods
+
+| Method                                                    | Modifiers | Description |
+| --------------------------------------------------------- | --------- | ----------- |
+| [hasLockType(lockType)](./models.lockinfo.haslocktype.md) |           |             |

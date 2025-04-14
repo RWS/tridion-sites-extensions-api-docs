@@ -14,4 +14,4 @@ predefined?: boolean;
 
 ## Example
 
--   `undefined` - all of the users returned - `true` - predefined only users returned - `false` - non-predefined only users returned
+- `undefined` - all of the users returned - `true` - predefined only users returned - `false` - non-predefined only users returned

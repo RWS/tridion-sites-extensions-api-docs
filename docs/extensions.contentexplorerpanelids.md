@@ -4,13 +4,18 @@
 
 ## contentExplorerPanelIds variable
 
-List of all built-in panel IDs of the Content Explorer.
+> Warning: This API is now obsolete.
+>
+> use `contentExplorerInsightsPanelIds` instead
+
+Backwards compatibility for `contentExplorerInsightsPanelIds`
 
 **Signature:**
 
 ```typescript
 contentExplorerPanelIds: readonly[
-    ('information',
+    ('search',
+    'information',
     'general',
     'metadata',
     'history',

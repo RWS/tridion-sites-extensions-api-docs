@@ -23,6 +23,7 @@ contentExplorerActionId: {
     addParentPublication: "addParentPublication";
     addSelectedItemsToBundle: "addSelectedItemsToBundle";
     addToBundle: "addToBundle";
+    addToFavorites: "addToFavorites";
     autoClassify: "autoClassify";
     finishEditing: "finishEditing";
     newBundle: "newBundle";
@@ -41,6 +42,7 @@ contentExplorerActionId: {
     openTranslationQueue: "openTranslationQueue";
     pasteInContainer: "pasteInContainer";
     removeFromBundle: "removeFromBundle";
+    removeFromFavorites: "removeFromFavorites";
     removeParentPublication: "removeParentPublication";
     revert: "revert";
     startWorkflow: "startWorkflow";

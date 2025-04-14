@@ -13,6 +13,7 @@ export type TranslationJob = {
     Id?: number;
     Title?: string;
     AddedItems?: Array<AddedItem>;
+    ApplicableActions?: Array<HateoasLink>;
     ConfigurationItemUri?: string;
     ContextPublicationTitle?: string;
     CreationDate?: string;
@@ -40,4 +41,4 @@ export type TranslationJob = {
 };
 ```
 
-**References:** [AddedItem](./open-api-client.addeditem.md)<!-- -->, [Link](./open-api-client.link.md)<!-- -->, [TranslationJobDisplayState](./open-api-client.translationjobdisplaystate.md)<!-- -->, [ErrorDetails](./open-api-client.errordetails.md)<!-- -->, [ErrorSeverity](./open-api-client.errorseverity.md)<!-- -->, [TmsLanguage](./open-api-client.tmslanguage.md)<!-- -->, [FieldsValueDictionary](./open-api-client.fieldsvaluedictionary.md)<!-- -->, [TranslationJobPriority](./open-api-client.translationjobpriority.md)<!-- -->, [TranslationJobState](./open-api-client.translationjobstate.md)<!-- -->, [TargetLanguage](./open-api-client.targetlanguage.md)<!-- -->, [TranslationJobType](./open-api-client.translationjobtype.md)<!-- -->, [WorkflowStatus](./open-api-client.workflowstatus.md)
+**References:** [AddedItem](./open-api-client.addeditem.md)<!-- -->, [HateoasLink](./open-api-client.hateoaslink.md)<!-- -->, [Link](./open-api-client.link.md)<!-- -->, [TranslationJobDisplayState](./open-api-client.translationjobdisplaystate.md)<!-- -->, [ErrorDetails](./open-api-client.errordetails.md)<!-- -->, [ErrorSeverity](./open-api-client.errorseverity.md)<!-- -->, [TmsLanguage](./open-api-client.tmslanguage.md)<!-- -->, [FieldsValueDictionary](./open-api-client.fieldsvaluedictionary.md)<!-- -->, [TranslationJobPriority](./open-api-client.translationjobpriority.md)<!-- -->, [TranslationJobState](./open-api-client.translationjobstate.md)<!-- -->, [TargetLanguage](./open-api-client.targetlanguage.md)<!-- -->, [TranslationJobType](./open-api-client.translationjobtype.md)<!-- -->, [WorkflowStatus](./open-api-client.workflowstatus.md)

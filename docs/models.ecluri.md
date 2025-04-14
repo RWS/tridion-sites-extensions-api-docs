@@ -28,4 +28,5 @@ export declare class EclUri
 | [mountPointId](./models.ecluri.mountpointid.md)               |                     | string                                                                                    |             |
 | [parse](./models.ecluri.parse.md)                             | <code>static</code> | (input: string) =&gt; [EclUri](./models.ecluri.md) \| undefined                           |             |
 | [publicationId](./models.ecluri.publicationid.md)             |                     | number                                                                                    |             |
+| [uriPrefix](./models.ecluri.uriprefix.md)                     | <code>static</code> | string                                                                                    |             |
 | [version](./models.ecluri.version.md)                         |                     | number \| undefined                                                                       |             |

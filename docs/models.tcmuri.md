@@ -11,8 +11,10 @@ The structure of a TCM URI is PublicationID-ItemID\[-ItemType\]\[-vVersion\].
 **Signature:**
 
 ```typescript
-export declare class TcmUri
+export declare class TcmUri implements Uri
 ```
+
+**Implements:** Uri
 
 ## Properties
 

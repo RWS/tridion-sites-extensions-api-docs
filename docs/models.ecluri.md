@@ -7,8 +7,10 @@
 **Signature:**
 
 ```typescript
-export declare class EclUri
+export declare class EclUri implements Uri
 ```
+
+**Implements:** Uri
 
 ## Properties
 

@@ -16,6 +16,7 @@ export interface ColorPalette
 | --------------------------------------------------------------- | --------- | ------ | ----------- |
 | [blue100](./extensions.colorpalette.blue100.md)                 |           | string |             |
 | [blue50](./extensions.colorpalette.blue50.md)                   |           | string |             |
+| [brand140](./extensions.colorpalette.brand140.md)               |           | string |             |
 | [brandAccessible](./extensions.colorpalette.brandaccessible.md) |           | string |             |
 | [brandDark](./extensions.colorpalette.branddark.md)             |           | string |             |
 | [brandLight](./extensions.colorpalette.brandlight.md)           |           | string |             |
@@ -35,6 +36,7 @@ export interface ColorPalette
 | [orange50](./extensions.colorpalette.orange50.md)               |           | string |             |
 | [red100](./extensions.colorpalette.red100.md)                   |           | string |             |
 | [red120](./extensions.colorpalette.red120.md)                   |           | string |             |
+| [red140](./extensions.colorpalette.red140.md)                   |           | string |             |
 | [red50](./extensions.colorpalette.red50.md)                     |           | string |             |
 | [transparent](./extensions.colorpalette.transparent.md)         |           | string |             |
 | [yellow10](./extensions.colorpalette.yellow10.md)               |           | string |             |

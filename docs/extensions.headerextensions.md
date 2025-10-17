@@ -14,4 +14,5 @@ export interface HeaderExtensions
 
 | Property                                                  | Modifiers | Type                                                         | Description |
 | --------------------------------------------------------- | --------- | ------------------------------------------------------------ | ----------- |
+| [infoMenu](./extensions.headerextensions.infomenu.md)     |           | [InfoMenuExtensions](./extensions.infomenuextensions.md)     |             |
 | [navigation](./extensions.headerextensions.navigation.md) |           | [NavigationExtensions](./extensions.navigationextensions.md) |             |

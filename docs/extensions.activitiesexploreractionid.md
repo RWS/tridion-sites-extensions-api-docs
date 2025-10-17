@@ -13,8 +13,10 @@ activitiesExplorerActionId: {
     assignActivity: "assignActivity";
     startActivity: "startActivity";
     finishActivity: "finishActivity";
+    finishProcess: "finishProcess";
     restartActivity: "restartActivity";
     export: "export";
     refresh: "refresh";
+    revertProcess: "revertProcess";
 }
 ```

@@ -4,7 +4,9 @@
 
 ## BatchOperationsService.batchClassify() method
 
-Classifies a batch of items. This operation returns an instance of 'BatchOperationCreationResult' type.
+> Warning: This API is now obsolete.
+>
+> Classifies a batch of items. This operation returns an instance of 'BatchOperationCreationResult' type.
 
 **Signature:**
 

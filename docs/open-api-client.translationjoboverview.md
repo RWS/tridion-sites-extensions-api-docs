@@ -14,6 +14,7 @@ export type TranslationJobOverview = {
     Title?: string;
     ApplicableActions?: Array<HateoasLink>;
     ContextPublicationTitle?: string;
+    ContextRepository?: Link;
     CreationDate?: string;
     Creator?: Link;
     DisplayState?: TranslationJobDisplayState;

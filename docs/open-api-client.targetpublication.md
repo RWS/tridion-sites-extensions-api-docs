@@ -4,7 +4,7 @@
 
 ## TargetPublication type
 
-Represent a Tridion Sites Publication where translated content will be stored. Each has a list of valid s. It is not possible to add or remove from the list of s. Instead the property can be changed to control if the is used.
+Represent a Tridion Sites Publication where translated content will be stored. Each \[TargetLanguage\] has a list of valid \[TargetPublication\]s. It is not possible to add or remove from the list of \[TargetPublication\]s. Instead, the \[IsSelected\] property can be changed to control if the \[TargetPublication\] is used.
 
 **Signature:**
 
@@ -12,9 +12,12 @@ Represent a Tridion Sites Publication where translated content will be stored. E
 export type TargetPublication = {
     IdRef?: string;
     Title?: string;
+    ConfigurationItemLink?: Link;
     ConfigurationItemTitle?: string;
     ConfigurationItemUri?: string;
     IsReadOnly?: boolean;
     IsSelected?: boolean;
 };
 ```
+
+**References:** [Link](./open-api-client.link.md)

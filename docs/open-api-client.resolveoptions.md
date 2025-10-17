@@ -4,7 +4,7 @@
 
 ## ResolveOptions enum
 
-Defines which Items will be included in the Translation Job for an .
+Defines which Items will be included in the Translation Job for an \[AddedItem\].
 
 Members: \* `TranslateContainerItems` - Translate container items (Folders, Pages, Structure Groups, etc.)
 

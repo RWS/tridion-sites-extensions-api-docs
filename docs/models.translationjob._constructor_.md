@@ -9,11 +9,11 @@ Constructs a new instance of the `TranslationJob` class
 **Signature:**
 
 ```typescript
-constructor({ addedItems, backendModel, configurationItemUri, creationDate, creator, displayState, errors, errorSeverityLevel, language, priority, requiredDate, revisionDate, revisor, state, targetLanguages, type, workflowStatus, }: TranslationJobConstructorArgs);
+constructor({ addedItems, backendModel, configurationItemUri, creationDate, creator, displayState, errors, errorSeverityLevel, language, priority, requiredDate, revisionDate, revisor, state, targetLanguages, type, workflowStatus, contextRepository, }: TranslationJobConstructorArgs);
 ```
 
 ## Parameters
 
-| Parameter                                                                                                                                                                                                                   | Type                                                                       | Description |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------- |
-| { addedItems, backendModel, configurationItemUri, creationDate, creator, displayState, errors, errorSeverityLevel, language, priority, requiredDate, revisionDate, revisor, state, targetLanguages, type, workflowStatus, } | [TranslationJobConstructorArgs](./models.translationjobconstructorargs.md) |             |
+| Parameter                                                                                                                                                                                                                                      | Type                                                                       | Description |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------- |
+| { addedItems, backendModel, configurationItemUri, creationDate, creator, displayState, errors, errorSeverityLevel, language, priority, requiredDate, revisionDate, revisor, state, targetLanguages, type, workflowStatus, contextRepository, } | [TranslationJobConstructorArgs](./models.translationjobconstructorargs.md) |             |

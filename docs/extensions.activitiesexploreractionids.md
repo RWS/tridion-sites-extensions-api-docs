@@ -8,6 +8,13 @@
 
 ```typescript
 activitiesExplorerActionIds: readonly[
-    ('export', 'refresh', 'startActivity', 'finishActivity', 'restartActivity', 'assignActivity')
+    ('export',
+    'refresh',
+    'startActivity',
+    'finishActivity',
+    'restartActivity',
+    'assignActivity',
+    'revertProcess',
+    'finishProcess')
 ];
 ```

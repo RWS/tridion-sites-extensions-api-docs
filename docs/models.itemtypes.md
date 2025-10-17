@@ -36,6 +36,7 @@ itemTypes: readonly[
     'user',
     'userGroup',
     'virtualFolder',
+    'translationJob',
     'abstractExternalKeyword',
     'abstractKeyword',
     'bundle',

@@ -4,7 +4,7 @@
 
 ## AddedItem type
 
-Represents an Item added to a {<!-- -->Tridion.TranslationManager.OpenApi.V3.Dto.TranslationJob<!-- -->}<!-- -->.The item added to a Translation Job is not necessarily the item that is send for translation. For example, if a Page is added without specifying the TranslateParentItems flag in the , the Components on the Page are included in the Translation Job but the Page itself will not.To change the items included in the Translation Job directly, use a Tridion Sites event subscription with the event arguments.
+Represents an Item added to a {<!-- -->Tridion.TranslationManager.OpenApi.V3.Dto.TranslationJob<!-- -->}<!-- -->.The item added to a Translation Job is not necessarily the item that is sent for translation. For example, if a Page is added without specifying the TranslateParentItems flag in the \[ResolveOptions\], the Components on the Page are included in the Translation Job but the Page itself will not.To change the items included in the Translation Job directly, use a Tridion Sites event subscription with the \[ResolvedItemsEventArgs\] event arguments.
 
 **Signature:**
 
@@ -14,6 +14,7 @@ export type AddedItem = {
     Title?: string;
     ItemTypeWithSubtype?: string;
     ResolveOptions?: Array<ResolveOptions>;
+    TcmUri?: string;
 };
 ```
 

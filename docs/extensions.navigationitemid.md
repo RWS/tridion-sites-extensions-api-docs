@@ -13,5 +13,6 @@ navigationItemId: {
     activitiesExplorer: 'activitiesExplorer';
     contentExplorer: 'contentExplorer';
     publishingQueueExplorer: 'publishingQueueExplorer';
+    translationsExplorer: 'translationsExplorer';
 }
 ```

@@ -35,6 +35,7 @@ itemLinkTypes: readonly[
     'templateBuildingBlock',
     'user',
     'userGroup',
-    'virtualFolder')
+    'virtualFolder',
+    'translationJob')
 ];
 ```

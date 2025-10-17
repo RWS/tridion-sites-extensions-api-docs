@@ -7,5 +7,5 @@
 **Signature:**
 
 ```typescript
-activitiesExplorerActionGroupIds: readonly[('exporting', 'refreshing', 'workflow')];
+activitiesExplorerActionGroupIds: readonly[('exporting', 'refreshing', 'workflow', 'processInstance')];
 ```

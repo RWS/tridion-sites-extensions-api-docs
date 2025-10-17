@@ -8,7 +8,7 @@ Specifies the level of details of list entries.
 
 Members: \* `IdAndTitleOnly` - Include only the Id and Title properties.
 
-\* `WithApplicableActions` - Include several properties, including .
+\* `WithApplicableActions` - Include several properties, including \[ApplicableActions\].
 
 \* `Contentless` - Include all but "expensive" properties (exclude custom content/metadata, for example).
 

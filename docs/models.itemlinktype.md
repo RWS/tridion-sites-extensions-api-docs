@@ -29,6 +29,7 @@ itemLinkType: {
     activityInstance: 'activityInstance';
     businessProcessTypes: 'businessProcessTypes';
     taxonomies: 'taxonomies';
+    translationJob: 'translationJob';
     externalFolder: 'externalFolder';
     externalKeyword: 'externalKeyword';
     externalKeywordCategory: 'externalKeywordCategory';

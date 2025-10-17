@@ -7,8 +7,10 @@
 **Signature:**
 
 ```typescript
-export declare class VirtualUri
+export declare class VirtualUri implements Uri
 ```
+
+**Implements:** Uri
 
 ## Properties
 
@@ -19,5 +21,6 @@ export declare class VirtualUri
 | [getPublicationUri](./models.virtualuri.getpublicationuri.md)     |                     | () =&gt; [TcmUri](./models.tcmuri.md)                                                                                                                                     |             |
 | [getUriInPublication](./models.virtualuri.geturiinpublication.md) |                     | (publicationUri: [TcmUri](./models.tcmuri.md)<!-- -->) =&gt; [VirtualUri](./models.virtualuri.md)                                                                         |             |
 | [isDynamic](./models.virtualuri.isdynamic.md)                     |                     | boolean                                                                                                                                                                   |             |
+| [itemId](./models.virtualuri.itemid.md)                           |                     | string                                                                                                                                                                    |             |
 | [itemType](./models.virtualuri.itemtype.md)                       |                     | [VirtualUriItemType](./models.virtualuriitemtype.md)                                                                                                                      |             |
 | [parse](./models.virtualuri.parse.md)                             | <code>static</code> | (input: string) =&gt; [VirtualUri](./models.virtualuri.md) \| undefined                                                                                                   |             |

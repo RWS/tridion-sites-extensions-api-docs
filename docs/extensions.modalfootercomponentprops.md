@@ -17,6 +17,7 @@ export interface ModalFooterComponentProps
 | [cancelButtonLabel?](./extensions.modalfootercomponentprops.cancelbuttonlabel.md)           |           | string        | _(Optional)_ Label for the Cancel button of the Modal.                   |
 | [isCancelButtonDisabled?](./extensions.modalfootercomponentprops.iscancelbuttondisabled.md) |           | boolean       | _(Optional)_ Boolean that indicates disabled state of the Cancel button. |
 | [isOkButtonDisabled?](./extensions.modalfootercomponentprops.isokbuttondisabled.md)         |           | boolean       | _(Optional)_ Boolean that indicates disabled state of the Ok button.     |
+| [isOkButtonProcessing?](./extensions.modalfootercomponentprops.isokbuttonprocessing.md)     |           | boolean       | _(Optional)_ Boolean that indicates processing state of the Ok button.   |
 | [okButtonLabel?](./extensions.modalfootercomponentprops.okbuttonlabel.md)                   |           | string        | _(Optional)_ Label for the Ok button of the Modal.                       |
 | [onCancel?](./extensions.modalfootercomponentprops.oncancel.md)                             |           | () =&gt; void | _(Optional)_ Callback executed when Cancel button clicked.               |
 | [onOk?](./extensions.modalfootercomponentprops.onok.md)                                     |           | () =&gt; void | _(Optional)_ Callback executed when Ok button clicked.                   |

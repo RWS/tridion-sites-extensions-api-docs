@@ -4,7 +4,9 @@
 
 ## EditorHookResult.onUpdate property
 
-Callback to update internal editor state.
+> Warning: This API is now obsolete.
+>
+> have been renamed to `updateItem`<!-- -->.
 
 **Signature:**
 

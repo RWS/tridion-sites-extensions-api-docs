@@ -8,6 +8,7 @@
 
 ```typescript
 export type AriaRole =
+    | 'alert'
     | 'button'
     | 'columnheader'
     | 'combobox'

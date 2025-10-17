@@ -32,8 +32,15 @@ applicableActions: {
     assignActivity: string;
     startActivity: string;
     finishActivity: string;
+    finishProcess: string;
     restartActivity: string;
     pushTranslation: string;
     pullTranslation: string;
+    deleteTranslation: string;
+    retryTranslation: string;
+    viewTranslation: string;
+    editTranslation: string;
+    copyTranslation: string;
+    sendTranslation: string;
 }
 ```

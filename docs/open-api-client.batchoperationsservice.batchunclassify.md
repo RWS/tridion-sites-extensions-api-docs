@@ -4,7 +4,9 @@
 
 ## BatchOperationsService.batchUnclassify() method
 
-Unclassifies a batch of items. This operation returns an instance of 'BatchOperationCreationResult' type.
+> Warning: This API is now obsolete.
+>
+> Unclassifies a batch of items. This operation returns an instance of 'BatchOperationCreationResult' type.
 
 **Signature:**
 

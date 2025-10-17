@@ -10,6 +10,7 @@ All built-in action group IDs available in Activities Explorer.
 
 ```typescript
 activitiesExplorerActionGroupId: {
+    processInstance: 'processInstance';
     exporting: 'exporting';
     refreshing: 'refreshing';
     workflow: 'workflow';

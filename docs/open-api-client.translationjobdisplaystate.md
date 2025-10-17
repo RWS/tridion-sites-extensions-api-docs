@@ -4,31 +4,31 @@
 
 ## TranslationJobDisplayState enum
 
-Gets the state that should be displayed in the UI for the . This is slightly more detailed than the .
+Gets the state that should be displayed in the UI for the \[TranslationJob\]. This is slightly more detailed than the \[TranslationJobState\].
 
-Members: \* `Error` - The is in an error state not related to retrieval or sending the . The errors are available in .
+Members: \* `Error` - The \[TranslationJob\] is in an error state not related to retrieval or sending the \[TranslationJob\]. The errors are available in \[Errors\].
 
-\* `Canceled` - The was canceled in the translation management system before all items where retrieved.
+\* `Canceled` - The \[TranslationJob\] was canceled in the translation management system before all items where retrieved.
 
-\* `Completed` - The translation of the has been completed.
+\* `Completed` - The translation of the \[TranslationJob\] has been completed.
 
-\* `Definition` - It is still possible to edit the before it is send for translation.
+\* `Definition` - It is still possible to edit the \[TranslationJob\] before it is send for translation.
 
-\* `AwaitingAuthorization` - One or more s is ready for authorization.
+\* `AwaitingAuthorization` - One or more \[TranslationJobQuote\]s is ready for authorization.
 
-\* `AwaitingAuthorizationAndError` - One or more s is ready for authorization and one or more errors is available in .
+\* `AwaitingAuthorizationAndError` - One or more \[TranslationJobQuote\]s is ready for authorization and one or more errors is available in \[Errors\].
 
-\* `ErrorRetrieving` - The is in an error state related to retrieving translations. The errors are available in .
+\* `ErrorRetrieving` - The \[TranslationJob\] is in an error state related to retrieving translations. The errors are available in \[Errors\].
 
-\* `InTranslation` - The is currently in translation. Some - but not all - items might have been canceled or completed.
+\* `InTranslation` - The \[TranslationJob\] is currently in translation. Some - but not all - items might have been canceled or completed.
 
-\* `ErrorSending` - The is in an error state related to sending the Items for translation. The errors are available in .
+\* `ErrorSending` - The \[TranslationJob\] is in an error state related to sending the Items for translation. The errors are available in \[Errors\].
 
-\* `SubmittingToTranslation` - The is currently being send to the translation management system by the Translation Manager windows service.
+\* `SubmittingToTranslation` - The \[TranslationJob\] is currently being send to the translation management system by the Translation Manager windows service.
 
-\* `ReadyForTranslation` - The is no longer in state and is ready to be send for translation by the Translation Manager windows service.
+\* `ReadyForTranslation` - The \[TranslationJob\] is no longer in \[Definition\] state and is ready to be send for translation by the Translation Manager windows service.
 
-\* `Deleting` - The is being deleted by the Translation Manager windows service.
+\* `Deleting` - The \[TranslationJob\] is being deleted by the Translation Manager windows service.
 
 \* `UnknownByClient` - Special reserved value used to notify an older API version client about the presence of an enumeration member added in a later API version. Explicitly setting this value by a client is not allowed, but client code should check it and be able to handle such cases.
 

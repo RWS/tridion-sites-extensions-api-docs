@@ -6,13 +6,19 @@
 
 Gets a list of all Publications. This operation returns an instance of 'Publication' type.
 
-This operation returns a limited set of properties compared to other list operations. To get a full set of properties, read each Publication separately.
-
 **Signature:**
 
 ```typescript
-static getPublications(): CancelablePromise<Array<Publication>>;
+static getPublications(props?: {
+        details?: 'IdAndTitleOnly' | 'WithApplicableActions' | 'Contentless';
+    }): CancelablePromise<Array<Publication>>;
 ```
+
+## Parameters
+
+| Parameter | Type                                                                        | Description  |
+| --------- | --------------------------------------------------------------------------- | ------------ |
+| props     | { details?: 'IdAndTitleOnly' \| 'WithApplicableActions' \| 'Contentless'; } | _(Optional)_ |
 
 **Returns:**
 

@@ -7,7 +7,7 @@
 **Signature:**
 
 ```typescript
-export type ItemUri = TcmUri | EclUri | VirtualUri;
+export type ItemUri = TcmUri | EclUri | VirtualUri | TmUri;
 ```
 
-**References:** [TcmUri](./models.tcmuri.md)<!-- -->, [EclUri](./models.ecluri.md)<!-- -->, [VirtualUri](./models.virtualuri.md)
+**References:** [TcmUri](./models.tcmuri.md)<!-- -->, [EclUri](./models.ecluri.md)<!-- -->, [VirtualUri](./models.virtualuri.md)<!-- -->, [TmUri](./models.tmuri.md)

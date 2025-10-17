@@ -14,8 +14,10 @@ export type TranslationJob = {
     Title?: string;
     AddedItems?: Array<AddedItem>;
     ApplicableActions?: Array<HateoasLink>;
+    ConfigurationItem?: Link;
     ConfigurationItemUri?: string;
     ContextPublicationTitle?: string;
+    ContextRepository?: Link;
     CreationDate?: string;
     Creator?: Link;
     DisplayState?: TranslationJobDisplayState;

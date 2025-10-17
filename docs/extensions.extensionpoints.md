@@ -14,6 +14,7 @@ export interface ExtensionPoints
 
 | Property                                                                           | Modifiers | Type                                                                                   | Description |
 | ---------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------- | ----------- |
+| [accessControl](./extensions.extensionpoints.accesscontrol.md)                     |           | [AccessControlExtensions](./extensions.accesscontrolextensions.md)                     |             |
 | [activitiesExplorer](./extensions.extensionpoints.activitiesexplorer.md)           |           | [ActivitiesExplorerExtensions](./extensions.activitiesexplorerextensions.md)           |             |
 | [contentEditor](./extensions.extensionpoints.contenteditor.md)                     |           | [ContentEditorExtensions](./extensions.contenteditorextensions.md)                     |             |
 | [contentExplorer](./extensions.extensionpoints.contentexplorer.md)                 |           | [ContentExplorerExtensions](./extensions.contentexplorerextensions.md)                 |             |

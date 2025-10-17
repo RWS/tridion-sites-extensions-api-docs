@@ -4,7 +4,7 @@
 
 ## RetrieveReason enum
 
-Used in to indicate why the item was retrieved.
+Used in \[RetrieveReason\] to indicate why the item was retrieved.
 
 Members: \* `Unknown` - The reason is not known. Most likely the item was retrieved by a previous version of Translation Manager that could only retrieve items when they were Completed.
 

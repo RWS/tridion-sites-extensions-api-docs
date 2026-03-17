@@ -9,11 +9,11 @@ Constructs a new instance of the `UserProfile` class
 **Signature:**
 
 ```typescript
-constructor({ backendModel, user, runtimeInfo, preferences }: UserProfileConstructorArgs);
+constructor({ backendModel, user, runtimeInfo, preferences, inheritedSystemPrivileges, }: UserProfileConstructorArgs);
 ```
 
 ## Parameters
 
-| Parameter                                        | Type                                                                 | Description |
-| ------------------------------------------------ | -------------------------------------------------------------------- | ----------- |
-| { backendModel, user, runtimeInfo, preferences } | [UserProfileConstructorArgs](./models.userprofileconstructorargs.md) |             |
+| Parameter                                                                    | Type                                                                 | Description |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------- |
+| { backendModel, user, runtimeInfo, preferences, inheritedSystemPrivileges, } | [UserProfileConstructorArgs](./models.userprofileconstructorargs.md) |             |

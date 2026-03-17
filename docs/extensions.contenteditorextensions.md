@@ -12,8 +12,10 @@ export interface ContentEditorExtensions
 
 ## Properties
 
-| Property                                                               | Modifiers | Type                                                                                                            | Description |
-| ---------------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------- | ----------- |
-| [editors](./extensions.contenteditorextensions.editors.md)             |           | ReadonlyArray&lt;[ContentEditorViewExtension](./extensions.contenteditorviewextension.md)<!-- -->&gt;           |             |
-| [formFields](./extensions.contenteditorextensions.formfields.md)       |           | ReadonlyArray&lt;[ContentEditorFormFieldExtension](./extensions.contenteditorformfieldextension.md)<!-- -->&gt; |             |
-| [richTextField](./extensions.contenteditorextensions.richtextfield.md) |           | [RichTextFieldExtensions](./extensions.richtextfieldextensions.md)                                              |             |
+| Property                                                                             | Modifiers | Type                                                                                                                                | Description |
+| ------------------------------------------------------------------------------------ | --------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [editors](./extensions.contenteditorextensions.editors.md)                           |           | ReadonlyArray&lt;[ContentEditorViewExtension](./extensions.contenteditorviewextension.md)<!-- -->&gt;                               |             |
+| [formFields](./extensions.contenteditorextensions.formfields.md)                     |           | ReadonlyArray&lt;[ContentEditorFormFieldExtension](./extensions.contenteditorformfieldextension.md)<!-- -->&gt;                     |             |
+| [multivalueFormFields](./extensions.contenteditorextensions.multivalueformfields.md) |           | ReadonlyArray&lt;[ContentEditorMultivalueFormFieldExtension](./extensions.contenteditormultivalueformfieldextension.md)<!-- -->&gt; |             |
+| [panels](./extensions.contenteditorextensions.panels.md)                             |           | [EditorPanelsExtensions](./extensions.editorpanelsextensions.md)                                                                    |             |
+| [richTextField](./extensions.contenteditorextensions.richtextfield.md)               |           | [RichTextFieldExtensions](./extensions.richtextfieldextensions.md)                                                                  |             |

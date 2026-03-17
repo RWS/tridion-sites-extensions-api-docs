@@ -4,6 +4,8 @@
 
 ## TcmUri.isEditableVersion property
 
+If the item version is 0, then the item is editable. (e.g. tcm:1-1-v0)
+
 **Signature:**
 
 ```typescript

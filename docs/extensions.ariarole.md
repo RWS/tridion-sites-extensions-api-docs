@@ -9,9 +9,11 @@
 ```typescript
 export type AriaRole =
     | 'alert'
+    | 'banner'
     | 'button'
     | 'columnheader'
     | 'combobox'
+    | 'dialog'
     | 'grid'
     | 'gridcell'
     | 'group'

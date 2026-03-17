@@ -23,6 +23,7 @@ itemLinkType: {
     virtualFolder: 'virtualFolder';
     multimediaType: 'multimediaType';
     user: 'user';
+    publishTransaction: 'publishTransaction';
     processDefinition: 'processDefinition';
     processInstance: 'processInstance';
     processHistory: 'processHistory';

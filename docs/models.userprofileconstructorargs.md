@@ -12,9 +12,10 @@ export interface UserProfileConstructorArgs
 
 ## Properties
 
-| Property                                                            | Modifiers | Type                                                        | Description |
-| ------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
-| [backendModel](./models.userprofileconstructorargs.backendmodel.md) |           | [BackendUserProfile](./open-api-client.userprofile.md)      |             |
-| [preferences](./models.userprofileconstructorargs.preferences.md)   |           | [UserPreferences](./models.userpreferences.md) \| undefined |             |
-| [runtimeInfo](./models.userprofileconstructorargs.runtimeinfo.md)   |           | [UserRuntimeInfo](./models.userruntimeinfo.md) \| undefined |             |
-| [user](./models.userprofileconstructorargs.user.md)                 |           | [User](./models.user.md) \| undefined                       |             |
+| Property                                                                                      | Modifiers | Type                                                        | Description |
+| --------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------- | ----------- |
+| [backendModel](./models.userprofileconstructorargs.backendmodel.md)                           |           | [BackendUserProfile](./open-api-client.userprofile.md)      |             |
+| [inheritedSystemPrivileges](./models.userprofileconstructorargs.inheritedsystemprivileges.md) |           | Record&lt;string, any&gt; \| undefined                      |             |
+| [preferences](./models.userprofileconstructorargs.preferences.md)                             |           | [UserPreferences](./models.userpreferences.md) \| undefined |             |
+| [runtimeInfo](./models.userprofileconstructorargs.runtimeinfo.md)                             |           | [UserRuntimeInfo](./models.userruntimeinfo.md) \| undefined |             |
+| [user](./models.userprofileconstructorargs.user.md)                                           |           | [User](./models.user.md) \| undefined                       |             |

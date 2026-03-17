@@ -28,6 +28,7 @@ itemTypes: readonly[
     'processHistory',
     'processInstance',
     'publication',
+    'publishTransaction',
     'schema',
     'structureGroup',
     'targetGroup',

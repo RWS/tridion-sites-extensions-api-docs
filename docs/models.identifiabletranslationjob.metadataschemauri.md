@@ -4,6 +4,10 @@
 
 ## IdentifiableTranslationJob.metadataSchemaUri property
 
+> Warning: This API is now obsolete.
+>
+> will be mapped to `ItemUri` in the next major release.
+
 TCM URI of the metadata schema used for this Translation Job.
 
 **Signature:**

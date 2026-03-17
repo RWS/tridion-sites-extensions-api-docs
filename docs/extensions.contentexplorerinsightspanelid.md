@@ -20,5 +20,6 @@ contentExplorerInsightsPanelId: {
     "view-on-site": "view-on-site";
     "published-to": "published-to";
     translations: "translations";
+    comparison: "comparison";
 }
 ```

@@ -23,6 +23,7 @@ contentExplorerPanelIds: readonly[
     'where-used',
     'view-on-site',
     'published-to',
-    'translations')
+    'translations',
+    'comparison')
 ];
 ```

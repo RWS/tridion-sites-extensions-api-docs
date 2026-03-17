@@ -12,18 +12,19 @@ export declare class UserProfile
 
 ## Constructors
 
-| Constructor                                                                                              | Modifiers | Description                                                     |
-| -------------------------------------------------------------------------------------------------------- | --------- | --------------------------------------------------------------- |
-| [(constructor)({ backendModel, user, runtimeInfo, preferences })](./models.userprofile._constructor_.md) |           | Constructs a new instance of the <code>UserProfile</code> class |
+| Constructor                                                                                                                          | Modifiers | Description                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------ | --------- | --------------------------------------------------------------- |
+| [(constructor)({ backendModel, user, runtimeInfo, preferences, inheritedSystemPrivileges, })](./models.userprofile._constructor_.md) |           | Constructs a new instance of the <code>UserProfile</code> class |
 
 ## Properties
 
-| Property                                                     | Modifiers | Type                                                            | Description               |
-| ------------------------------------------------------------ | --------- | --------------------------------------------------------------- | ------------------------- |
-| [\_backendModel](./models.userprofile._backendmodel.md)      |           | [BackendUserProfile](./open-api-client.userprofile.md)          |                           |
-| [avatarUri](./models.userprofile.avataruri.md)               |           | string \| undefined                                             | User avatar uri.          |
-| [displayName](./models.userprofile.displayname.md)           |           | string \| undefined                                             | User display name.        |
-| [getInternalModel](./models.userprofile.getinternalmodel.md) |           | () =&gt; [BackendUserProfile](./open-api-client.userprofile.md) |                           |
-| [preferences](./models.userprofile.preferences.md)           |           | [UserPreferences](./models.userpreferences.md) \| undefined     | User preferences.         |
-| [runtime](./models.userprofile.runtime.md)                   |           | [UserRuntimeInfo](./models.userruntimeinfo.md) \| undefined     | User runtime information. |
-| [user](./models.userprofile.user.md)                         |           | [User](./models.user.md) \| undefined                           | Full user information.    |
+| Property                                                                       | Modifiers | Type                                                            | Description                                                              |
+| ------------------------------------------------------------------------------ | --------- | --------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [\_backendModel](./models.userprofile._backendmodel.md)                        |           | [BackendUserProfile](./open-api-client.userprofile.md)          |                                                                          |
+| [avatarUri](./models.userprofile.avataruri.md)                                 |           | string \| undefined                                             | User avatar uri.                                                         |
+| [displayName](./models.userprofile.displayname.md)                             |           | string \| undefined                                             | User display name.                                                       |
+| [getInternalModel](./models.userprofile.getinternalmodel.md)                   |           | () =&gt; [BackendUserProfile](./open-api-client.userprofile.md) |                                                                          |
+| [inheritedSystemPrivileges](./models.userprofile.inheritedsystemprivileges.md) |           | Record&lt;string, any&gt; \| undefined                          | Dictionary containing system privilege keys and their associated groups. |
+| [preferences](./models.userprofile.preferences.md)                             |           | [UserPreferences](./models.userpreferences.md) \| undefined     | User preferences.                                                        |
+| [runtime](./models.userprofile.runtime.md)                                     |           | [UserRuntimeInfo](./models.userruntimeinfo.md) \| undefined     | User runtime information.                                                |
+| [user](./models.userprofile.user.md)                                           |           | [User](./models.user.md) \| undefined                           | Full user information.                                                   |

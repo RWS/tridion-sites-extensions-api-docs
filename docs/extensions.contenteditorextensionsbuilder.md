@@ -12,9 +12,11 @@ export declare class ContentEditorExtensionsBuilder
 
 ## Properties
 
-| Property                                                                      | Modifiers | Type                                                                                                          | Description |
-| ----------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------- | ----------- |
-| [addFormField](./extensions.contenteditorextensionsbuilder.addformfield.md)   |           | (item: [ContentEditorFormFieldExtension](./extensions.contenteditorformfieldextension.md)<!-- -->) =&gt; this |             |
-| [addItemEditor](./extensions.contenteditorextensionsbuilder.additemeditor.md) |           | (item: [ContentEditorViewExtension](./extensions.contenteditorviewextension.md)<!-- -->) =&gt; this           |             |
-| [build](./extensions.contenteditorextensionsbuilder.build.md)                 |           | () =&gt; [ContentEditorExtensions](./extensions.contenteditorextensions.md)                                   |             |
-| [richTextField](./extensions.contenteditorextensionsbuilder.richtextfield.md) |           | [RichTextFieldExtensionsBuilder](./extensions.richtextfieldextensionsbuilder.md)                              |             |
+| Property                                                                                        | Modifiers | Type                                                                                                                              | Description |
+| ----------------------------------------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [addFormField](./extensions.contenteditorextensionsbuilder.addformfield.md)                     |           | (item: [ContentEditorFormFieldExtension](./extensions.contenteditorformfieldextension.md)<!-- -->) =&gt; this                     |             |
+| [addItemEditor](./extensions.contenteditorextensionsbuilder.additemeditor.md)                   |           | (item: [ContentEditorViewExtension](./extensions.contenteditorviewextension.md)<!-- -->) =&gt; this                               |             |
+| [addMultivalueFormField](./extensions.contenteditorextensionsbuilder.addmultivalueformfield.md) |           | (item: [ContentEditorMultivalueFormFieldExtension](./extensions.contenteditormultivalueformfieldextension.md)<!-- -->) =&gt; this |             |
+| [build](./extensions.contenteditorextensionsbuilder.build.md)                                   |           | () =&gt; [ContentEditorExtensions](./extensions.contenteditorextensions.md)                                                       |             |
+| [panels](./extensions.contenteditorextensionsbuilder.panels.md)                                 |           | [EditorPanelsExtensionsBuilder](./extensions.editorpanelsextensionsbuilder.md)                                                    |             |
+| [richTextField](./extensions.contenteditorextensionsbuilder.richtextfield.md)                   |           | [RichTextFieldExtensionsBuilder](./extensions.richtextfieldextensionsbuilder.md)                                                  |             |
